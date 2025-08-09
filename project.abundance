@@ -25,8 +25,8 @@
         {
             "atomType": "Molecule",
             "name": "Van",
-            "x": 0.27314814814814814,
-            "y": 0.1671309192200557,
+            "x": 0.27380952380952384,
+            "y": 0.2562674094707521,
             "uniqueID": "dffd5d04-a75f-46a6-b96b-51a90ee6f3dd",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -55,7 +55,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 3200.4
+                            "ioValue": 3632
                         },
                         {
                             "name": "y length",
@@ -67,13 +67,13 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.082010582010582,
-                    "y": 0.7437325905292479,
+                    "x": 0.08862433862433863,
+                    "y": 0.7242339832869081,
                     "uniqueID": "97727581-587a-46c8-959a-7022c0028d51",
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 3400.4
+                            "ioValue": 3832
                         },
                         {
                             "name": "y length",
@@ -270,7 +270,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -1600
+                            "ioValue": -1700
                         },
                         {
                             "name": "yDist",
@@ -394,7 +394,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 1000
+                            "ioValue": 1200
                         },
                         {
                             "name": "yDist",
@@ -654,8 +654,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.3181216931216931,
-            "y": 0.4818941504178273,
+            "x": 0.32407407407407407,
+            "y": 0.4958217270194986,
             "uniqueID": "95dbd7be-60ee-4e07-a51a-bd494e290d29",
             "ioValues": [
                 {
@@ -664,7 +664,7 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": -600
+                    "ioValue": -850
                 },
                 {
                     "name": "yDist",
@@ -1484,8 +1484,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.7821368948247078,
-            "y": 0.7994428969359332,
+            "x": 0.7916666666666667,
+            "y": 0.7910863509749304,
             "uniqueID": "84f20ff9-8729-45fa-9a85-060f0dddf229",
             "ioValues": [
                 {
@@ -1494,7 +1494,7 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 1200
+                    "ioValue": 1400
                 },
                 {
                     "name": "yDist",
@@ -1947,7 +1947,7 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.18452380952380953,
+                    "x": 0.18386243386243387,
                     "y": 0.18384401114206128,
                     "uniqueID": "dd322621-9a6b-41e8-b983-4553086a3efa",
                     "ioValues": [
@@ -1957,7 +1957,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -1600
+                            "ioValue": -1800
                         },
                         {
                             "name": "yDist",
@@ -2009,7 +2009,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -1600
+                            "ioValue": -1800
                         },
                         {
                             "name": "yDist",
