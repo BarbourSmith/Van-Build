@@ -1084,7 +1084,7 @@
             "ioValues": [
                 {
                     "name": "Spacing",
-                    "ioValue": 600
+                    "ioValue": 650
                 }
             ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1157,8 +1157,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Outline",
-                            "x": 0.22287145242070117,
-                            "y": 0.48467966573816157,
+                            "x": 0.21759259259259256,
+                            "y": 0.5181058495821727,
                             "uniqueID": "dc1f93d1-fe7a-4eea-9f24-e6b9c2e8138e",
                             "ioValues": [],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1181,8 +1181,8 @@
                                 {
                                     "atomType": "Circle",
                                     "name": "Circle",
-                                    "x": 0.17195325542570952,
-                                    "y": 0.2785515320334262,
+                                    "x": 0.17394179894179893,
+                                    "y": 0.31197771587743733,
                                     "uniqueID": "a39d1997-e8f7-492f-9fa7-93f7356b7a2a",
                                     "ioValues": [
                                         {
@@ -1255,8 +1255,8 @@
                                         {
                                             "atomType": "Rectangle",
                                             "name": "Rectangle",
-                                            "x": 0.28213689482470783,
-                                            "y": 0.7548746518105849,
+                                            "x": 0.2863756613756614,
+                                            "y": 0.7632311977715878,
                                             "uniqueID": "23f5a2f6-ad69-4681-b758-f99ba575b8f3",
                                             "ioValues": [
                                                 {
@@ -1647,7 +1647,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 600
+                            "ioValue": 650
                         },
                         {
                             "name": "yDist",
@@ -1699,7 +1699,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 600
+                            "ioValue": 650
                         },
                         {
                             "name": "yDist",
@@ -1743,7 +1743,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 600
+                            "ioValue": 650
                         },
                         {
                             "name": "yDist",
