@@ -1021,6 +1021,44 @@
                     ],
                     "description": "Changes the color of the shape.",
                     "selectedColorIndex": 8
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Shower Panel",
+                    "x": 0.41736227045075125,
+                    "y": 0.8885793871866295,
+                    "uniqueID": "b4575af6-0e35-4d12-bfab-099bb5245e40",
+                    "ioValues": [],
+                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": "2903bde8-df20-4a57-a0fa-c5567190999b",
+                            "ioValues": [],
+                            "description": "Connect geometry here to make it available in the next level up. "
+                        },
+                        {
+                            "atomType": "Import",
+                            "name": "Import",
+                            "x": 0.2929883138564274,
+                            "y": 0.5543175487465182,
+                            "uniqueID": "27586dc4-1fc9-4001-a9c5-3ac5ed8e7220",
+                            "ioValues": [],
+                            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+                            "fileName": "panel.svg",
+                            "type": "SVG",
+                            "SVGwidth": 10,
+                            "repoOwner": "BarbourSmith",
+                            "repoName": "Van-Build"
+                        }
+                    ],
+                    "allConnectors": [],
+                    "fileTypeVersion": 1,
+                    "compiledBom": {}
                 }
             ],
             "allConnectors": [
