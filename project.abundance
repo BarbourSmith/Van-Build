@@ -1078,13 +1078,13 @@
         {
             "atomType": "Molecule",
             "name": "Shelving",
-            "x": 0.29465776293823037,
-            "y": 0.8384401114206128,
+            "x": 0.29632721202003337,
+            "y": 0.8412256267409471,
             "uniqueID": "5e7fb25c-059a-4c89-8acc-99f65cb7c233",
             "ioValues": [
                 {
                     "name": "Diameter",
-                    "ioValue": 1500
+                    "ioValue": 1800
                 }
             ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1113,7 +1113,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 1500
+                            "ioValue": 1800
                         }
                     ],
                     "description": "Creates a new circle."
@@ -1175,8 +1175,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Shelf Blank",
-                    "x": 0.34891485809682804,
-                    "y": 0.8551532033426184,
+                    "x": 0.34557595993322204,
+                    "y": 0.871866295264624,
                     "uniqueID": "2b99473a-ac0e-40fd-8178-dcf161bef40d",
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1217,8 +1217,8 @@
                         {
                             "atomType": "Rectangle",
                             "name": "Rectangle",
-                            "x": 0.2721202003338898,
-                            "y": 0.7381615598885795,
+                            "x": 0.28213689482470783,
+                            "y": 0.7548746518105849,
                             "uniqueID": "23f5a2f6-ad69-4681-b758-f99ba575b8f3",
                             "ioValues": [
                                 {
@@ -1227,7 +1227,7 @@
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 500
+                                    "ioValue": 700
                                 }
                             ],
                             "description": "Creates a new rectangle."
@@ -1249,7 +1249,7 @@
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 450
+                                    "ioValue": 350
                                 },
                                 {
                                     "name": "zDist",
@@ -1372,8 +1372,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.47913188647746247,
-                    "y": 0.4874651810584958,
+                    "x": 0.48914858096828046,
+                    "y": 0.44846796657381616,
                     "uniqueID": "fb40db35-0691-4db6-9cae-0670ae0027a0",
                     "ioValues": [
                         {
@@ -1382,11 +1382,11 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 1000
+                            "ioValue": 1100
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": -100
                         },
                         {
                             "name": "zDist",
@@ -1481,7 +1481,7 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 0
+                    "ioValue": -1600
                 },
                 {
                     "name": "yDist",
