@@ -1494,7 +1494,7 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 1300
+                    "ioValue": 1200
                 },
                 {
                     "name": "yDist",
@@ -1502,7 +1502,7 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 0
+                    "ioValue": 100
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
