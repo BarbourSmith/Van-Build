@@ -1219,7 +1219,7 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": -300
+                    "ioValue": -100
                 },
                 {
                     "name": "zDist",
