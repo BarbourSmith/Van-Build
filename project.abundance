@@ -1262,7 +1262,7 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 300
+                                            "ioValue": 400
                                         },
                                         {
                                             "name": "zDist",
@@ -1411,8 +1411,8 @@
                         {
                             "atomType": "Difference",
                             "name": "Difference",
-                            "x": 0.6035058430717862,
-                            "y": 0.637883008356546,
+                            "x": 0.6118530884808013,
+                            "y": 0.6295264623955432,
                             "uniqueID": "467848f8-29e2-40be-8d7e-15f6e7346e64",
                             "ioValues": [
                                 {
