@@ -17,7 +17,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": "3a6ea54a-5bf4-4b19-9007-b4fcc56b209c"
+                    "ioValue": "f443ee7d-b400-4010-a39a-01854873d8c5"
                 }
             ],
             "description": "Connect geometry here to make it available in the next level up. "
@@ -526,14 +526,10 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.6785714285714286,
-            "y": 0.2590529247910863,
+            "x": 0.4993386243386243,
+            "y": 0.1977715877437326,
             "uniqueID": "3a6ea54a-5bf4-4b19-9007-b4fcc56b209c",
             "ioValues": [
-                {
-                    "name": "Shape 1",
-                    "ioValue": "dffd5d04-a75f-46a6-b96b-51a90ee6f3dd"
-                },
                 {
                     "name": "Shape 2",
                     "ioValue": "95dbd7be-60ee-4e07-a51a-bd494e290d29"
@@ -2336,22 +2332,67 @@
             ],
             "fileTypeVersion": 1,
             "compiledBom": {}
+        },
+        {
+            "atomType": "Rotate",
+            "name": "Rotate",
+            "x": 0.6871693121693122,
+            "y": 0.21448467966573817,
+            "uniqueID": "9261959e-588c-4263-9dde-62f11e0318bc",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "3a6ea54a-5bf4-4b19-9007-b4fcc56b209c"
+                },
+                {
+                    "name": "x-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "y-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "z-axis degrees",
+                    "ioValue": -30
+                }
+            ],
+            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.8267195767195767,
+            "y": 0.298050139275766,
+            "uniqueID": "f443ee7d-b400-4010-a39a-01854873d8c5",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "9261959e-588c-4263-9dde-62f11e0318bc"
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 700
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 700
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 780
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
         }
     ],
     "allConnectors": [
         {
-            "ap1Name": "Geometry",
-            "ap2Name": "Shape 1",
-            "ap2Primary": false,
-            "ap1ID": "dffd5d04-a75f-46a6-b96b-51a90ee6f3dd",
-            "ap2ID": "3a6ea54a-5bf4-4b19-9007-b4fcc56b209c"
-        },
-        {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
+            "ap2Name": "geometry",
+            "ap2Primary": true,
             "ap1ID": "3a6ea54a-5bf4-4b19-9007-b4fcc56b209c",
-            "ap2ID": "371a8651-310f-4774-99be-be1addabb3dd"
+            "ap2ID": "9261959e-588c-4263-9dde-62f11e0318bc"
         },
         {
             "ap1Name": "Geometry",
@@ -2394,6 +2435,20 @@
             "ap2Primary": false,
             "ap1ID": "1728f182-4cac-4b0a-a04f-27aecc35aedf",
             "ap2ID": "3a6ea54a-5bf4-4b19-9007-b4fcc56b209c"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "9261959e-588c-4263-9dde-62f11e0318bc",
+            "ap2ID": "f443ee7d-b400-4010-a39a-01854873d8c5"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": "f443ee7d-b400-4010-a39a-01854873d8c5",
+            "ap2ID": "371a8651-310f-4774-99be-be1addabb3dd"
         }
     ],
     "unitsKey": "MM",
