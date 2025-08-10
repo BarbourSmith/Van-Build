@@ -1480,8 +1480,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.7916666666666667,
-            "y": 0.7910863509749304,
+            "x": 0.7883597883597884,
+            "y": 0.7938718662952646,
             "uniqueID": "84f20ff9-8729-45fa-9a85-060f0dddf229",
             "ioValues": [
                 {
@@ -1490,15 +1490,15 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 1400
+                    "ioValue": 1200
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 325
+                    "ioValue": 525
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 100
+                    "ioValue": 0
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -1506,8 +1506,8 @@
         {
             "atomType": "Molecule",
             "name": "Shelving",
-            "x": 0.20767195767195767,
-            "y": 0.8635097493036212,
+            "x": 0.20965608465608468,
+            "y": 0.8746518105849581,
             "uniqueID": "1728f182-4cac-4b0a-a04f-27aecc35aedf",
             "ioValues": [
                 {
@@ -1957,7 +1957,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -750
+                            "ioValue": -900
                         },
                         {
                             "name": "zDist",
@@ -1995,8 +1995,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.1898148148148148,
-                    "y": 0.5431754874651811,
+                    "x": 0.19378306878306878,
+                    "y": 0.5459610027855153,
                     "uniqueID": "b2a3de30-7b3d-4eae-b6ab-9fc7fc2a9840",
                     "ioValues": [
                         {
@@ -2009,7 +2009,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 750
+                            "ioValue": 900
                         },
                         {
                             "name": "zDist",
@@ -2021,7 +2021,7 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.2757936507936508,
+                    "x": 0.28439153439153436,
                     "y": 0.2841225626740947,
                     "uniqueID": "0869e8e3-b5f0-4d9e-8f91-58b8db35bbaa",
                     "ioValues": [
@@ -2354,7 +2354,7 @@
                 },
                 {
                     "name": "z-axis degrees",
-                    "ioValue": -30
+                    "ioValue": -29
                 }
             ],
             "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
