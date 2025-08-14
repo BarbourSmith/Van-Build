@@ -1835,8 +1835,8 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Outline",
-                                    "x": 0.2222222222222222,
-                                    "y": 0.5236768802228412,
+                                    "x": 0.23015873015873015,
+                                    "y": 0.45403899721448465,
                                     "uniqueID": "dc1f93d1-fe7a-4eea-9f24-e6b9c2e8138e",
                                     "ioValues": [
                                         {
@@ -2195,8 +2195,8 @@
                                         {
                                             "atomType": "Difference",
                                             "name": "Difference",
-                                            "x": 0.6494708994708994,
-                                            "y": 0.36211699164345407,
+                                            "x": 0.6534391534391535,
+                                            "y": 0.33147632311977715,
                                             "uniqueID": "467848f8-29e2-40be-8d7e-15f6e7346e64",
                                             "ioValues": [
                                                 {
@@ -2589,6 +2589,20 @@
                                             "ioValues": [],
                                             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                                             "type": "geometry"
+                                        },
+                                        {
+                                            "atomType": "Circle",
+                                            "name": "Circle",
+                                            "x": 0.7876984126984127,
+                                            "y": 0.3231197771587744,
+                                            "uniqueID": "8704954f-affc-4007-8612-55391ad386e5",
+                                            "ioValues": [
+                                                {
+                                                    "name": "diameter",
+                                                    "ioValue": 10
+                                                }
+                                            ],
+                                            "description": "Creates a new circle."
                                         }
                                     ],
                                     "allConnectors": [
@@ -3120,6 +3134,67 @@
                                         }
                                     ],
                                     "description": "The space shared by two shapes."
+                                },
+                                {
+                                    "atomType": "Molecule",
+                                    "name": "Rope Holes",
+                                    "x": 0.5654761904761905,
+                                    "y": 0.777158774373259,
+                                    "uniqueID": "064eda73-3c42-4934-ab1b-6cb3c573cb8d",
+                                    "ioValues": [
+                                        {
+                                            "name": "Rope Diamter",
+                                            "ioValue": 10
+                                        }
+                                    ],
+                                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                                    "topLevel": false,
+                                    "allAtoms": [
+                                        {
+                                            "atomType": "Output",
+                                            "name": "Output",
+                                            "x": 0.98,
+                                            "y": 0.5,
+                                            "uniqueID": "7f4ad9f3-af8c-4f6e-b8af-1005bd6824f4",
+                                            "ioValues": [],
+                                            "description": "Connect geometry here to make it available in the next level up. "
+                                        },
+                                        {
+                                            "atomType": "Circle",
+                                            "name": "Circle",
+                                            "x": 0.2328042328042328,
+                                            "y": 0.584958217270195,
+                                            "uniqueID": "ccdc8ea3-205d-4d82-a6e4-4a37f82ec4d4",
+                                            "ioValues": [
+                                                {
+                                                    "name": "diameter",
+                                                    "ioValue": 10
+                                                }
+                                            ],
+                                            "description": "Creates a new circle."
+                                        },
+                                        {
+                                            "atomType": "Input",
+                                            "name": "Rope Diamter",
+                                            "x": 0.029699999999999997,
+                                            "y": 0.6183844011142061,
+                                            "uniqueID": "ee393f97-b98c-45d7-9362-9f1f3878e8ec",
+                                            "ioValues": [],
+                                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                                            "type": "number"
+                                        }
+                                    ],
+                                    "allConnectors": [
+                                        {
+                                            "ap1Name": "number or geometry",
+                                            "ap2Name": "diameter",
+                                            "ap2Primary": false,
+                                            "ap1ID": "ee393f97-b98c-45d7-9362-9f1f3878e8ec",
+                                            "ap2ID": "ccdc8ea3-205d-4d82-a6e4-4a37f82ec4d4"
+                                        }
+                                    ],
+                                    "fileTypeVersion": 1,
+                                    "compiledBom": {}
                                 }
                             ],
                             "allConnectors": [
