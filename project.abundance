@@ -1775,7 +1775,7 @@
                         },
                         {
                             "atomType": "Molecule",
-                            "name": "Shelving",
+                            "name": "Uprights",
                             "x": 0.20304232804232802,
                             "y": 0.415041782729805,
                             "uniqueID": "32159491-7759-4e76-8ba1-03a160c2aa4d",
@@ -3296,8 +3296,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.7175925925925926,
-                            "y": 0.6462395543175488,
+                            "x": 0.7123015873015873,
+                            "y": 0.41782729805013924,
                             "uniqueID": "c117109f-f955-4ac2-b411-daa1d13a053f",
                             "ioValues": [
                                 {
@@ -3333,6 +3333,10 @@
                                 {
                                     "name": "Shape 3",
                                     "ioValue": "c117109f-f955-4ac2-b411-daa1d13a053f"
+                                },
+                                {
+                                    "name": "Shape 4",
+                                    "ioValue": "c8c73fca-ee69-4bd3-9d1b-465f6df61eb5"
                                 }
                             ],
                             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -3340,8 +3344,8 @@
                         {
                             "atomType": "Constant",
                             "name": "Light Bar Width",
-                            "x": 0.31547619047619047,
-                            "y": 0.6072423398328691,
+                            "x": 0.4973544973544974,
+                            "y": 0.6518105849582172,
                             "uniqueID": "8f8e5dfe-9491-4888-9fbb-77f5f38fab0b",
                             "ioValues": [],
                             "description": "Defines a mathematical constant.",
@@ -3350,8 +3354,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Light Bar",
-                            "x": 0.49603174603174605,
-                            "y": 0.6183844011142061,
+                            "x": 0.6203703703703703,
+                            "y": 0.7799442896935932,
                             "uniqueID": "9ffc5245-7b1c-4fc1-9a96-4a3a36e64e00",
                             "ioValues": [
                                 {
@@ -3417,7 +3421,7 @@
                                         },
                                         {
                                             "name": "y length",
-                                            "ioValue": 950
+                                            "ioValue": 1150
                                         }
                                     ],
                                     "description": "Creates a new rectangle."
@@ -3434,9 +3438,9 @@
                                 },
                                 {
                                     "atomType": "Equation",
-                                    "name": "Y+200",
+                                    "name": "Y+400",
                                     "x": 0.21494708994708994,
-                                    "y": 0.8551532033426184,
+                                    "y": 0.8412256267409471,
                                     "uniqueID": "5f22e078-3cca-4c6b-bccc-9b758d89ecae",
                                     "ioValues": [
                                         {
@@ -3445,7 +3449,7 @@
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-                                    "currentEquation": "Y+200"
+                                    "currentEquation": "Y+400"
                                 },
                                 {
                                     "atomType": "Extrude",
@@ -3656,8 +3660,8 @@
                         {
                             "atomType": "Equation",
                             "name": "W+T",
-                            "x": 0.6197089947089947,
-                            "y": 0.8328690807799443,
+                            "x": 0.6104497354497355,
+                            "y": 0.467966573816156,
                             "uniqueID": "f6080bce-5307-4efd-9cd7-cec02d0a2d2d",
                             "ioValues": [
                                 {
@@ -3675,13 +3679,13 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.4914021164021164,
-                            "y": 0.9164345403899721,
+                            "x": 0.8015873015873016,
+                            "y": 0.9025069637883008,
                             "uniqueID": "c8c73fca-ee69-4bd3-9d1b-465f6df61eb5",
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": ""
+                                    "ioValue": "9ffc5245-7b1c-4fc1-9a96-4a3a36e64e00"
                                 },
                                 {
                                     "name": "xDist",
@@ -3693,10 +3697,29 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 0
+                                    "ioValue": 1790
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
+                        },
+                        {
+                            "atomType": "Equation",
+                            "name": "H-T",
+                            "x": 0.2526455026455027,
+                            "y": 0.9164345403899721,
+                            "uniqueID": "9e72b51c-1b00-465c-b5e8-6fafe2f819ee",
+                            "ioValues": [
+                                {
+                                    "name": "H",
+                                    "ioValue": 1800
+                                },
+                                {
+                                    "name": "T",
+                                    "ioValue": 10
+                                }
+                            ],
+                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                            "currentEquation": "H-T"
                         }
                     ],
                     "allConnectors": [
@@ -3778,6 +3801,13 @@
                             "ap2ID": "f6080bce-5307-4efd-9cd7-cec02d0a2d2d"
                         },
                         {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "9ffc5245-7b1c-4fc1-9a96-4a3a36e64e00",
+                            "ap2ID": "c8c73fca-ee69-4bd3-9d1b-465f6df61eb5"
+                        },
+                        {
                             "ap1Name": "result",
                             "ap2Name": "yDist",
                             "ap2Primary": false,
@@ -3807,6 +3837,13 @@
                         },
                         {
                             "ap1Name": "number or geometry",
+                            "ap2Name": "T",
+                            "ap2Primary": false,
+                            "ap1ID": "8428ad98-c4da-416d-883d-29c295df6139",
+                            "ap2ID": "9e72b51c-1b00-465c-b5e8-6fafe2f819ee"
+                        },
+                        {
+                            "ap1Name": "number or geometry",
                             "ap2Name": "Y",
                             "ap2Primary": false,
                             "ap1ID": "e5b8f40e-cc59-40a9-a6f2-71f4dde4b41a",
@@ -3827,11 +3864,32 @@
                             "ap2ID": "32159491-7759-4e76-8ba1-03a160c2aa4d"
                         },
                         {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "H",
+                            "ap2Primary": false,
+                            "ap1ID": "9e53bb08-089a-4975-8ee9-4bba8cfc8e1a",
+                            "ap2ID": "9e72b51c-1b00-465c-b5e8-6fafe2f819ee"
+                        },
+                        {
                             "ap1Name": "result",
                             "ap2Name": "xDist",
                             "ap2Primary": false,
                             "ap1ID": "f6080bce-5307-4efd-9cd7-cec02d0a2d2d",
                             "ap2ID": "c117109f-f955-4ac2-b411-daa1d13a053f"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Shape 4",
+                            "ap2Primary": false,
+                            "ap1ID": "c8c73fca-ee69-4bd3-9d1b-465f6df61eb5",
+                            "ap2ID": "9558cba0-538a-4809-80c8-349074718151"
+                        },
+                        {
+                            "ap1Name": "result",
+                            "ap2Name": "zDist",
+                            "ap2Primary": false,
+                            "ap1ID": "9e72b51c-1b00-465c-b5e8-6fafe2f819ee",
+                            "ap2ID": "c8c73fca-ee69-4bd3-9d1b-465f6df61eb5"
                         }
                     ],
                     "fileTypeVersion": 1,
