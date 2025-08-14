@@ -1048,11 +1048,15 @@
                             "x": 0.17445742904841402,
                             "y": 0.596100278551532,
                             "uniqueID": "27586dc4-1fc9-4001-a9c5-3ac5ed8e7220",
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "SVG Width",
+                                    "ioValue": 5
+                                }
+                            ],
                             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
                             "fileName": "panel.svg",
                             "type": "SVG",
-                            "SVGwidth": 10,
                             "repoOwner": "BarbourSmith",
                             "repoName": "Van-Build"
                         },
@@ -1535,8 +1539,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Shelving",
-                    "x": 0.04034391534391534,
-                    "y": 0.18662952646239553,
+                    "x": 0.03571428571428571,
+                    "y": 0.17270194986072424,
                     "uniqueID": "cf7ec0e5-10cd-4b9a-9ec9-3f877bc6e610",
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1586,7 +1590,7 @@
                             "atomType": "Molecule",
                             "name": "Outline",
                             "x": 0.21759259259259256,
-                            "y": 0.5181058495821727,
+                            "y": 0.5153203342618384,
                             "uniqueID": "dc1f93d1-fe7a-4eea-9f24-e6b9c2e8138e",
                             "ioValues": [],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1623,8 +1627,8 @@
                                 {
                                     "atomType": "Extrude",
                                     "name": "Extrude",
-                                    "x": 0.34891485809682804,
-                                    "y": 0.2646239554317549,
+                                    "x": 0.3697089947089947,
+                                    "y": 0.15598885793871867,
                                     "uniqueID": "b7c9705c-092e-4468-a161-31079128d1a7",
                                     "ioValues": [
                                         {
@@ -1641,8 +1645,8 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Shelf Blank",
-                                    "x": 0.34223706176961605,
-                                    "y": 0.8690807799442898,
+                                    "x": 0.25,
+                                    "y": 0.5125348189415042,
                                     "uniqueID": "b019e0c6-0d6e-4751-bc23-ef698733746d",
                                     "ioValues": [],
                                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1665,8 +1669,8 @@
                                         {
                                             "atomType": "Rectangle",
                                             "name": "Rectangle",
-                                            "x": 0.2854757929883138,
-                                            "y": 0.33147632311977715,
+                                            "x": 0.2810846560846561,
+                                            "y": 0.33704735376044564,
                                             "uniqueID": "ca39e9f9-0196-4515-96b0-c4a98c8a11c5",
                                             "ioValues": [
                                                 {
@@ -1683,8 +1687,8 @@
                                         {
                                             "atomType": "Rectangle",
                                             "name": "Rectangle",
-                                            "x": 0.2863756613756614,
-                                            "y": 0.7632311977715878,
+                                            "x": 0.28703703703703703,
+                                            "y": 0.7855153203342619,
                                             "uniqueID": "23f5a2f6-ad69-4681-b758-f99ba575b8f3",
                                             "ioValues": [
                                                 {
@@ -1838,8 +1842,8 @@
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.48914858096828046,
-                                    "y": 0.44846796657381616,
+                                    "x": 0.5238095238095238,
+                                    "y": 0.16991643454039,
                                     "uniqueID": "7899ab85-d93b-49d2-9871-e9c9acf4a3a7",
                                     "ioValues": [
                                         {
@@ -1864,8 +1868,8 @@
                                 {
                                     "atomType": "Difference",
                                     "name": "Difference",
-                                    "x": 0.6118530884808013,
-                                    "y": 0.6295264623955432,
+                                    "x": 0.6435185185185185,
+                                    "y": 0.38440111420612816,
                                     "uniqueID": "467848f8-29e2-40be-8d7e-15f6e7346e64",
                                     "ioValues": [
                                         {
@@ -1878,6 +1882,118 @@
                                         }
                                     ],
                                     "description": "Subtracts shape two from shape one."
+                                },
+                                {
+                                    "atomType": "Molecule",
+                                    "name": "Corner Fillet",
+                                    "x": 0.43452380952380953,
+                                    "y": 0.7715877437325905,
+                                    "uniqueID": "b1740e1f-5224-448b-b50a-c1bafbf84d13",
+                                    "ioValues": [
+                                        {
+                                            "name": "Diameter",
+                                            "ioValue": 10
+                                        }
+                                    ],
+                                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                                    "topLevel": false,
+                                    "allAtoms": [
+                                        {
+                                            "atomType": "Output",
+                                            "name": "Output",
+                                            "x": 0.98,
+                                            "y": 0.5,
+                                            "uniqueID": "5e713c4c-2008-4d17-a2aa-519ce36c6ea3",
+                                            "ioValues": [],
+                                            "description": "Connect geometry here to make it available in the next level up. "
+                                        },
+                                        {
+                                            "atomType": "Input",
+                                            "name": "Diameter",
+                                            "x": 0.029699999999999997,
+                                            "y": 0.7493036211699164,
+                                            "uniqueID": "d10f4472-909e-48b4-bc0b-dba409cc165c",
+                                            "ioValues": [],
+                                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                                            "type": "number"
+                                        },
+                                        {
+                                            "atomType": "Circle",
+                                            "name": "Circle",
+                                            "x": 0.23148148148148145,
+                                            "y": 0.42896935933147634,
+                                            "uniqueID": "453377f6-4cde-47c8-a654-9f254222bf62",
+                                            "ioValues": [
+                                                {
+                                                    "name": "diameter",
+                                                    "ioValue": 10
+                                                }
+                                            ],
+                                            "description": "Creates a new circle."
+                                        },
+                                        {
+                                            "atomType": "Rectangle",
+                                            "name": "Rectangle",
+                                            "x": 0.2294973544973545,
+                                            "y": 0.7743732590529249,
+                                            "uniqueID": "f811ee75-bf8e-461e-8494-1e9587c1f951",
+                                            "ioValues": [
+                                                {
+                                                    "name": "x length",
+                                                    "ioValue": 500
+                                                },
+                                                {
+                                                    "name": "y length",
+                                                    "ioValue": 500
+                                                }
+                                            ],
+                                            "description": "Creates a new rectangle."
+                                        },
+                                        {
+                                            "atomType": "Move",
+                                            "name": "Move",
+                                            "x": 0.3988095238095238,
+                                            "y": 0.7632311977715878,
+                                            "uniqueID": "e0419d13-ec63-466e-b12a-ec75c6c0bcac",
+                                            "ioValues": [
+                                                {
+                                                    "name": "geometry",
+                                                    "ioValue": "f811ee75-bf8e-461e-8494-1e9587c1f951"
+                                                },
+                                                {
+                                                    "name": "xDist",
+                                                    "ioValue": 0
+                                                },
+                                                {
+                                                    "name": "yDist",
+                                                    "ioValue": 0
+                                                },
+                                                {
+                                                    "name": "zDist",
+                                                    "ioValue": 0
+                                                }
+                                            ],
+                                            "description": "Moves a shape laterally in X, Y, Z."
+                                        }
+                                    ],
+                                    "allConnectors": [
+                                        {
+                                            "ap1Name": "number or geometry",
+                                            "ap2Name": "diameter",
+                                            "ap2Primary": false,
+                                            "ap1ID": "d10f4472-909e-48b4-bc0b-dba409cc165c",
+                                            "ap2ID": "453377f6-4cde-47c8-a654-9f254222bf62"
+                                        },
+                                        {
+                                            "ap1Name": "geometry",
+                                            "ap2Name": "geometry",
+                                            "ap2Primary": true,
+                                            "ap1ID": "f811ee75-bf8e-461e-8494-1e9587c1f951",
+                                            "ap2ID": "e0419d13-ec63-466e-b12a-ec75c6c0bcac"
+                                        }
+                                    ],
+                                    "fileTypeVersion": 1,
+                                    "compiledBom": {}
                                 }
                             ],
                             "allConnectors": [
