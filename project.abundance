@@ -946,8 +946,8 @@
         {
             "atomType": "Molecule",
             "name": "Shower",
-            "x": 0.6452420701168614,
-            "y": 0.8802228412256267,
+            "x": 0.6164021164021164,
+            "y": 0.883008356545961,
             "uniqueID": "e9bf4dc9-ad65-4607-a567-569ff24d7fc4",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1517,10 +1517,6 @@
                 {
                     "name": "Spacing",
                     "ioValue": 650
-                },
-                {
-                    "name": "Input (1)",
-                    "ioValue": 10
                 }
             ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2409,8 +2405,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.09986772486772487,
-                    "y": 0.4735376044568245,
+                    "x": 0.10383597883597884,
+                    "y": 0.2590529247910863,
                     "uniqueID": "4a65bf8a-5a0d-4937-8013-9e726b5dd217",
                     "ioValues": [
                         {
@@ -2435,8 +2431,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.19378306878306878,
-                    "y": 0.5459610027855153,
+                    "x": 0.19047619047619047,
+                    "y": 0.3593314763231198,
                     "uniqueID": "b2a3de30-7b3d-4eae-b6ab-9fc7fc2a9840",
                     "ioValues": [
                         {
@@ -2461,8 +2457,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.28439153439153436,
-                    "y": 0.2841225626740947,
+                    "x": 0.2837301587301587,
+                    "y": 0.16991643454039,
                     "uniqueID": "0869e8e3-b5f0-4d9e-8f91-58b8db35bbaa",
                     "ioValues": [
                         {
@@ -2479,8 +2475,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.3353174603174603,
-                    "y": 0.5153203342618384,
+                    "x": 0.3683862433862434,
+                    "y": 0.49303621169916434,
                     "uniqueID": "b72badfa-93f5-4b54-b6b8-4c1f5e395d8f",
                     "ioValues": [
                         {
@@ -2489,7 +2485,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 70
+                            "ioValue": 90
                         },
                         {
                             "name": "yDist",
@@ -2505,8 +2501,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.6600529100529101,
-                    "y": 0.7103064066852367,
+                    "x": 0.6534391534391535,
+                    "y": 0.7214484679665739,
                     "uniqueID": "dd665ecb-03d7-4491-928f-51126b3f3790",
                     "ioValues": [
                         {
@@ -2601,8 +2597,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.498015873015873,
-                    "y": 0.5877437325905293,
+                    "x": 0.5079365079365079,
+                    "y": 0.6267409470752089,
                     "uniqueID": "f1c87178-fcb7-4039-8f11-35d01a418f79",
                     "ioValues": [
                         {
@@ -2628,21 +2624,60 @@
                     "atomType": "Input",
                     "name": "Spacing",
                     "x": 0.029699999999999997,
-                    "y": 0.8941504178272981,
+                    "y": 0.9192200557103064,
                     "uniqueID": "5d5fc28d-8c7f-4424-a4d5-800578e4772e",
                     "ioValues": [],
                     "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                     "type": "number"
                 },
                 {
-                    "atomType": "Input",
-                    "name": "Input (1)",
-                    "x": 0.029699999999999997,
-                    "y": 0.6323119777158774,
-                    "uniqueID": "aa1d6596-9149-4580-af2d-f7cfd18a9762",
+                    "atomType": "Constant",
+                    "name": "Light Bar Width",
+                    "x": 0.11044973544973545,
+                    "y": 0.5933147632311978,
+                    "uniqueID": "0e7c2857-e957-46b4-8d87-d214babd0be1",
                     "ioValues": [],
-                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-                    "type": "number"
+                    "description": "Defines a mathematical constant.",
+                    "value": 90
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Light Bar",
+                    "x": 0.24338624338624337,
+                    "y": 0.6601671309192201,
+                    "uniqueID": "32d4c7d5-95e6-4ac8-893a-e03f03cfc7af",
+                    "ioValues": [
+                        {
+                            "name": "input",
+                            "ioValue": 90
+                        }
+                    ],
+                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": "211a9ab6-cc9c-40c6-b58a-270b4990d55c",
+                            "ioValues": [],
+                            "description": "Connect geometry here to make it available in the next level up. "
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "input",
+                            "x": 0.1006613756613757,
+                            "y": 0.6935933147632313,
+                            "uniqueID": "dbedcc8c-e1db-4879-a376-9423947b20de",
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                            "type": "geometry"
+                        }
+                    ],
+                    "allConnectors": [],
+                    "fileTypeVersion": 1,
+                    "compiledBom": {}
                 }
             ],
             "allConnectors": [
@@ -2778,6 +2813,20 @@
                     "ap2Primary": false,
                     "ap1ID": "5d5fc28d-8c7f-4424-a4d5-800578e4772e",
                     "ap2ID": "307a79f9-291a-4651-b25a-5c42c7189431"
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "xDist",
+                    "ap2Primary": false,
+                    "ap1ID": "0e7c2857-e957-46b4-8d87-d214babd0be1",
+                    "ap2ID": "b72badfa-93f5-4b54-b6b8-4c1f5e395d8f"
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "input",
+                    "ap2Primary": false,
+                    "ap1ID": "0e7c2857-e957-46b4-8d87-d214babd0be1",
+                    "ap2ID": "32d4c7d5-95e6-4ac8-893a-e03f03cfc7af"
                 }
             ],
             "fileTypeVersion": 1,
