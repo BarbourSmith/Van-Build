@@ -1509,14 +1509,14 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Shelving",
-            "x": 0.1970899470899471,
+            "name": "Bed Area",
+            "x": 0.19576719576719578,
             "y": 0.818941504178273,
             "uniqueID": "1728f182-4cac-4b0a-a04f-27aecc35aedf",
             "ioValues": [
                 {
                     "name": "Spacing X",
-                    "ioValue": 650
+                    "ioValue": 610
                 },
                 {
                     "name": "Wood Thickness",
@@ -1587,7 +1587,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 650
+                            "ioValue": 610
                         },
                         {
                             "name": "yDist",
@@ -1639,7 +1639,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 650
+                            "ioValue": 610
                         },
                         {
                             "name": "yDist",
@@ -1683,7 +1683,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 650
+                            "ioValue": 610
                         },
                         {
                             "name": "yDist",
@@ -3995,6 +3995,123 @@
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Layout Test",
+                    "x": 0.3161375661375661,
+                    "y": 0.5515320334261838,
+                    "uniqueID": "19051657-1785-4eab-bf5c-d9903e097630",
+                    "ioValues": [
+                        {
+                            "name": "input",
+                            "ioValue": "21406961-7868-4db5-9194-ec634638e6b0"
+                        }
+                    ],
+                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": "af5974e9-572d-457e-992f-efb61f607059",
+                            "ioValues": [],
+                            "description": "Connect geometry here to make it available in the next level up. "
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "input",
+                            "x": 0.029699999999999997,
+                            "y": 0.5515320334261838,
+                            "uniqueID": "f03e2425-edc7-499a-9900-59947f2a41b8",
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                            "type": "geometry"
+                        },
+                        {
+                            "atomType": "CutLayout",
+                            "name": "Cut Layout",
+                            "x": 0.3419312169312169,
+                            "y": 0.44011142061281333,
+                            "uniqueID": "80714cb4-f5fc-44f9-a79d-3fabcef0f211",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "21406961-7868-4db5-9194-ec634638e6b0"
+                                },
+                                {
+                                    "name": "Sheet Width",
+                                    "ioValue": 1219
+                                },
+                                {
+                                    "name": "Sheet Height",
+                                    "ioValue": 2438
+                                },
+                                {
+                                    "name": "Part Padding",
+                                    "ioValue": 10
+                                }
+                            ],
+                            "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
+                            "placements": [
+                                [
+                                    {
+                                        "id": 0,
+                                        "rotate": 90,
+                                        "translate": {
+                                            "x": 300.1347995231179,
+                                            "y": 905.2
+                                        }
+                                    },
+                                    {
+                                        "id": 2,
+                                        "rotate": 270,
+                                        "translate": {
+                                            "x": 299.95000002434034,
+                                            "y": 1082.2312904
+                                        }
+                                    },
+                                    {
+                                        "id": 3,
+                                        "rotate": 270,
+                                        "translate": {
+                                            "x": 778.3449342231181,
+                                            "y": 905.2000000000004
+                                        }
+                                    },
+                                    {
+                                        "id": 1,
+                                        "rotate": 90,
+                                        "translate": {
+                                            "x": 900.0347995255449,
+                                            "y": 1254.4474205000001
+                                        }
+                                    },
+                                    {
+                                        "id": 4,
+                                        "rotate": 0,
+                                        "translate": {
+                                            "x": 249.0895992,
+                                            "y": 847.66021932434
+                                        }
+                                    }
+                                ]
+                            ]
+                        }
+                    ],
+                    "allConnectors": [
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": false,
+                            "ap1ID": "f03e2425-edc7-499a-9900-59947f2a41b8",
+                            "ap2ID": "80714cb4-f5fc-44f9-a79d-3fabcef0f211"
+                        }
+                    ],
+                    "fileTypeVersion": 1,
+                    "compiledBom": {}
                 }
             ],
             "allConnectors": [
@@ -4109,6 +4226,13 @@
                     "ap2Primary": true,
                     "ap1ID": "21406961-7868-4db5-9194-ec634638e6b0",
                     "ap2ID": "2ffb23e4-8bb3-48ee-80d7-140512c3fd1b"
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "input",
+                    "ap2Primary": false,
+                    "ap1ID": "21406961-7868-4db5-9194-ec634638e6b0",
+                    "ap2ID": "19051657-1785-4eab-bf5c-d9903e097630"
                 },
                 {
                     "ap1Name": "geometry",
