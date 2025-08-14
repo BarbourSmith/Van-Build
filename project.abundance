@@ -4017,7 +4017,12 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": "af5974e9-572d-457e-992f-efb61f607059",
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "a45784bc-fabf-4ae4-abeb-c00970cbd5b1"
+                                }
+                            ],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -4033,8 +4038,8 @@
                         {
                             "atomType": "CutLayout",
                             "name": "Cut Layout",
-                            "x": 0.3419312169312169,
-                            "y": 0.44011142061281333,
+                            "x": 0.333994708994709,
+                            "y": 0.5013927576601671,
                             "uniqueID": "80714cb4-f5fc-44f9-a79d-3fabcef0f211",
                             "ioValues": [
                                 {
@@ -4099,6 +4104,50 @@
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "atomType": "Rectangle",
+                            "name": "Rectangle",
+                            "x": 0.5813492063492063,
+                            "y": 0.6323119777158774,
+                            "uniqueID": "a45784bc-fabf-4ae4-abeb-c00970cbd5b1",
+                            "ioValues": [
+                                {
+                                    "name": "x length",
+                                    "ioValue": 1219.2
+                                },
+                                {
+                                    "name": "y length",
+                                    "ioValue": 2438.4
+                                }
+                            ],
+                            "description": "Creates a new rectangle."
+                        },
+                        {
+                            "atomType": "Move",
+                            "name": "Move",
+                            "x": 0.46164021164021163,
+                            "y": 0.4818941504178273,
+                            "uniqueID": "89182956-49e5-41d3-a82b-9a15395ed177",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "80714cb4-f5fc-44f9-a79d-3fabcef0f211"
+                                },
+                                {
+                                    "name": "xDist",
+                                    "ioValue": -609.5
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": -1219
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 0
+                                }
+                            ],
+                            "description": "Moves a shape laterally in X, Y, Z."
                         }
                     ],
                     "allConnectors": [
@@ -4108,6 +4157,20 @@
                             "ap2Primary": false,
                             "ap1ID": "f03e2425-edc7-499a-9900-59947f2a41b8",
                             "ap2ID": "80714cb4-f5fc-44f9-a79d-3fabcef0f211"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "80714cb4-f5fc-44f9-a79d-3fabcef0f211",
+                            "ap2ID": "89182956-49e5-41d3-a82b-9a15395ed177"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": "a45784bc-fabf-4ae4-abeb-c00970cbd5b1",
+                            "ap2ID": "af5974e9-572d-457e-992f-efb61f607059"
                         }
                     ],
                     "fileTypeVersion": 1,
