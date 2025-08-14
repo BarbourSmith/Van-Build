@@ -1543,8 +1543,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Shelving",
-                    "x": 0.031084656084656086,
-                    "y": 0.14763231197771587,
+                    "x": 0.03902116402116402,
+                    "y": 0.1949860724233983,
                     "uniqueID": "cf7ec0e5-10cd-4b9a-9ec9-3f877bc6e610",
                     "ioValues": [
                         {
@@ -1572,13 +1572,13 @@
                         {
                             "atomType": "Rotate",
                             "name": "Rotate",
-                            "x": 0.5918196994991652,
-                            "y": 0.41225626740947074,
+                            "x": 0.585978835978836,
+                            "y": 0.4512534818941504,
                             "uniqueID": "93d9c3cb-fe8b-4a3c-ace1-4ceeee4d1a6d",
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "dc1f93d1-fe7a-4eea-9f24-e6b9c2e8138e"
+                                    "ioValue": "8902513e-6b7f-439a-96f3-ca8ee4ce4a3f"
                                 },
                                 {
                                     "name": "x-axis degrees",
@@ -1698,7 +1698,7 @@
                                                 },
                                                 {
                                                     "name": "y length",
-                                                    "ioValue": 1397
+                                                    "ioValue": 1400
                                                 }
                                             ],
                                             "description": "Creates a new rectangle."
@@ -2374,6 +2374,32 @@
                             "ioValues": [],
                             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                             "type": "number"
+                        },
+                        {
+                            "atomType": "Move",
+                            "name": "Move",
+                            "x": 0.41931216931216936,
+                            "y": 0.298050139275766,
+                            "uniqueID": "8902513e-6b7f-439a-96f3-ca8ee4ce4a3f",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "dc1f93d1-fe7a-4eea-9f24-e6b9c2e8138e"
+                                },
+                                {
+                                    "name": "xDist",
+                                    "ioValue": -100
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 0
+                                }
+                            ],
+                            "description": "Moves a shape laterally in X, Y, Z."
                         }
                     ],
                     "allConnectors": [
@@ -2389,7 +2415,7 @@
                             "ap2Name": "geometry",
                             "ap2Primary": true,
                             "ap1ID": "dc1f93d1-fe7a-4eea-9f24-e6b9c2e8138e",
-                            "ap2ID": "93d9c3cb-fe8b-4a3c-ace1-4ceeee4d1a6d"
+                            "ap2ID": "8902513e-6b7f-439a-96f3-ca8ee4ce4a3f"
                         },
                         {
                             "ap1Name": "number or geometry",
@@ -2397,6 +2423,13 @@
                             "ap2Primary": false,
                             "ap1ID": "13c33f21-8c0b-425e-be8d-54bcf4f8abd9",
                             "ap2ID": "dc1f93d1-fe7a-4eea-9f24-e6b9c2e8138e"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "8902513e-6b7f-439a-96f3-ca8ee4ce4a3f",
+                            "ap2ID": "93d9c3cb-fe8b-4a3c-ace1-4ceeee4d1a6d"
                         }
                     ],
                     "fileTypeVersion": 1,
@@ -2405,8 +2438,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.18386243386243387,
-                    "y": 0.18384401114206128,
+                    "x": 0.1779100529100529,
+                    "y": 0.16991643454039,
                     "uniqueID": "dd322621-9a6b-41e8-b983-4553086a3efa",
                     "ioValues": [
                         {
@@ -2484,7 +2517,7 @@
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 0.2837301587301587,
-                    "y": 0.16991643454039,
+                    "y": 0.20891364902506962,
                     "uniqueID": "0869e8e3-b5f0-4d9e-8f91-58b8db35bbaa",
                     "ioValues": [
                         {
@@ -2511,7 +2544,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 90
+                            "ioValue": 63.5
                         },
                         {
                             "name": "yDist",
@@ -2659,23 +2692,23 @@
                 {
                     "atomType": "Constant",
                     "name": "Light Bar Width",
-                    "x": 0.15343915343915343,
-                    "y": 0.5264623955431754,
+                    "x": 0.13756613756613756,
+                    "y": 0.5877437325905293,
                     "uniqueID": "0e7c2857-e957-46b4-8d87-d214babd0be1",
                     "ioValues": [],
                     "description": "Defines a mathematical constant.",
-                    "value": 90
+                    "value": 63.5
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Light Bar",
-                    "x": 0.24801587301587302,
-                    "y": 0.6685236768802229,
+                    "x": 0.2599206349206349,
+                    "y": 0.6852367688022285,
                     "uniqueID": "32d4c7d5-95e6-4ac8-893a-e03f03cfc7af",
                     "ioValues": [
                         {
                             "name": "input",
-                            "ioValue": 90
+                            "ioValue": 63.5
                         },
                         {
                             "name": "Wood Thickness",
