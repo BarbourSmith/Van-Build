@@ -1081,8 +1081,8 @@
                         {
                             "atomType": "GitHubMolecule",
                             "name": "Scale",
-                            "x": 0.32303839732888145,
-                            "y": 0.33983286908078,
+                            "x": 0.3273809523809524,
+                            "y": 0.36211699164345407,
                             "uniqueID": "73e78508-2a9b-40eb-93fc-b5a6ef648e93",
                             "ioValues": [
                                 {
@@ -1091,7 +1091,7 @@
                                 },
                                 {
                                     "name": "Scale Factor",
-                                    "ioValue": 75
+                                    "ioValue": 155
                                 }
                             ],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1144,7 +1144,7 @@
                                         },
                                         {
                                             "name": "scaleFactor",
-                                            "ioValue": 75
+                                            "ioValue": 155
                                         }
                                     ],
                                     "description": "Defines a Replicad code block.",
@@ -1510,8 +1510,8 @@
         {
             "atomType": "Molecule",
             "name": "Bed Area",
-            "x": 0.20171957671957674,
-            "y": 0.8050139275766017,
+            "x": 0.20634920634920637,
+            "y": 0.807799442896936,
             "uniqueID": "1728f182-4cac-4b0a-a04f-27aecc35aedf",
             "ioValues": [
                 {
@@ -5005,7 +5005,7 @@
         {
             "atomType": "Molecule",
             "name": "With Background",
-            "x": 0.7757936507936508,
+            "x": 0.7843915343915343,
             "y": 0.2841225626740947,
             "uniqueID": "5b4bc9aa-fc7b-409e-b00d-9445b7e282d3",
             "ioValues": [
