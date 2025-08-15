@@ -2362,8 +2362,8 @@
         {
             "atomType": "Molecule",
             "name": "Bed Area",
-            "x": 0.20171957671957674,
-            "y": 0.7827298050139275,
+            "x": 0.20701058201058203,
+            "y": 0.7688022284122563,
             "uniqueID": "1728f182-4cac-4b0a-a04f-27aecc35aedf",
             "ioValues": [
                 {
@@ -2403,34 +2403,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.6593915343915344,
-                    "y": 0.42061281337047357,
-                    "uniqueID": "b72badfa-93f5-4b54-b6b8-4c1f5e395d8f",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "2ffb23e4-8bb3-48ee-80d7-140512c3fd1b"
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
-                },
-                {
-                    "atomType": "Move",
-                    "name": "Move",
-                    "x": 0.8604497354497355,
-                    "y": 0.6740947075208913,
+                    "x": 0.8313492063492063,
+                    "y": 0.520891364902507,
                     "uniqueID": "dd665ecb-03d7-4491-928f-51126b3f3790",
                     "ioValues": [
                         {
@@ -2481,8 +2455,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.9398148148148148,
-                    "y": 0.83008356545961,
+                    "x": 0.9153439153439153,
+                    "y": 0.6963788300835655,
                     "uniqueID": "307a79f9-291a-4651-b25a-5c42c7189431",
                     "ioValues": [
                         {
@@ -2507,14 +2481,10 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.7427248677248677,
-                    "y": 0.20055710306406688,
+                    "x": 0.6898148148148149,
+                    "y": 0.12256267409470753,
                     "uniqueID": "c5ce3557-e978-459e-86ae-080b19825991",
                     "ioValues": [
-                        {
-                            "name": "Shape 1",
-                            "ioValue": "b72badfa-93f5-4b54-b6b8-4c1f5e395d8f"
-                        },
                         {
                             "name": "Shape 3",
                             "ioValue": "2ffb23e4-8bb3-48ee-80d7-140512c3fd1b"
@@ -2525,8 +2495,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.7843915343915343,
-                    "y": 0.5069637883008357,
+                    "x": 0.7387566137566137,
+                    "y": 0.38440111420612816,
                     "uniqueID": "f1c87178-fcb7-4039-8f11-35d01a418f79",
                     "ioValues": [
                         {
@@ -6359,13 +6329,6 @@
             "allConnectors": [
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Shape 1",
-                    "ap2Primary": false,
-                    "ap1ID": "b72badfa-93f5-4b54-b6b8-4c1f5e395d8f",
-                    "ap2ID": "c5ce3557-e978-459e-86ae-080b19825991"
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "Shape 3",
                     "ap2Primary": false,
                     "ap1ID": "dd665ecb-03d7-4491-928f-51126b3f3790",
@@ -6489,13 +6452,6 @@
                     "ap2Primary": false,
                     "ap1ID": "21406961-7868-4db5-9194-ec634638e6b0",
                     "ap2ID": "761a4a3e-d0d6-4171-89ff-f066c60b3584"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": "2ffb23e4-8bb3-48ee-80d7-140512c3fd1b",
-                    "ap2ID": "b72badfa-93f5-4b54-b6b8-4c1f5e395d8f"
                 },
                 {
                     "ap1Name": "geometry",
