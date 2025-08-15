@@ -526,8 +526,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.4993386243386243,
-            "y": 0.1977715877437326,
+            "x": 0.6342592592592592,
+            "y": 0.40111420612813375,
             "uniqueID": "3a6ea54a-5bf4-4b19-9007-b4fcc56b209c",
             "ioValues": [
                 {
@@ -946,8 +946,8 @@
         {
             "atomType": "Molecule",
             "name": "Shower",
-            "x": 0.6164021164021164,
-            "y": 0.883008356545961,
+            "x": 0.38822751322751325,
+            "y": 0.9025069637883008,
             "uniqueID": "e9bf4dc9-ad65-4607-a567-569ff24d7fc4",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1484,8 +1484,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.7883597883597884,
-            "y": 0.7938718662952646,
+            "x": 0.5284391534391535,
+            "y": 0.6518105849582172,
             "uniqueID": "84f20ff9-8729-45fa-9a85-060f0dddf229",
             "ioValues": [
                 {
