@@ -8152,6 +8152,30 @@
             ],
             "fileTypeVersion": 1,
             "compiledBom": {}
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.591931216931217,
+            "y": 0.8857938718662952,
+            "uniqueID": "5c2d9c3c-9958-440f-a9b3-6b6d8a098a0a",
+            "ioValues": [],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": "bb5d83a7-1473-4e12-b8af-594f54ec57fb",
+                    "ioValues": [],
+                    "description": "Connect geometry here to make it available in the next level up. "
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
         }
     ],
     "allConnectors": [
