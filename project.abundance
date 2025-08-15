@@ -1265,7 +1265,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": ""
+                            "ioValue": "4881e1c3-ea5b-4321-b2d8-a70ff6880998"
                         },
                         {
                             "name": "xDist",
@@ -1313,7 +1313,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": ""
+                            "ioValue": "4881e1c3-ea5b-4321-b2d8-a70ff6880998"
                         },
                         {
                             "name": "x-axis degrees",
@@ -2265,6 +2265,30 @@
                     ],
                     "description": "Changes the color of the shape.",
                     "selectedColorIndex": 16
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Drain connection",
+                    "x": 0.4748677248677248,
+                    "y": 0.83008356545961,
+                    "uniqueID": "5174cfef-221c-4bee-a9c4-1f61c4bc8273",
+                    "ioValues": [],
+                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": "899e9c07-16c3-4a73-9991-5931c88934e8",
+                            "ioValues": [],
+                            "description": "Connect geometry here to make it available in the next level up. "
+                        }
+                    ],
+                    "allConnectors": [],
+                    "fileTypeVersion": 1,
+                    "compiledBom": {}
                 }
             ],
             "allConnectors": [
@@ -2303,7 +2327,20 @@
                     "ap1ID": "a1d7cc4e-a97e-41ed-b31f-648e59544d13",
                     "ap2ID": "cacde05f-45ce-497e-b63a-97add568bea1"
                 },
-                null
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "4881e1c3-ea5b-4321-b2d8-a70ff6880998",
+                    "ap2ID": "587dbbef-4558-47f3-9ba5-3214c7b7eb27"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "4881e1c3-ea5b-4321-b2d8-a70ff6880998",
+                    "ap2ID": "28700fbc-6245-451f-8259-e3fef06ddf15"
+                }
             ],
             "fileTypeVersion": 1,
             "compiledBom": {}
