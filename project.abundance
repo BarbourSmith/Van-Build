@@ -4686,8 +4686,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Shelves",
-                    "x": 0.3141534391534392,
-                    "y": 0.5515320334261838,
+                    "x": 0.30886243386243384,
+                    "y": 0.5571030640668524,
                     "uniqueID": "809ea344-a0cc-4958-8b33-6a5c667b8a1a",
                     "ioValues": [
                         {
@@ -4753,8 +4753,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Shelf",
-                            "x": 0.3187830687830688,
-                            "y": 0.5933147632311978,
+                            "x": 0.3604497354497354,
+                            "y": 0.5626740947075208,
                             "uniqueID": "796a181c-958b-4683-a1c3-4fce1504635e",
                             "ioValues": [
                                 {
@@ -4763,7 +4763,7 @@
                                 },
                                 {
                                     "name": "Spacing X",
-                                    "ioValue": 610
+                                    "ioValue": 526.5
                                 },
                                 {
                                     "name": "Wood Thickness",
@@ -4826,7 +4826,7 @@
                                     "ioValues": [
                                         {
                                             "name": "x length",
-                                            "ioValue": 483
+                                            "ioValue": 526.5
                                         },
                                         {
                                             "name": "y length",
@@ -4844,7 +4844,7 @@
                                     "ioValues": [
                                         {
                                             "name": "x length",
-                                            "ioValue": 503
+                                            "ioValue": 546.5
                                         },
                                         {
                                             "name": "y length",
@@ -4862,7 +4862,7 @@
                                     "ioValues": [
                                         {
                                             "name": "X",
-                                            "ioValue": 483
+                                            "ioValue": 526.5
                                         },
                                         {
                                             "name": "T",
@@ -4908,35 +4908,6 @@
                                         }
                                     ],
                                     "description": "Extrudes a 2D shape. Input can be negitive. "
-                                },
-                                {
-                                    "atomType": "Equation",
-                                    "name": "X-(2*L)",
-                                    "x": 0.25925925925925924,
-                                    "y": 0.39275766016713093,
-                                    "uniqueID": "f072b514-e811-45d6-b2a1-a809ddc2cd22",
-                                    "ioValues": [
-                                        {
-                                            "name": "X",
-                                            "ioValue": 610
-                                        },
-                                        {
-                                            "name": "L",
-                                            "ioValue": 63.5
-                                        }
-                                    ],
-                                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-                                    "currentEquation": "X-(2*L)"
-                                },
-                                {
-                                    "atomType": "Constant",
-                                    "name": "Light Bar Width",
-                                    "x": 0.1488095238095238,
-                                    "y": 0.2479108635097493,
-                                    "uniqueID": "a50fa266-030b-4611-81fb-4e5094e840bb",
-                                    "ioValues": [],
-                                    "description": "Defines a mathematical constant.",
-                                    "value": 63.5
                                 }
                             ],
                             "allConnectors": [
@@ -4945,7 +4916,14 @@
                                     "ap2Name": "X",
                                     "ap2Primary": false,
                                     "ap1ID": "c007ec4a-dd4a-4f91-8698-b1b4e037b5cb",
-                                    "ap2ID": "f072b514-e811-45d6-b2a1-a809ddc2cd22"
+                                    "ap2ID": "a53af485-a273-481f-9451-4666eef58723"
+                                },
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "x length",
+                                    "ap2Primary": false,
+                                    "ap1ID": "c007ec4a-dd4a-4f91-8698-b1b4e037b5cb",
+                                    "ap2ID": "a04a4f3f-b4ad-4b82-bfa7-2c0f4de1dfbd"
                                 },
                                 {
                                     "ap1Name": "number or geometry",
@@ -4995,27 +4973,6 @@
                                     "ap2Primary": false,
                                     "ap1ID": "ac089561-0f35-4d92-b8fd-1c6c3c65be52",
                                     "ap2ID": "0e68145f-c428-476d-a301-b9601e38cb28"
-                                },
-                                {
-                                    "ap1Name": "result",
-                                    "ap2Name": "X",
-                                    "ap2Primary": false,
-                                    "ap1ID": "f072b514-e811-45d6-b2a1-a809ddc2cd22",
-                                    "ap2ID": "a53af485-a273-481f-9451-4666eef58723"
-                                },
-                                {
-                                    "ap1Name": "result",
-                                    "ap2Name": "x length",
-                                    "ap2Primary": false,
-                                    "ap1ID": "f072b514-e811-45d6-b2a1-a809ddc2cd22",
-                                    "ap2ID": "a04a4f3f-b4ad-4b82-bfa7-2c0f4de1dfbd"
-                                },
-                                {
-                                    "ap1Name": "number",
-                                    "ap2Name": "L",
-                                    "ap2Primary": false,
-                                    "ap1ID": "a50fa266-030b-4611-81fb-4e5094e840bb",
-                                    "ap2ID": "f072b514-e811-45d6-b2a1-a809ddc2cd22"
                                 }
                             ],
                             "fileTypeVersion": 1,
@@ -5024,8 +4981,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.6481481481481481,
-                            "y": 0.2785515320334262,
+                            "x": 0.5892857142857143,
+                            "y": 0.3259052924791086,
                             "uniqueID": "fed1eb24-4fff-47a9-8c91-cb30fb54e63d",
                             "ioValues": [
                                 {
@@ -5034,7 +4991,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": -305
+                                    "ioValue": -263.25
                                 },
                                 {
                                     "name": "yDist",
@@ -5046,21 +5003,6 @@
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
-                        },
-                        {
-                            "atomType": "Equation",
-                            "name": "X/-2",
-                            "x": 0.34457671957671954,
-                            "y": 0.2757660167130919,
-                            "uniqueID": "24ad86a2-ca98-4d15-b9de-35abc31ab8fe",
-                            "ioValues": [
-                                {
-                                    "name": "X",
-                                    "ioValue": 610
-                                }
-                            ],
-                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-                            "currentEquation": "X/-2"
                         },
                         {
                             "atomType": "Equation",
@@ -5076,22 +5018,63 @@
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                             "currentEquation": "Y"
+                        },
+                        {
+                            "atomType": "Equation",
+                            "name": "X-L-(2*T)",
+                            "x": 0.27116402116402116,
+                            "y": 0.3816155988857939,
+                            "uniqueID": "57747c58-cdf5-4a17-a60e-1689980de915",
+                            "ioValues": [
+                                {
+                                    "name": "X",
+                                    "ioValue": 610
+                                },
+                                {
+                                    "name": "L",
+                                    "ioValue": 63.5
+                                },
+                                {
+                                    "name": "T",
+                                    "ioValue": 10
+                                }
+                            ],
+                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                            "currentEquation": "X-L-(2*T)"
+                        },
+                        {
+                            "atomType": "Constant",
+                            "name": "Light Bar Width",
+                            "x": 0.19880952380952382,
+                            "y": 0.1979108635097493,
+                            "uniqueID": "c6b53550-6f0e-47ec-bcae-d9153e79af38",
+                            "ioValues": [],
+                            "description": "Defines a mathematical constant.",
+                            "value": 63.5
+                        },
+                        {
+                            "atomType": "Equation",
+                            "name": "X/-2",
+                            "x": 0.4391534391534392,
+                            "y": 0.22005571030640667,
+                            "uniqueID": "9bbc3221-b37f-454f-be4b-9d71bf9fd1d7",
+                            "ioValues": [
+                                {
+                                    "name": "X",
+                                    "ioValue": 526.5
+                                }
+                            ],
+                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                            "currentEquation": "X/-2"
                         }
                     ],
                     "allConnectors": [
                         {
                             "ap1Name": "number or geometry",
-                            "ap2Name": "Spacing X",
-                            "ap2Primary": false,
-                            "ap1ID": "20be3611-e723-437b-b9e9-351efefc1e7f",
-                            "ap2ID": "796a181c-958b-4683-a1c3-4fce1504635e"
-                        },
-                        {
-                            "ap1Name": "number or geometry",
                             "ap2Name": "X",
                             "ap2Primary": false,
                             "ap1ID": "20be3611-e723-437b-b9e9-351efefc1e7f",
-                            "ap2ID": "24ad86a2-ca98-4d15-b9de-35abc31ab8fe"
+                            "ap2ID": "57747c58-cdf5-4a17-a60e-1689980de915"
                         },
                         {
                             "ap1Name": "number or geometry",
@@ -5115,6 +5098,13 @@
                             "ap2ID": "796a181c-958b-4683-a1c3-4fce1504635e"
                         },
                         {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "T",
+                            "ap2Primary": false,
+                            "ap1ID": "e7a0f04b-672c-4baf-8e3a-88a5d357e037",
+                            "ap2ID": "57747c58-cdf5-4a17-a60e-1689980de915"
+                        },
+                        {
                             "ap1Name": "Geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
@@ -5130,16 +5120,37 @@
                         },
                         {
                             "ap1Name": "result",
-                            "ap2Name": "xDist",
+                            "ap2Name": "yDist",
                             "ap2Primary": false,
-                            "ap1ID": "24ad86a2-ca98-4d15-b9de-35abc31ab8fe",
+                            "ap1ID": "7488de9e-b5b6-4e1f-aec3-59ce7bf9bb51",
                             "ap2ID": "fed1eb24-4fff-47a9-8c91-cb30fb54e63d"
                         },
                         {
                             "ap1Name": "result",
-                            "ap2Name": "yDist",
+                            "ap2Name": "Spacing X",
                             "ap2Primary": false,
-                            "ap1ID": "7488de9e-b5b6-4e1f-aec3-59ce7bf9bb51",
+                            "ap1ID": "57747c58-cdf5-4a17-a60e-1689980de915",
+                            "ap2ID": "796a181c-958b-4683-a1c3-4fce1504635e"
+                        },
+                        {
+                            "ap1Name": "result",
+                            "ap2Name": "X",
+                            "ap2Primary": false,
+                            "ap1ID": "57747c58-cdf5-4a17-a60e-1689980de915",
+                            "ap2ID": "9bbc3221-b37f-454f-be4b-9d71bf9fd1d7"
+                        },
+                        {
+                            "ap1Name": "number",
+                            "ap2Name": "L",
+                            "ap2Primary": false,
+                            "ap1ID": "c6b53550-6f0e-47ec-bcae-d9153e79af38",
+                            "ap2ID": "57747c58-cdf5-4a17-a60e-1689980de915"
+                        },
+                        {
+                            "ap1Name": "result",
+                            "ap2Name": "xDist",
+                            "ap2Primary": false,
+                            "ap1ID": "9bbc3221-b37f-454f-be4b-9d71bf9fd1d7",
                             "ap2ID": "fed1eb24-4fff-47a9-8c91-cb30fb54e63d"
                         }
                     ],
