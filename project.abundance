@@ -2311,8 +2311,8 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.29828042328042326,
-                            "y": 0.7938718662952646,
+                            "x": 0.18849206349206352,
+                            "y": 0.5097493036211699,
                             "uniqueID": "d6ca42e6-e443-4393-9aa5-3c56b7b2a431",
                             "ioValues": [
                                 {
@@ -2343,8 +2343,8 @@
                         {
                             "atomType": "Rotate",
                             "name": "Rotate",
-                            "x": 0.4424603174603175,
-                            "y": 0.6016713091922006,
+                            "x": 0.4854497354497354,
+                            "y": 0.3899721448467966,
                             "uniqueID": "8fd57f62-4bce-44b5-ab65-127401d81df1",
                             "ioValues": [
                                 {
@@ -2369,8 +2369,8 @@
                         {
                             "atomType": "Rotate",
                             "name": "Rotate",
-                            "x": 0.4503968253968254,
-                            "y": 0.8607242339832869,
+                            "x": 0.28439153439153436,
+                            "y": 0.9052924791086352,
                             "uniqueID": "f18c7792-1280-45af-808c-6e466812c274",
                             "ioValues": [
                                 {
@@ -2395,8 +2395,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5734126984126984,
-                            "y": 0.5933147632311978,
+                            "x": 0.6197089947089947,
+                            "y": 0.3231197771587744,
                             "uniqueID": "d91664b1-377d-42fc-8c84-e8b467c7e718",
                             "ioValues": [
                                 {
@@ -2421,8 +2421,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5509259259259259,
-                            "y": 0.8885793871866295,
+                            "x": 0.4338624338624339,
+                            "y": 0.83008356545961,
                             "uniqueID": "f4d43fa0-bce1-4748-88e6-3b3a8d9870eb",
                             "ioValues": [
                                 {
@@ -2431,7 +2431,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 0
+                                    "ioValue": 100
                                 },
                                 {
                                     "name": "yDist",
@@ -2439,10 +2439,80 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 0
+                                    "ioValue": -14
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
+                        },
+                        {
+                            "atomType": "Loft",
+                            "name": "Loft",
+                            "x": 0.742063492063492,
+                            "y": 0.5348189415041783,
+                            "uniqueID": "97fefda0-f1b2-4fb2-942d-d612fc2d1ecd",
+                            "ioValues": [
+                                {
+                                    "name": "Shape 2",
+                                    "ioValue": "d6ca42e6-e443-4393-9aa5-3c56b7b2a431"
+                                },
+                                {
+                                    "name": "Shape 3",
+                                    "ioValue": "d91664b1-377d-42fc-8c84-e8b467c7e718"
+                                },
+                                {
+                                    "name": "Shape 4",
+                                    "ioValue": ""
+                                },
+                                {
+                                    "name": "Shape 2",
+                                    "ioValue": "d6ca42e6-e443-4393-9aa5-3c56b7b2a431"
+                                },
+                                {
+                                    "name": "Shape 3",
+                                    "ioValue": "d91664b1-377d-42fc-8c84-e8b467c7e718"
+                                },
+                                {
+                                    "name": "Shape 4",
+                                    "ioValue": ""
+                                }
+                            ],
+                            "description": "Joins two or more shapes into a single solid by filling in the space between them.",
+                            "closedSelection": 0
+                        },
+                        {
+                            "atomType": "Loft",
+                            "name": "Loft",
+                            "x": 0.7804232804232805,
+                            "y": 0.713091922005571,
+                            "uniqueID": "3fa28603-3f50-49f5-a58e-2954e075574a",
+                            "ioValues": [
+                                {
+                                    "name": "Shape 1",
+                                    "ioValue": "f4d43fa0-bce1-4748-88e6-3b3a8d9870eb"
+                                },
+                                {
+                                    "name": "Shape 2",
+                                    "ioValue": "d91664b1-377d-42fc-8c84-e8b467c7e718"
+                                },
+                                {
+                                    "name": "Shape 3",
+                                    "ioValue": ""
+                                },
+                                {
+                                    "name": "Shape 1",
+                                    "ioValue": "f4d43fa0-bce1-4748-88e6-3b3a8d9870eb"
+                                },
+                                {
+                                    "name": "Shape 2",
+                                    "ioValue": "d91664b1-377d-42fc-8c84-e8b467c7e718"
+                                },
+                                {
+                                    "name": "Shape 3",
+                                    "ioValue": ""
+                                }
+                            ],
+                            "description": "Joins two or more shapes into a single solid by filling in the space between them.",
+                            "closedSelection": 0
                         }
                     ],
                     "allConnectors": [
@@ -2458,14 +2528,21 @@
                             "ap2Name": "geometry",
                             "ap2Primary": true,
                             "ap1ID": "d6ca42e6-e443-4393-9aa5-3c56b7b2a431",
-                            "ap2ID": "f18c7792-1280-45af-808c-6e466812c274"
+                            "ap2ID": "8fd57f62-4bce-44b5-ab65-127401d81df1"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Shape 2",
+                            "ap2Primary": false,
+                            "ap1ID": "d6ca42e6-e443-4393-9aa5-3c56b7b2a431",
+                            "ap2ID": "97fefda0-f1b2-4fb2-942d-d612fc2d1ecd"
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
                             "ap1ID": "d6ca42e6-e443-4393-9aa5-3c56b7b2a431",
-                            "ap2ID": "8fd57f62-4bce-44b5-ab65-127401d81df1"
+                            "ap2ID": "f18c7792-1280-45af-808c-6e466812c274"
                         },
                         {
                             "ap1Name": "geometry",
@@ -2480,6 +2557,27 @@
                             "ap2Primary": true,
                             "ap1ID": "f18c7792-1280-45af-808c-6e466812c274",
                             "ap2ID": "f4d43fa0-bce1-4748-88e6-3b3a8d9870eb"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Shape 3",
+                            "ap2Primary": false,
+                            "ap1ID": "d91664b1-377d-42fc-8c84-e8b467c7e718",
+                            "ap2ID": "97fefda0-f1b2-4fb2-942d-d612fc2d1ecd"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Shape 2",
+                            "ap2Primary": false,
+                            "ap1ID": "d91664b1-377d-42fc-8c84-e8b467c7e718",
+                            "ap2ID": "3fa28603-3f50-49f5-a58e-2954e075574a"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Shape 1",
+                            "ap2Primary": false,
+                            "ap1ID": "f4d43fa0-bce1-4748-88e6-3b3a8d9870eb",
+                            "ap2ID": "3fa28603-3f50-49f5-a58e-2954e075574a"
                         }
                     ],
                     "fileTypeVersion": 1,
