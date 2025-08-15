@@ -4660,8 +4660,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5952380952380952,
-                    "y": 0.3064066852367688,
+                    "x": 0.5912698412698413,
+                    "y": 0.33147632311977715,
                     "uniqueID": "2ffb23e4-8bb3-48ee-80d7-140512c3fd1b",
                     "ioValues": [
                         {
@@ -4866,8 +4866,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Shelves",
-                    "x": 0.30753968253968256,
-                    "y": 0.5097493036211699,
+                    "x": 0.3101851851851852,
+                    "y": 0.5571030640668524,
                     "uniqueID": "809ea344-a0cc-4958-8b33-6a5c667b8a1a",
                     "ioValues": [
                         {
@@ -4892,7 +4892,12 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": "9e1612db-47e3-4da4-b2b5-a4e49f3a5d7b",
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "796a181c-958b-4683-a1c3-4fce1504635e"
+                                }
+                            ],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -4924,11 +4929,286 @@
                             "ioValues": [],
                             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                             "type": "geometry"
+                        },
+                        {
+                            "atomType": "Molecule",
+                            "name": "Shelf",
+                            "x": 0.3353174603174603,
+                            "y": 0.5738161559888579,
+                            "uniqueID": "796a181c-958b-4683-a1c3-4fce1504635e",
+                            "ioValues": [
+                                {
+                                    "name": "Spacing Y",
+                                    "ioValue": 750
+                                },
+                                {
+                                    "name": "Spacing X",
+                                    "ioValue": 610
+                                },
+                                {
+                                    "name": "Wood Thickness",
+                                    "ioValue": 10
+                                }
+                            ],
+                            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                            "topLevel": false,
+                            "allAtoms": [
+                                {
+                                    "atomType": "Output",
+                                    "name": "Output",
+                                    "x": 0.98,
+                                    "y": 0.5,
+                                    "uniqueID": "0e68145f-c428-476d-a301-b9601e38cb28",
+                                    "ioValues": [
+                                        {
+                                            "name": "number or geometry",
+                                            "ioValue": "ac089561-0f35-4d92-b8fd-1c6c3c65be52"
+                                        }
+                                    ],
+                                    "description": "Connect geometry here to make it available in the next level up. "
+                                },
+                                {
+                                    "atomType": "Input",
+                                    "name": "Spacing Y",
+                                    "x": 0.029699999999999997,
+                                    "y": 0.41782729805013924,
+                                    "uniqueID": "de0b262a-432e-4030-a8d4-02849973033c",
+                                    "ioValues": [],
+                                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                                    "type": "geometry"
+                                },
+                                {
+                                    "atomType": "Input",
+                                    "name": "Spacing X",
+                                    "x": 0.029699999999999997,
+                                    "y": 0.6601671309192201,
+                                    "uniqueID": "c007ec4a-dd4a-4f91-8698-b1b4e037b5cb",
+                                    "ioValues": [],
+                                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                                    "type": "geometry"
+                                },
+                                {
+                                    "atomType": "Input",
+                                    "name": "Wood Thickness",
+                                    "x": 0.029699999999999997,
+                                    "y": 0.8802228412256267,
+                                    "uniqueID": "99281739-95fc-4677-be40-8d37992cc27f",
+                                    "ioValues": [],
+                                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                                    "type": "geometry"
+                                },
+                                {
+                                    "atomType": "Rectangle",
+                                    "name": "Rectangle",
+                                    "x": 0.23412698412698413,
+                                    "y": 0.37604456824512533,
+                                    "uniqueID": "a04a4f3f-b4ad-4b82-bfa7-2c0f4de1dfbd",
+                                    "ioValues": [
+                                        {
+                                            "name": "x length",
+                                            "ioValue": 610
+                                        },
+                                        {
+                                            "name": "y length",
+                                            "ioValue": 150
+                                        }
+                                    ],
+                                    "description": "Creates a new rectangle."
+                                },
+                                {
+                                    "atomType": "Rectangle",
+                                    "name": "Rectangle",
+                                    "x": 0.3849206349206349,
+                                    "y": 0.7799442896935932,
+                                    "uniqueID": "af124bd2-c930-457b-9786-01bfaaae4b6e",
+                                    "ioValues": [
+                                        {
+                                            "name": "x length",
+                                            "ioValue": 630
+                                        },
+                                        {
+                                            "name": "y length",
+                                            "ioValue": 100
+                                        }
+                                    ],
+                                    "description": "Creates a new rectangle."
+                                },
+                                {
+                                    "atomType": "Equation",
+                                    "name": "X+2*T",
+                                    "x": 0.22486772486772486,
+                                    "y": 0.8857938718662952,
+                                    "uniqueID": "a53af485-a273-481f-9451-4666eef58723",
+                                    "ioValues": [
+                                        {
+                                            "name": "T",
+                                            "ioValue": 10
+                                        },
+                                        {
+                                            "name": "X",
+                                            "ioValue": 610
+                                        }
+                                    ],
+                                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                                    "currentEquation": "X+2*T"
+                                },
+                                {
+                                    "atomType": "Fusion",
+                                    "name": "Fusion",
+                                    "x": 0.37896825396825395,
+                                    "y": 0.4094707520891365,
+                                    "uniqueID": "42a8cd27-ab6f-4f54-887b-010bc67056c1",
+                                    "ioValues": [
+                                        {
+                                            "name": "Shape 1",
+                                            "ioValue": "af124bd2-c930-457b-9786-01bfaaae4b6e"
+                                        },
+                                        {
+                                            "name": "Shape 2",
+                                            "ioValue": "a04a4f3f-b4ad-4b82-bfa7-2c0f4de1dfbd"
+                                        }
+                                    ],
+                                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
+                                    "unionType": "Fusion"
+                                },
+                                {
+                                    "atomType": "Extrude",
+                                    "name": "Extrude",
+                                    "x": 0.5185185185185185,
+                                    "y": 0.467966573816156,
+                                    "uniqueID": "ac089561-0f35-4d92-b8fd-1c6c3c65be52",
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": "42a8cd27-ab6f-4f54-887b-010bc67056c1"
+                                        },
+                                        {
+                                            "name": "height",
+                                            "ioValue": 10
+                                        }
+                                    ],
+                                    "description": "Extrudes a 2D shape. Input can be negitive. "
+                                }
+                            ],
+                            "allConnectors": [
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "x length",
+                                    "ap2Primary": false,
+                                    "ap1ID": "c007ec4a-dd4a-4f91-8698-b1b4e037b5cb",
+                                    "ap2ID": "a04a4f3f-b4ad-4b82-bfa7-2c0f4de1dfbd"
+                                },
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "X",
+                                    "ap2Primary": false,
+                                    "ap1ID": "c007ec4a-dd4a-4f91-8698-b1b4e037b5cb",
+                                    "ap2ID": "a53af485-a273-481f-9451-4666eef58723"
+                                },
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "T",
+                                    "ap2Primary": false,
+                                    "ap1ID": "99281739-95fc-4677-be40-8d37992cc27f",
+                                    "ap2ID": "a53af485-a273-481f-9451-4666eef58723"
+                                },
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "height",
+                                    "ap2Primary": false,
+                                    "ap1ID": "99281739-95fc-4677-be40-8d37992cc27f",
+                                    "ap2ID": "ac089561-0f35-4d92-b8fd-1c6c3c65be52"
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "Shape 2",
+                                    "ap2Primary": false,
+                                    "ap1ID": "a04a4f3f-b4ad-4b82-bfa7-2c0f4de1dfbd",
+                                    "ap2ID": "42a8cd27-ab6f-4f54-887b-010bc67056c1"
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "Shape 1",
+                                    "ap2Primary": false,
+                                    "ap1ID": "af124bd2-c930-457b-9786-01bfaaae4b6e",
+                                    "ap2ID": "42a8cd27-ab6f-4f54-887b-010bc67056c1"
+                                },
+                                {
+                                    "ap1Name": "result",
+                                    "ap2Name": "x length",
+                                    "ap2Primary": false,
+                                    "ap1ID": "a53af485-a273-481f-9451-4666eef58723",
+                                    "ap2ID": "af124bd2-c930-457b-9786-01bfaaae4b6e"
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": "42a8cd27-ab6f-4f54-887b-010bc67056c1",
+                                    "ap2ID": "ac089561-0f35-4d92-b8fd-1c6c3c65be52"
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "number or geometry",
+                                    "ap2Primary": false,
+                                    "ap1ID": "ac089561-0f35-4d92-b8fd-1c6c3c65be52",
+                                    "ap2ID": "0e68145f-c428-476d-a301-b9601e38cb28"
+                                }
+                            ],
+                            "fileTypeVersion": 1,
+                            "compiledBom": {}
                         }
                     ],
-                    "allConnectors": [],
+                    "allConnectors": [
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "Spacing X",
+                            "ap2Primary": false,
+                            "ap1ID": "20be3611-e723-437b-b9e9-351efefc1e7f",
+                            "ap2ID": "796a181c-958b-4683-a1c3-4fce1504635e"
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "Spacing Y",
+                            "ap2Primary": false,
+                            "ap1ID": "430d1d98-973c-40e5-b862-5b122a7e1f4d",
+                            "ap2ID": "796a181c-958b-4683-a1c3-4fce1504635e"
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "Wood Thickness",
+                            "ap2Primary": false,
+                            "ap1ID": "e7a0f04b-672c-4baf-8e3a-88a5d357e037",
+                            "ap2ID": "796a181c-958b-4683-a1c3-4fce1504635e"
+                        },
+                        {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": "796a181c-958b-4683-a1c3-4fce1504635e",
+                            "ap2ID": "9e1612db-47e3-4da4-b2b5-a4e49f3a5d7b"
+                        }
+                    ],
                     "fileTypeVersion": 1,
                     "compiledBom": {}
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.42724867724867727,
+                    "y": 0.42618384401114207,
+                    "uniqueID": "761a4a3e-d0d6-4171-89ff-f066c60b3584",
+                    "ioValues": [
+                        {
+                            "name": "Shape 1",
+                            "ioValue": "21406961-7868-4db5-9194-ec634638e6b0"
+                        },
+                        {
+                            "name": "Shape 2",
+                            "ioValue": "809ea344-a0cc-4958-8b33-6a5c667b8a1a"
+                        }
+                    ],
+                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
                 }
             ],
             "allConnectors": [
@@ -5073,6 +5353,13 @@
                     "ap2ID": "19051657-1785-4eab-bf5c-d9903e097630"
                 },
                 {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "Shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": "21406961-7868-4db5-9194-ec634638e6b0",
+                    "ap2ID": "761a4a3e-d0d6-4171-89ff-f066c60b3584"
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
@@ -5085,6 +5372,13 @@
                     "ap2Primary": false,
                     "ap1ID": "2ffb23e4-8bb3-48ee-80d7-140512c3fd1b",
                     "ap2ID": "c5ce3557-e978-459e-86ae-080b19825991"
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "Shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": "809ea344-a0cc-4958-8b33-6a5c667b8a1a",
+                    "ap2ID": "761a4a3e-d0d6-4171-89ff-f066c60b3584"
                 }
             ],
             "fileTypeVersion": 1,
