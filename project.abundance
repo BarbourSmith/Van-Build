@@ -676,8 +676,8 @@
         {
             "atomType": "Molecule",
             "name": "Camping mat",
-            "x": 0.1798941798941799,
-            "y": 0.47632311977715874,
+            "x": 0.1765873015873016,
+            "y": 0.4902506963788301,
             "uniqueID": "46e29fa0-88de-4d09-ae8f-4c9649bc7b7e",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -4660,7 +4660,7 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5945767195767195,
+                    "x": 0.5952380952380952,
                     "y": 0.3064066852367688,
                     "uniqueID": "2ffb23e4-8bb3-48ee-80d7-140512c3fd1b",
                     "ioValues": [
@@ -4686,8 +4686,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Layout Test",
-                    "x": 0.3141534391534392,
-                    "y": 0.5348189415041783,
+                    "x": 0.19642857142857142,
+                    "y": 0.6601671309192201,
                     "uniqueID": "19051657-1785-4eab-bf5c-d9903e097630",
                     "ioValues": [
                         {
@@ -4862,6 +4862,73 @@
                     ],
                     "fileTypeVersion": 1,
                     "compiledBom": {}
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Shelves",
+                    "x": 0.30753968253968256,
+                    "y": 0.5097493036211699,
+                    "uniqueID": "809ea344-a0cc-4958-8b33-6a5c667b8a1a",
+                    "ioValues": [
+                        {
+                            "name": "Spacing X",
+                            "ioValue": 610
+                        },
+                        {
+                            "name": "Spacing Y",
+                            "ioValue": 750
+                        },
+                        {
+                            "name": "Wood Thickness",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": "9e1612db-47e3-4da4-b2b5-a4e49f3a5d7b",
+                            "ioValues": [],
+                            "description": "Connect geometry here to make it available in the next level up. "
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Spacing X",
+                            "x": 0.029699999999999997,
+                            "y": 0.520891364902507,
+                            "uniqueID": "20be3611-e723-437b-b9e9-351efefc1e7f",
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                            "type": "geometry"
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Spacing Y",
+                            "x": 0.029699999999999997,
+                            "y": 0.7688022284122563,
+                            "uniqueID": "430d1d98-973c-40e5-b862-5b122a7e1f4d",
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                            "type": "geometry"
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Wood Thickness",
+                            "x": 0.029699999999999997,
+                            "y": 0.3147632311977716,
+                            "uniqueID": "e7a0f04b-672c-4baf-8e3a-88a5d357e037",
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                            "type": "geometry"
+                        }
+                    ],
+                    "allConnectors": [],
+                    "fileTypeVersion": 1,
+                    "compiledBom": {}
                 }
             ],
             "allConnectors": [
@@ -4951,6 +5018,13 @@
                 },
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "Spacing X",
+                    "ap2Primary": false,
+                    "ap1ID": "5d5fc28d-8c7f-4424-a4d5-800578e4772e",
+                    "ap2ID": "809ea344-a0cc-4958-8b33-6a5c667b8a1a"
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "Wood Thickness",
                     "ap2Primary": false,
                     "ap1ID": "dfc088e5-dbab-4983-8e10-e843ede20d3f",
@@ -4958,10 +5032,24 @@
                 },
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "Wood Thickness",
+                    "ap2Primary": false,
+                    "ap1ID": "dfc088e5-dbab-4983-8e10-e843ede20d3f",
+                    "ap2ID": "809ea344-a0cc-4958-8b33-6a5c667b8a1a"
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "Spacing Y",
                     "ap2Primary": false,
                     "ap1ID": "7a8417e7-e1be-40af-b0cc-7ade844074fa",
                     "ap2ID": "21406961-7868-4db5-9194-ec634638e6b0"
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Spacing Y",
+                    "ap2Primary": false,
+                    "ap1ID": "7a8417e7-e1be-40af-b0cc-7ade844074fa",
+                    "ap2ID": "809ea344-a0cc-4958-8b33-6a5c667b8a1a"
                 },
                 {
                     "ap1Name": "number or geometry",
