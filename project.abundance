@@ -4686,8 +4686,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Shelves",
-                    "x": 0.3101851851851852,
-                    "y": 0.5571030640668524,
+                    "x": 0.3141534391534392,
+                    "y": 0.5515320334261838,
                     "uniqueID": "809ea344-a0cc-4958-8b33-6a5c667b8a1a",
                     "ioValues": [
                         {
@@ -4753,8 +4753,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Shelf",
-                            "x": 0.23412698412698413,
-                            "y": 0.8161559888579387,
+                            "x": 0.3187830687830688,
+                            "y": 0.5933147632311978,
                             "uniqueID": "796a181c-958b-4683-a1c3-4fce1504635e",
                             "ioValues": [
                                 {
@@ -4820,13 +4820,13 @@
                                 {
                                     "atomType": "Rectangle",
                                     "name": "Rectangle",
-                                    "x": 0.23412698412698413,
-                                    "y": 0.37604456824512533,
+                                    "x": 0.45568783068783075,
+                                    "y": 0.23676880222841226,
                                     "uniqueID": "a04a4f3f-b4ad-4b82-bfa7-2c0f4de1dfbd",
                                     "ioValues": [
                                         {
                                             "name": "x length",
-                                            "ioValue": 610
+                                            "ioValue": 483
                                         },
                                         {
                                             "name": "y length",
@@ -4838,13 +4838,13 @@
                                 {
                                     "atomType": "Rectangle",
                                     "name": "Rectangle",
-                                    "x": 0.3849206349206349,
-                                    "y": 0.7799442896935932,
+                                    "x": 0.6779100529100529,
+                                    "y": 0.8022284122562675,
                                     "uniqueID": "af124bd2-c930-457b-9786-01bfaaae4b6e",
                                     "ioValues": [
                                         {
                                             "name": "x length",
-                                            "ioValue": 630
+                                            "ioValue": 503
                                         },
                                         {
                                             "name": "y length",
@@ -4856,13 +4856,13 @@
                                 {
                                     "atomType": "Equation",
                                     "name": "X+2*T",
-                                    "x": 0.22486772486772486,
-                                    "y": 0.8857938718662952,
+                                    "x": 0.5178571428571428,
+                                    "y": 0.8272980501392758,
                                     "uniqueID": "a53af485-a273-481f-9451-4666eef58723",
                                     "ioValues": [
                                         {
                                             "name": "X",
-                                            "ioValue": 610
+                                            "ioValue": 483
                                         },
                                         {
                                             "name": "T",
@@ -4875,8 +4875,8 @@
                                 {
                                     "atomType": "Fusion",
                                     "name": "Fusion",
-                                    "x": 0.37896825396825395,
-                                    "y": 0.4094707520891365,
+                                    "x": 0.666005291005291,
+                                    "y": 0.28969359331476324,
                                     "uniqueID": "42a8cd27-ab6f-4f54-887b-010bc67056c1",
                                     "ioValues": [
                                         {
@@ -4894,8 +4894,8 @@
                                 {
                                     "atomType": "Extrude",
                                     "name": "Extrude",
-                                    "x": 0.5185185185185185,
-                                    "y": 0.467966573816156,
+                                    "x": 0.7645502645502645,
+                                    "y": 0.4317548746518106,
                                     "uniqueID": "ac089561-0f35-4d92-b8fd-1c6c3c65be52",
                                     "ioValues": [
                                         {
@@ -4908,22 +4908,44 @@
                                         }
                                     ],
                                     "description": "Extrudes a 2D shape. Input can be negitive. "
+                                },
+                                {
+                                    "atomType": "Equation",
+                                    "name": "X-(2*L)",
+                                    "x": 0.25925925925925924,
+                                    "y": 0.39275766016713093,
+                                    "uniqueID": "f072b514-e811-45d6-b2a1-a809ddc2cd22",
+                                    "ioValues": [
+                                        {
+                                            "name": "X",
+                                            "ioValue": 610
+                                        },
+                                        {
+                                            "name": "L",
+                                            "ioValue": 63.5
+                                        }
+                                    ],
+                                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                                    "currentEquation": "X-(2*L)"
+                                },
+                                {
+                                    "atomType": "Constant",
+                                    "name": "Light Bar Width",
+                                    "x": 0.1488095238095238,
+                                    "y": 0.2479108635097493,
+                                    "uniqueID": "a50fa266-030b-4611-81fb-4e5094e840bb",
+                                    "ioValues": [],
+                                    "description": "Defines a mathematical constant.",
+                                    "value": 63.5
                                 }
                             ],
                             "allConnectors": [
                                 {
                                     "ap1Name": "number or geometry",
-                                    "ap2Name": "x length",
-                                    "ap2Primary": false,
-                                    "ap1ID": "c007ec4a-dd4a-4f91-8698-b1b4e037b5cb",
-                                    "ap2ID": "a04a4f3f-b4ad-4b82-bfa7-2c0f4de1dfbd"
-                                },
-                                {
-                                    "ap1Name": "number or geometry",
                                     "ap2Name": "X",
                                     "ap2Primary": false,
                                     "ap1ID": "c007ec4a-dd4a-4f91-8698-b1b4e037b5cb",
-                                    "ap2ID": "a53af485-a273-481f-9451-4666eef58723"
+                                    "ap2ID": "f072b514-e811-45d6-b2a1-a809ddc2cd22"
                                 },
                                 {
                                     "ap1Name": "number or geometry",
@@ -4973,6 +4995,27 @@
                                     "ap2Primary": false,
                                     "ap1ID": "ac089561-0f35-4d92-b8fd-1c6c3c65be52",
                                     "ap2ID": "0e68145f-c428-476d-a301-b9601e38cb28"
+                                },
+                                {
+                                    "ap1Name": "result",
+                                    "ap2Name": "X",
+                                    "ap2Primary": false,
+                                    "ap1ID": "f072b514-e811-45d6-b2a1-a809ddc2cd22",
+                                    "ap2ID": "a53af485-a273-481f-9451-4666eef58723"
+                                },
+                                {
+                                    "ap1Name": "result",
+                                    "ap2Name": "x length",
+                                    "ap2Primary": false,
+                                    "ap1ID": "f072b514-e811-45d6-b2a1-a809ddc2cd22",
+                                    "ap2ID": "a04a4f3f-b4ad-4b82-bfa7-2c0f4de1dfbd"
+                                },
+                                {
+                                    "ap1Name": "number",
+                                    "ap2Name": "L",
+                                    "ap2Primary": false,
+                                    "ap1ID": "a50fa266-030b-4611-81fb-4e5094e840bb",
+                                    "ap2ID": "f072b514-e811-45d6-b2a1-a809ddc2cd22"
                                 }
                             ],
                             "fileTypeVersion": 1,
@@ -4981,8 +5024,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.3630952380952381,
-                            "y": 0.34261838440111425,
+                            "x": 0.6481481481481481,
+                            "y": 0.2785515320334262,
                             "uniqueID": "fed1eb24-4fff-47a9-8c91-cb30fb54e63d",
                             "ioValues": [
                                 {
@@ -5007,8 +5050,8 @@
                         {
                             "atomType": "Equation",
                             "name": "X/-2",
-                            "x": 0.21494708994708994,
-                            "y": 0.45403899721448465,
+                            "x": 0.34457671957671954,
+                            "y": 0.2757660167130919,
                             "uniqueID": "24ad86a2-ca98-4d15-b9de-35abc31ab8fe",
                             "ioValues": [
                                 {
@@ -5022,8 +5065,8 @@
                         {
                             "atomType": "Equation",
                             "name": "Y",
-                            "x": 0.4001322751322751,
-                            "y": 0.7047353760445683,
+                            "x": 0.4259259259259259,
+                            "y": 0.8133704735376045,
                             "uniqueID": "7488de9e-b5b6-4e1f-aec3-59ce7bf9bb51",
                             "ioValues": [
                                 {
