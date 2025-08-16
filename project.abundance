@@ -3982,8 +3982,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.9093915343915343,
-                    "y": 0.29526462395543174,
+                    "x": 0.8564814814814814,
+                    "y": 0.21727019498607245,
                     "uniqueID": "5fca4e94-3a60-4d4b-8ed8-67d095412176",
                     "ioValues": [
                         {
@@ -4137,8 +4137,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Uprights",
-                            "x": 0.2466931216931217,
-                            "y": 0.30919220055710306,
+                            "x": 0.2447089947089947,
+                            "y": 0.33983286908078,
                             "uniqueID": "32159491-7759-4e76-8ba1-03a160c2aa4d",
                             "ioValues": [
                                 {
@@ -4162,7 +4162,7 @@
                                     "ioValues": [
                                         {
                                             "name": "number or geometry",
-                                            "ioValue": "93d9c3cb-fe8b-4a3c-ace1-4ceeee4d1a6d"
+                                            "ioValue": "a0be5c60-74d8-469e-b4f3-9cd0f1bc39be"
                                         }
                                     ],
                                     "description": "Connect geometry here to make it available in the next level up. "
@@ -4170,8 +4170,8 @@
                                 {
                                     "atomType": "Rotate",
                                     "name": "Rotate",
-                                    "x": 0.8220899470899472,
-                                    "y": 0.34818941504178275,
+                                    "x": 0.7433862433862434,
+                                    "y": 0.5069637883008357,
                                     "uniqueID": "93d9c3cb-fe8b-4a3c-ace1-4ceeee4d1a6d",
                                     "ioValues": [
                                         {
@@ -6222,15 +6222,32 @@
                                         }
                                     ],
                                     "description": "Subtracts shape two from shape one."
+                                },
+                                {
+                                    "atomType": "Tag",
+                                    "name": "Upright",
+                                    "x": 0.876984126984127,
+                                    "y": 0.3008356545961003,
+                                    "uniqueID": "a0be5c60-74d8-469e-b4f3-9cd0f1bc39be",
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": "93d9c3cb-fe8b-4a3c-ace1-4ceeee4d1a6d"
+                                        }
+                                    ],
+                                    "description": "Tags geometry so that it can be extracted later.",
+                                    "tags": [
+                                        "Upright"
+                                    ]
                                 }
                             ],
                             "allConnectors": [
                                 {
                                     "ap1Name": "geometry",
-                                    "ap2Name": "number or geometry",
-                                    "ap2Primary": false,
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
                                     "ap1ID": "93d9c3cb-fe8b-4a3c-ace1-4ceeee4d1a6d",
-                                    "ap2ID": "f72d3621-aaf2-4030-90ef-4cfb9a20b71f"
+                                    "ap2ID": "a0be5c60-74d8-469e-b4f3-9cd0f1bc39be"
                                 },
                                 {
                                     "ap1Name": "Geometry",
@@ -6308,6 +6325,13 @@
                                     "ap2Primary": true,
                                     "ap1ID": "13b7a6c9-e5da-450a-8f81-4ee74b748446",
                                     "ap2ID": "8902513e-6b7f-439a-96f3-ca8ee4ce4a3f"
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "number or geometry",
+                                    "ap2Primary": false,
+                                    "ap1ID": "a0be5c60-74d8-469e-b4f3-9cd0f1bc39be",
+                                    "ap2ID": "f72d3621-aaf2-4030-90ef-4cfb9a20b71f"
                                 }
                             ],
                             "fileTypeVersion": 1,
@@ -7889,6 +7913,69 @@
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Generate Gcode",
+                    "x": 0.9021164021164022,
+                    "y": 0.10863509749303622,
+                    "uniqueID": "fb021c77-302d-4bcd-acb5-1857749fc5cd",
+                    "ioValues": [
+                        {
+                            "name": "input",
+                            "ioValue": "5fca4e94-3a60-4d4b-8ed8-67d095412176"
+                        }
+                    ],
+                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": "9d6dbbf1-a6c1-4347-8c4c-2740fa1b0c7c",
+                            "ioValues": [],
+                            "description": "Connect geometry here to make it available in the next level up. "
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "input",
+                            "x": 0.029699999999999997,
+                            "y": 0.8802228412256267,
+                            "uniqueID": "7eeb8c0d-6695-446d-b566-e02a6fb6b980",
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                            "type": "geometry"
+                        },
+                        {
+                            "atomType": "ExtractTag",
+                            "name": "Extract Tag",
+                            "x": 0.2552910052910053,
+                            "y": 0.4596100278551532,
+                            "uniqueID": "20375cdb-79b3-42e0-8d82-afcc272d1030",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "5fca4e94-3a60-4d4b-8ed8-67d095412176"
+                                }
+                            ],
+                            "description": "Extracts geometry containing the specified tag.",
+                            "tag": "Upright",
+                            "tagIndex": 0
+                        }
+                    ],
+                    "allConnectors": [
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "7eeb8c0d-6695-446d-b566-e02a6fb6b980",
+                            "ap2ID": "20375cdb-79b3-42e0-8d82-afcc272d1030"
+                        }
+                    ],
+                    "fileTypeVersion": 1,
+                    "compiledBom": {}
                 }
             ],
             "allConnectors": [
@@ -7912,6 +7999,13 @@
                     "ap2Primary": false,
                     "ap1ID": "5fca4e94-3a60-4d4b-8ed8-67d095412176",
                     "ap2ID": "1fe74861-92f2-416b-8c94-0319a69cc884"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "input",
+                    "ap2Primary": false,
+                    "ap1ID": "5fca4e94-3a60-4d4b-8ed8-67d095412176",
+                    "ap2ID": "fb021c77-302d-4bcd-acb5-1857749fc5cd"
                 },
                 {
                     "ap1Name": "geometry",
