@@ -7909,7 +7909,12 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": "9d6dbbf1-a6c1-4347-8c4c-2740fa1b0c7c",
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "7aaba4ee-52ab-476c-a18a-e4a6338b1b44"
+                                }
+                            ],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -7995,8 +8000,8 @@
                         {
                             "atomType": "CutLayout",
                             "name": "Cut Layout",
-                            "x": 0.8240740740740741,
-                            "y": 0.23119777158774377,
+                            "x": 0.8227513227513227,
+                            "y": 0.21727019498607245,
                             "uniqueID": "86aab960-13f0-4b29-b51b-e572ef1d2798",
                             "ioValues": [
                                 {
@@ -8005,11 +8010,11 @@
                                 },
                                 {
                                     "name": "Sheet Width",
-                                    "ioValue": 1219
+                                    "ioValue": 2438
                                 },
                                 {
                                     "name": "Sheet Height",
-                                    "ioValue": 2438
+                                    "ioValue": 1219
                                 },
                                 {
                                     "name": "Part Padding",
@@ -8020,39 +8025,51 @@
                             "placements": [
                                 [
                                     {
-                                        "id": 3,
-                                        "rotate": 270,
-                                        "translate": {
-                                            "x": 300.1347995231182,
-                                            "y": 905.2
-                                        }
-                                    },
-                                    {
                                         "id": 0,
-                                        "rotate": 90,
+                                        "rotate": 30,
                                         "translate": {
-                                            "x": 777.9034505231186,
-                                            "y": 905.2
+                                            "x": 932.4472575728123,
+                                            "y": 618.7410513299453
                                         }
-                                    },
+                                    }
+                                ],
+                                [
                                     {
-                                        "id": 1,
-                                        "rotate": 90,
+                                        "id": 3,
+                                        "rotate": 180,
                                         "translate": {
-                                            "x": 299.9500000255452,
-                                            "y": 1082.2312904
+                                            "x": 905.2,
+                                            "y": 299.9500000000003
                                         }
                                     },
                                     {
                                         "id": 2,
-                                        "rotate": 270,
+                                        "rotate": 210,
                                         "translate": {
-                                            "x": 900.0347995243403,
-                                            "y": 1254.4544176
+                                            "x": 1350.63408251481,
+                                            "y": 589.8589487179424
                                         }
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "atomType": "Rectangle",
+                            "name": "Rectangle",
+                            "x": 0.8022486772486772,
+                            "y": 0.6545961002785515,
+                            "uniqueID": "7aaba4ee-52ab-476c-a18a-e4a6338b1b44",
+                            "ioValues": [
+                                {
+                                    "name": "x length",
+                                    "ioValue": 1219
+                                },
+                                {
+                                    "name": "y length",
+                                    "ioValue": 2438
+                                }
+                            ],
+                            "description": "Creates a new rectangle."
                         }
                     ],
                     "allConnectors": [
@@ -8090,6 +8107,13 @@
                             "ap2Primary": false,
                             "ap1ID": "8f85237b-5633-4dbc-bd4e-2a664aef0ab8",
                             "ap2ID": "86aab960-13f0-4b29-b51b-e572ef1d2798"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": "7aaba4ee-52ab-476c-a18a-e4a6338b1b44",
+                            "ap2ID": "9d6dbbf1-a6c1-4347-8c4c-2740fa1b0c7c"
                         }
                     ],
                     "fileTypeVersion": 1,
