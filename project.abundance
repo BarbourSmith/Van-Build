@@ -3915,8 +3915,8 @@
         {
             "atomType": "Molecule",
             "name": "Bed Area",
-            "x": 0.20701058201058203,
-            "y": 0.7688022284122563,
+            "x": 0.19973544973544974,
+            "y": 0.796657381615599,
             "uniqueID": "1728f182-4cac-4b0a-a04f-27aecc35aedf",
             "ioValues": [
                 {
@@ -3925,7 +3925,7 @@
                 },
                 {
                     "name": "Wood Thickness",
-                    "ioValue": 10
+                    "ioValue": 12
                 },
                 {
                     "name": "Spacing Y",
@@ -3948,7 +3948,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": "5fca4e94-3a60-4d4b-8ed8-67d095412176"
+                            "ioValue": "ac65506a-7e6e-47ed-bd32-2b6e0ade12fa"
                         }
                     ],
                     "description": "Connect geometry here to make it available in the next level up. "
@@ -3956,8 +3956,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.8313492063492063,
-                    "y": 0.520891364902507,
+                    "x": 0.8333333333333334,
+                    "y": 0.5571030640668524,
                     "uniqueID": "dd665ecb-03d7-4491-928f-51126b3f3790",
                     "ioValues": [
                         {
@@ -3978,32 +3978,6 @@
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
-                },
-                {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 0.8564814814814814,
-                    "y": 0.21727019498607245,
-                    "uniqueID": "5fca4e94-3a60-4d4b-8ed8-67d095412176",
-                    "ioValues": [
-                        {
-                            "name": "Shape 3",
-                            "ioValue": "dd665ecb-03d7-4491-928f-51126b3f3790"
-                        },
-                        {
-                            "name": "Shape 4",
-                            "ioValue": "307a79f9-291a-4651-b25a-5c42c7189431"
-                        },
-                        {
-                            "name": "Shape 5",
-                            "ioValue": "f1c87178-fcb7-4039-8f11-35d01a418f79"
-                        },
-                        {
-                            "name": "Shape 6",
-                            "ioValue": "daf1046a-10f6-4a73-b645-79057eb5e9d9"
-                        }
-                    ],
-                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
                 },
                 {
                     "atomType": "Move",
@@ -4106,7 +4080,7 @@
                     "ioValues": [
                         {
                             "name": "Wood Thickness",
-                            "ioValue": 10
+                            "ioValue": 12
                         },
                         {
                             "name": "Spacing Y",
@@ -4143,7 +4117,7 @@
                             "ioValues": [
                                 {
                                     "name": "Wood thickness",
-                                    "ioValue": 10
+                                    "ioValue": 12
                                 },
                                 {
                                     "name": "Height",
@@ -4202,7 +4176,7 @@
                                     "ioValues": [
                                         {
                                             "name": "Wood Thickness",
-                                            "ioValue": 10
+                                            "ioValue": 12
                                         },
                                         {
                                             "name": "Height",
@@ -4267,7 +4241,7 @@
                                             "ioValues": [
                                                 {
                                                     "name": "Wood Thickness",
-                                                    "ioValue": 10
+                                                    "ioValue": 12
                                                 },
                                                 {
                                                     "name": "Height",
@@ -4366,7 +4340,7 @@
                                                         },
                                                         {
                                                             "name": "height",
-                                                            "ioValue": 10
+                                                            "ioValue": 12
                                                         }
                                                     ],
                                                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -4936,7 +4910,7 @@
                                                 },
                                                 {
                                                     "name": "height",
-                                                    "ioValue": 10
+                                                    "ioValue": 12
                                                 }
                                             ],
                                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -6402,7 +6376,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 10
+                                    "ioValue": 12
                                 },
                                 {
                                     "name": "yDist",
@@ -6446,7 +6420,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 73.5
+                                    "ioValue": 75.5
                                 },
                                 {
                                     "name": "yDist",
@@ -6504,7 +6478,7 @@
                                 },
                                 {
                                     "name": "Wood Thickness",
-                                    "ioValue": 10
+                                    "ioValue": 12
                                 },
                                 {
                                     "name": "Spacing Y",
@@ -6604,7 +6578,7 @@
                                         },
                                         {
                                             "name": "height",
-                                            "ioValue": 10
+                                            "ioValue": 12
                                         }
                                     ],
                                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -6637,7 +6611,7 @@
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": 41.75
+                                            "ioValue": 43.75
                                         },
                                         {
                                             "name": "yDist",
@@ -6659,7 +6633,7 @@
                                     "ioValues": [
                                         {
                                             "name": "T",
-                                            "ioValue": 10
+                                            "ioValue": 12
                                         },
                                         {
                                             "name": "S",
@@ -6810,7 +6784,7 @@
                                 },
                                 {
                                     "name": "T",
-                                    "ioValue": 10
+                                    "ioValue": 12
                                 }
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -6837,7 +6811,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 1790
+                                    "ioValue": 1788
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -6855,7 +6829,7 @@
                                 },
                                 {
                                     "name": "T",
-                                    "ioValue": 10
+                                    "ioValue": 12
                                 }
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -7085,7 +7059,7 @@
                         },
                         {
                             "name": "Wood Thickness",
-                            "ioValue": 10
+                            "ioValue": 12
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -7148,11 +7122,11 @@
                                 },
                                 {
                                     "name": "Spacing X",
-                                    "ioValue": 526.5
+                                    "ioValue": 522.5
                                 },
                                 {
                                     "name": "Wood Thickness",
-                                    "ioValue": 10
+                                    "ioValue": 12
                                 }
                             ],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -7211,7 +7185,7 @@
                                     "ioValues": [
                                         {
                                             "name": "x length",
-                                            "ioValue": 526.5
+                                            "ioValue": 522.5
                                         },
                                         {
                                             "name": "y length",
@@ -7247,11 +7221,11 @@
                                     "ioValues": [
                                         {
                                             "name": "X",
-                                            "ioValue": 526.5
+                                            "ioValue": 522.5
                                         },
                                         {
                                             "name": "T",
-                                            "ioValue": 10
+                                            "ioValue": 12
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -7289,7 +7263,7 @@
                                         },
                                         {
                                             "name": "height",
-                                            "ioValue": 10
+                                            "ioValue": 12
                                         }
                                     ],
                                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -7376,7 +7350,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": -263.25
+                                    "ioValue": -261.25
                                 },
                                 {
                                     "name": "yDist",
@@ -7421,7 +7395,7 @@
                                 },
                                 {
                                     "name": "T",
-                                    "ioValue": 10
+                                    "ioValue": 12
                                 }
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -7446,7 +7420,7 @@
                             "ioValues": [
                                 {
                                     "name": "X",
-                                    "ioValue": 526.5
+                                    "ioValue": 522.5
                                 }
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -7891,8 +7865,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5992063492063492,
-                    "y": 0.13649025069637882,
+                    "x": 0.5939153439153438,
+                    "y": 0.116991643454039,
                     "uniqueID": "daf1046a-10f6-4a73-b645-79057eb5e9d9",
                     "ioValues": [
                         {
@@ -7923,7 +7897,7 @@
                     "ioValues": [
                         {
                             "name": "input",
-                            "ioValue": "5fca4e94-3a60-4d4b-8ed8-67d095412176"
+                            "ioValue": "ac65506a-7e6e-47ed-bd32-2b6e0ade12fa"
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -7957,12 +7931,128 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "5fca4e94-3a60-4d4b-8ed8-67d095412176"
+                                    "ioValue": "ac65506a-7e6e-47ed-bd32-2b6e0ade12fa"
                                 }
                             ],
                             "description": "Extracts geometry containing the specified tag.",
                             "tag": "Upright",
                             "tagIndex": 0
+                        },
+                        {
+                            "atomType": "Rectangle",
+                            "name": "Rectangle",
+                            "x": 0.4226190476190476,
+                            "y": 0.649025069637883,
+                            "uniqueID": "49daab48-611a-4352-bfdd-4505ce0a200d",
+                            "ioValues": [
+                                {
+                                    "name": "x length",
+                                    "ioValue": 500
+                                },
+                                {
+                                    "name": "y length",
+                                    "ioValue": 2000
+                                }
+                            ],
+                            "description": "Creates a new rectangle."
+                        },
+                        {
+                            "atomType": "Extrude",
+                            "name": "Extrude",
+                            "x": 0.5833333333333334,
+                            "y": 0.7103064066852367,
+                            "uniqueID": "cb9495e8-af74-41c3-a9ec-cc864013019e",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "49daab48-611a-4352-bfdd-4505ce0a200d"
+                                },
+                                {
+                                    "name": "height",
+                                    "ioValue": 5000
+                                }
+                            ],
+                            "description": "Extrudes a 2D shape. Input can be negitive. "
+                        },
+                        {
+                            "atomType": "Intersection",
+                            "name": "Intersection",
+                            "x": 0.6726190476190476,
+                            "y": 0.49303621169916434,
+                            "uniqueID": "8f85237b-5633-4dbc-bd4e-2a664aef0ab8",
+                            "ioValues": [
+                                {
+                                    "name": "geometry1",
+                                    "ioValue": "20375cdb-79b3-42e0-8d82-afcc272d1030"
+                                },
+                                {
+                                    "name": "geometry2",
+                                    "ioValue": "cb9495e8-af74-41c3-a9ec-cc864013019e"
+                                }
+                            ],
+                            "description": "The space shared by two shapes."
+                        },
+                        {
+                            "atomType": "CutLayout",
+                            "name": "Cut Layout",
+                            "x": 0.8240740740740741,
+                            "y": 0.23119777158774377,
+                            "uniqueID": "86aab960-13f0-4b29-b51b-e572ef1d2798",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "8f85237b-5633-4dbc-bd4e-2a664aef0ab8"
+                                },
+                                {
+                                    "name": "Sheet Width",
+                                    "ioValue": 1219
+                                },
+                                {
+                                    "name": "Sheet Height",
+                                    "ioValue": 2438
+                                },
+                                {
+                                    "name": "Part Padding",
+                                    "ioValue": 10
+                                }
+                            ],
+                            "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
+                            "placements": [
+                                [
+                                    {
+                                        "id": 3,
+                                        "rotate": 270,
+                                        "translate": {
+                                            "x": 300.1347995231182,
+                                            "y": 905.2
+                                        }
+                                    },
+                                    {
+                                        "id": 0,
+                                        "rotate": 90,
+                                        "translate": {
+                                            "x": 777.9034505231186,
+                                            "y": 905.2
+                                        }
+                                    },
+                                    {
+                                        "id": 1,
+                                        "rotate": 90,
+                                        "translate": {
+                                            "x": 299.9500000255452,
+                                            "y": 1082.2312904
+                                        }
+                                    },
+                                    {
+                                        "id": 2,
+                                        "rotate": 270,
+                                        "translate": {
+                                            "x": 900.0347995243403,
+                                            "y": 1254.4544176
+                                        }
+                                    }
+                                ]
+                            ]
                         }
                     ],
                     "allConnectors": [
@@ -7972,20 +8062,67 @@
                             "ap2Primary": true,
                             "ap1ID": "7eeb8c0d-6695-446d-b566-e02a6fb6b980",
                             "ap2ID": "20375cdb-79b3-42e0-8d82-afcc272d1030"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry1",
+                            "ap2Primary": false,
+                            "ap1ID": "20375cdb-79b3-42e0-8d82-afcc272d1030",
+                            "ap2ID": "8f85237b-5633-4dbc-bd4e-2a664aef0ab8"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "49daab48-611a-4352-bfdd-4505ce0a200d",
+                            "ap2ID": "cb9495e8-af74-41c3-a9ec-cc864013019e"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry2",
+                            "ap2Primary": false,
+                            "ap1ID": "cb9495e8-af74-41c3-a9ec-cc864013019e",
+                            "ap2ID": "8f85237b-5633-4dbc-bd4e-2a664aef0ab8"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": false,
+                            "ap1ID": "8f85237b-5633-4dbc-bd4e-2a664aef0ab8",
+                            "ap2ID": "86aab960-13f0-4b29-b51b-e572ef1d2798"
                         }
                     ],
                     "fileTypeVersion": 1,
                     "compiledBom": {}
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.8313492063492063,
+                    "y": 0.298050139275766,
+                    "uniqueID": "ac65506a-7e6e-47ed-bd32-2b6e0ade12fa",
+                    "ioValues": [
+                        {
+                            "name": "Shape 1",
+                            "ioValue": "daf1046a-10f6-4a73-b645-79057eb5e9d9"
+                        },
+                        {
+                            "name": "Shape 2",
+                            "ioValue": "f1c87178-fcb7-4039-8f11-35d01a418f79"
+                        },
+                        {
+                            "name": "Shape 3",
+                            "ioValue": "dd665ecb-03d7-4491-928f-51126b3f3790"
+                        },
+                        {
+                            "name": "Shape 4",
+                            "ioValue": "307a79f9-291a-4651-b25a-5c42c7189431"
+                        }
+                    ],
+                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
                 }
             ],
             "allConnectors": [
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape 3",
-                    "ap2Primary": false,
-                    "ap1ID": "dd665ecb-03d7-4491-928f-51126b3f3790",
-                    "ap2ID": "5fca4e94-3a60-4d4b-8ed8-67d095412176"
-                },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
@@ -7995,24 +8132,17 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
+                    "ap2Name": "Shape 3",
                     "ap2Primary": false,
-                    "ap1ID": "5fca4e94-3a60-4d4b-8ed8-67d095412176",
-                    "ap2ID": "1fe74861-92f2-416b-8c94-0319a69cc884"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "input",
-                    "ap2Primary": false,
-                    "ap1ID": "5fca4e94-3a60-4d4b-8ed8-67d095412176",
-                    "ap2ID": "fb021c77-302d-4bcd-acb5-1857749fc5cd"
+                    "ap1ID": "dd665ecb-03d7-4491-928f-51126b3f3790",
+                    "ap2ID": "ac65506a-7e6e-47ed-bd32-2b6e0ade12fa"
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 4",
                     "ap2Primary": false,
                     "ap1ID": "307a79f9-291a-4651-b25a-5c42c7189431",
-                    "ap2ID": "5fca4e94-3a60-4d4b-8ed8-67d095412176"
+                    "ap2ID": "ac65506a-7e6e-47ed-bd32-2b6e0ade12fa"
                 },
                 {
                     "ap1Name": "geometry",
@@ -8023,10 +8153,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Shape 5",
+                    "ap2Name": "Shape 2",
                     "ap2Primary": false,
                     "ap1ID": "f1c87178-fcb7-4039-8f11-35d01a418f79",
-                    "ap2ID": "5fca4e94-3a60-4d4b-8ed8-67d095412176"
+                    "ap2ID": "ac65506a-7e6e-47ed-bd32-2b6e0ade12fa"
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -8128,10 +8258,24 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Shape 6",
+                    "ap2Name": "Shape 1",
                     "ap2Primary": false,
                     "ap1ID": "daf1046a-10f6-4a73-b645-79057eb5e9d9",
-                    "ap2ID": "5fca4e94-3a60-4d4b-8ed8-67d095412176"
+                    "ap2ID": "ac65506a-7e6e-47ed-bd32-2b6e0ade12fa"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "input",
+                    "ap2Primary": false,
+                    "ap1ID": "ac65506a-7e6e-47ed-bd32-2b6e0ade12fa",
+                    "ap2ID": "fb021c77-302d-4bcd-acb5-1857749fc5cd"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": "ac65506a-7e6e-47ed-bd32-2b6e0ade12fa",
+                    "ap2ID": "1fe74861-92f2-416b-8c94-0319a69cc884"
                 }
             ],
             "fileTypeVersion": 1,
