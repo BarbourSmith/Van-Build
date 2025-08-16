@@ -8078,6 +8078,42 @@
                                 }
                             ],
                             "description": "Creates a new rectangle."
+                        },
+                        {
+                            "atomType": "Gcode",
+                            "name": "Gcode",
+                            "x": 0.8637566137566137,
+                            "y": 0.33983286908078,
+                            "uniqueID": "0f8394ea-3959-4bf3-9449-c615340de9df",
+                            "ioValues": [
+                                {
+                                    "name": "Geometry",
+                                    "ioValue": "86aab960-13f0-4b29-b51b-e572ef1d2798"
+                                },
+                                {
+                                    "name": "Tool Size",
+                                    "ioValue": 6.35
+                                },
+                                {
+                                    "name": "Passes",
+                                    "ioValue": 1
+                                },
+                                {
+                                    "name": "Speed",
+                                    "ioValue": 1500
+                                },
+                                {
+                                    "name": "Cut Through",
+                                    "ioValue": 1.5
+                                },
+                                {
+                                    "name": "Part Name",
+                                    "ioValue": "Uprights"
+                                }
+                            ],
+                            "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
+                            "partName": "Uprights",
+                            "sortDirection": "Left"
                         }
                     ],
                     "allConnectors": [
@@ -8115,6 +8151,13 @@
                             "ap2Primary": false,
                             "ap1ID": "8f85237b-5633-4dbc-bd4e-2a664aef0ab8",
                             "ap2ID": "86aab960-13f0-4b29-b51b-e572ef1d2798"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Geometry",
+                            "ap2Primary": false,
+                            "ap1ID": "86aab960-13f0-4b29-b51b-e572ef1d2798",
+                            "ap2ID": "0f8394ea-3959-4bf3-9449-c615340de9df"
                         },
                         {
                             "ap1Name": "geometry",
