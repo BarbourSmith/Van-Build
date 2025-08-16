@@ -3915,8 +3915,8 @@
         {
             "atomType": "Molecule",
             "name": "Bed Area",
-            "x": 0.20568783068783067,
-            "y": 0.8022284122562675,
+            "x": 0.20767195767195767,
+            "y": 0.7910863509749304,
             "uniqueID": "1728f182-4cac-4b0a-a04f-27aecc35aedf",
             "ioValues": [
                 {
@@ -7891,8 +7891,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Generate Gcode",
-                    "x": 0.9021164021164022,
-                    "y": 0.10863509749303622,
+                    "x": 0.8955026455026456,
+                    "y": 0.14206128133704735,
                     "uniqueID": "fb021c77-302d-4bcd-acb5-1857749fc5cd",
                     "ioValues": [
                         {
@@ -7946,8 +7946,8 @@
                         {
                             "atomType": "Rectangle",
                             "name": "Rectangle",
-                            "x": 0.4226190476190476,
-                            "y": 0.649025069637883,
+                            "x": 0.2605820105820106,
+                            "y": 0.766016713091922,
                             "uniqueID": "49daab48-611a-4352-bfdd-4505ce0a200d",
                             "ioValues": [
                                 {
@@ -7964,8 +7964,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.5833333333333334,
-                            "y": 0.7103064066852367,
+                            "x": 0.3988095238095238,
+                            "y": 0.7325905292479109,
                             "uniqueID": "cb9495e8-af74-41c3-a9ec-cc864013019e",
                             "ioValues": [
                                 {
@@ -7982,8 +7982,8 @@
                         {
                             "atomType": "Intersection",
                             "name": "Intersection",
-                            "x": 0.6726190476190476,
-                            "y": 0.49303621169916434,
+                            "x": 0.6785714285714286,
+                            "y": 0.4818941504178273,
                             "uniqueID": "8f85237b-5633-4dbc-bd4e-2a664aef0ab8",
                             "ioValues": [
                                 {
@@ -7992,7 +7992,7 @@
                                 },
                                 {
                                     "name": "geometry2",
-                                    "ioValue": "cb9495e8-af74-41c3-a9ec-cc864013019e"
+                                    "ioValue": "169f9d09-27bf-4b2c-9fbd-9d3251677804"
                                 }
                             ],
                             "description": "The space shared by two shapes."
@@ -8000,8 +8000,8 @@
                         {
                             "atomType": "CutLayout",
                             "name": "Cut Layout",
-                            "x": 0.7890211640211641,
-                            "y": 0.25069637883008355,
+                            "x": 0.7850529100529101,
+                            "y": 0.2590529247910863,
                             "uniqueID": "86aab960-13f0-4b29-b51b-e572ef1d2798",
                             "ioValues": [
                                 {
@@ -8114,6 +8114,32 @@
                             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
                             "partName": "Uprights",
                             "sortDirection": "Left"
+                        },
+                        {
+                            "atomType": "Move",
+                            "name": "Move",
+                            "x": 0.6038359788359788,
+                            "y": 0.7075208913649026,
+                            "uniqueID": "169f9d09-27bf-4b2c-9fbd-9d3251677804",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "cb9495e8-af74-41c3-a9ec-cc864013019e"
+                                },
+                                {
+                                    "name": "xDist",
+                                    "ioValue": -500
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 0
+                                }
+                            ],
+                            "description": "Moves a shape laterally in X, Y, Z."
                         }
                     ],
                     "allConnectors": [
@@ -8140,10 +8166,10 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "geometry2",
-                            "ap2Primary": false,
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
                             "ap1ID": "cb9495e8-af74-41c3-a9ec-cc864013019e",
-                            "ap2ID": "8f85237b-5633-4dbc-bd4e-2a664aef0ab8"
+                            "ap2ID": "169f9d09-27bf-4b2c-9fbd-9d3251677804"
                         },
                         {
                             "ap1Name": "geometry",
@@ -8165,6 +8191,13 @@
                             "ap2Primary": false,
                             "ap1ID": "7aaba4ee-52ab-476c-a18a-e4a6338b1b44",
                             "ap2ID": "9d6dbbf1-a6c1-4347-8c4c-2740fa1b0c7c"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry2",
+                            "ap2Primary": false,
+                            "ap1ID": "169f9d09-27bf-4b2c-9fbd-9d3251677804",
+                            "ap2ID": "8f85237b-5633-4dbc-bd4e-2a664aef0ab8"
                         }
                     ],
                     "fileTypeVersion": 1,
