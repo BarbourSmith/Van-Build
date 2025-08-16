@@ -8100,7 +8100,7 @@
                                 },
                                 {
                                     "name": "Speed",
-                                    "ioValue": 1500
+                                    "ioValue": 2000
                                 },
                                 {
                                     "name": "Cut Through",
@@ -8108,11 +8108,11 @@
                                 },
                                 {
                                     "name": "Part Name",
-                                    "ioValue": "Uprights"
+                                    "ioValue": "Uprights All Shelves Test"
                                 }
                             ],
                             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
-                            "partName": "Uprights",
+                            "partName": "Uprights All Shelves Test",
                             "sortDirection": "Left"
                         },
                         {
