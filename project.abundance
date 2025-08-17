@@ -1030,7 +1030,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 10
+                                    "ioValue": 4.6
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -1257,7 +1257,7 @@
                                 },
                                 {
                                     "name": "Speed",
-                                    "ioValue": 1900
+                                    "ioValue": 2000
                                 },
                                 {
                                     "name": "Cut Through",
