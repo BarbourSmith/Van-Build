@@ -14,7 +14,12 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "371a8651-310f-4774-99be-be1addabb3dd",
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "3a6ea54a-5bf4-4b19-9007-b4fcc56b209c"
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -1234,8 +1239,8 @@
                         {
                             "atomType": "Gcode",
                             "name": "Gcode",
-                            "x": 0.6580687830687831,
-                            "y": 0.4958217270194986,
+                            "x": 0.6474867724867724,
+                            "y": 0.5125348189415042,
                             "uniqueID": "2b3b71f7-7a8a-46bb-a057-27dadd28dc30",
                             "ioValues": [
                                 {
@@ -8932,7 +8937,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "f0cbd12b-e814-4ddd-80c8-089965b72205",
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "b18ae6ce-a3bb-4e15-aee8-5f5def6c4d9c"
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -10956,8 +10966,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.6904761904761905,
-            "y": 0.7019498607242339,
+            "x": 0.6362433862433862,
+            "y": 0.7381615598885795,
             "uniqueID": "dc090019-9600-4a0d-a032-5534219049bb",
             "ioValues": [
                 {
