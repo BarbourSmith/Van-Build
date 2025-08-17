@@ -14,12 +14,7 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "371a8651-310f-4774-99be-be1addabb3dd",
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": "3a6ea54a-5bf4-4b19-9007-b4fcc56b209c"
-                }
-            ],
+            "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -1020,8 +1015,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.5559265442404007,
-                            "y": 0.5598885793871866,
+                            "x": 0.4599332220367279,
+                            "y": 0.2785515320334262,
                             "uniqueID": "efa44086-499b-4949-9a58-2c463d81768c",
                             "ioValues": [
                                 {
@@ -1159,28 +1154,10 @@
                             "compiledBom": {}
                         },
                         {
-                            "atomType": "Rectangle",
-                            "name": "Rectangle",
-                            "x": 0.4582637729549249,
-                            "y": 0.8022284122562675,
-                            "uniqueID": "9bddf621-e2ab-49d9-9a28-21ef4e82f735",
-                            "ioValues": [
-                                {
-                                    "name": "x length",
-                                    "ioValue": 762
-                                },
-                                {
-                                    "name": "y length",
-                                    "ioValue": 10
-                                }
-                            ],
-                            "description": "Creates a new rectangle."
-                        },
-                        {
                             "atomType": "Rotate",
                             "name": "Rotate",
-                            "x": 0.6727879799666111,
-                            "y": 0.532033426183844,
+                            "x": 0.6769616026711186,
+                            "y": 0.14763231197771587,
                             "uniqueID": "a19a6742-3694-4602-befb-427de582d3e4",
                             "ioValues": [
                                 {
@@ -1205,8 +1182,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.8263772954924875,
-                            "y": 0.44011142061281333,
+                            "x": 0.8213689482470784,
+                            "y": 0.14484679665738162,
                             "uniqueID": "0d19ce4a-6644-4ead-886c-7754c1f9df7b",
                             "ioValues": [
                                 {
@@ -1227,6 +1204,32 @@
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
+                        },
+                        {
+                            "atomType": "Rotate",
+                            "name": "Rotate",
+                            "x": 0.5233722871452421,
+                            "y": 0.596100278551532,
+                            "uniqueID": "83a9ece6-b1d3-45be-9f15-07ed058f025a",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "efa44086-499b-4949-9a58-2c463d81768c"
+                                },
+                                {
+                                    "name": "x-axis degrees",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "y-axis degrees",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "z-axis degrees",
+                                    "ioValue": 90
+                                }
+                            ],
+                            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                         }
                     ],
                     "allConnectors": [
@@ -1243,6 +1246,13 @@
                             "ap2Primary": true,
                             "ap1ID": "efa44086-499b-4949-9a58-2c463d81768c",
                             "ap2ID": "a19a6742-3694-4602-befb-427de582d3e4"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "efa44086-499b-4949-9a58-2c463d81768c",
+                            "ap2ID": "83a9ece6-b1d3-45be-9f15-07ed058f025a"
                         },
                         {
                             "ap1Name": "Geometry",
@@ -8842,12 +8852,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "f0cbd12b-e814-4ddd-80c8-089965b72205",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "b18ae6ce-a3bb-4e15-aee8-5f5def6c4d9c"
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
