@@ -4074,8 +4074,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "One Pair",
-                    "x": 0.20171957671957674,
-                    "y": 0.2562674094707521,
+                    "x": 0.20238095238095238,
+                    "y": 0.28969359331476324,
                     "uniqueID": "21406961-7868-4db5-9194-ec634638e6b0",
                     "ioValues": [
                         {
@@ -6497,7 +6497,7 @@
                                     "ioValues": [
                                         {
                                             "name": "number or geometry",
-                                            "ioValue": "356455f9-80ba-43d1-8072-24636aa2d9e4"
+                                            "ioValue": "6274b729-e184-4859-9107-c94211f4bf12"
                                         }
                                     ],
                                     "description": "Connect geometry here to make it available in the next level up. "
@@ -6642,6 +6642,23 @@
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                                     "currentEquation": "T+(S/2)"
+                                },
+                                {
+                                    "atomType": "Tag",
+                                    "name": "Light Bar",
+                                    "x": 0.8167989417989419,
+                                    "y": 0.6016713091922006,
+                                    "uniqueID": "6274b729-e184-4859-9107-c94211f4bf12",
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": "356455f9-80ba-43d1-8072-24636aa2d9e4"
+                                        }
+                                    ],
+                                    "description": "Tags geometry so that it can be extracted later.",
+                                    "tags": [
+                                        "Light Bar"
+                                    ]
                                 }
                             ],
                             "allConnectors": [
@@ -6710,10 +6727,10 @@
                                 },
                                 {
                                     "ap1Name": "geometry",
-                                    "ap2Name": "number or geometry",
-                                    "ap2Primary": false,
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
                                     "ap1ID": "356455f9-80ba-43d1-8072-24636aa2d9e4",
-                                    "ap2ID": "211a9ab6-cc9c-40c6-b58a-270b4990d55c"
+                                    "ap2ID": "6274b729-e184-4859-9107-c94211f4bf12"
                                 },
                                 {
                                     "ap1Name": "result",
@@ -6721,6 +6738,13 @@
                                     "ap2Primary": false,
                                     "ap1ID": "2207ee14-f43b-470e-a8ac-905967eddce6",
                                     "ap2ID": "356455f9-80ba-43d1-8072-24636aa2d9e4"
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "number or geometry",
+                                    "ap2Primary": false,
+                                    "ap1ID": "6274b729-e184-4859-9107-c94211f4bf12",
+                                    "ap2ID": "211a9ab6-cc9c-40c6-b58a-270b4990d55c"
                                 }
                             ],
                             "fileTypeVersion": 1,
@@ -7045,7 +7069,7 @@
                 {
                     "atomType": "Molecule",
                     "name": "Shelves",
-                    "x": 0.3055555555555555,
+                    "x": 0.3048941798941799,
                     "y": 0.5403899721448467,
                     "uniqueID": "809ea344-a0cc-4958-8b33-6a5c667b8a1a",
                     "ioValues": [
@@ -7074,7 +7098,7 @@
                             "ioValues": [
                                 {
                                     "name": "number or geometry",
-                                    "ioValue": "a67f0833-3cd8-4fee-8751-930177c2fd27"
+                                    "ioValue": "2b57573b-1163-4835-bb0b-1c87dc407206"
                                 }
                             ],
                             "description": "Connect geometry here to make it available in the next level up. "
@@ -7711,6 +7735,23 @@
                                 }
                             ],
                             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+                        },
+                        {
+                            "atomType": "Tag",
+                            "name": "Shelves",
+                            "x": 0.8683862433862434,
+                            "y": 0.8412256267409471,
+                            "uniqueID": "2b57573b-1163-4835-bb0b-1c87dc407206",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "a67f0833-3cd8-4fee-8751-930177c2fd27"
+                                }
+                            ],
+                            "description": "Tags geometry so that it can be extracted later.",
+                            "tags": [
+                                "Shelves"
+                            ]
                         }
                     ],
                     "allConnectors": [
@@ -7835,9 +7876,16 @@
                         },
                         {
                             "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "a67f0833-3cd8-4fee-8751-930177c2fd27",
+                            "ap2ID": "2b57573b-1163-4835-bb0b-1c87dc407206"
+                        },
+                        {
+                            "ap1Name": "geometry",
                             "ap2Name": "number or geometry",
                             "ap2Primary": false,
-                            "ap1ID": "a67f0833-3cd8-4fee-8751-930177c2fd27",
+                            "ap1ID": "2b57573b-1163-4835-bb0b-1c87dc407206",
                             "ap2ID": "9e1612db-47e3-4da4-b2b5-a4e49f3a5d7b"
                         }
                     ],
@@ -7930,8 +7978,8 @@
                         {
                             "atomType": "ExtractTag",
                             "name": "Extract Tag",
-                            "x": 0.2552910052910053,
-                            "y": 0.4596100278551532,
+                            "x": 0.14484126984126983,
+                            "y": 0.17270194986072424,
                             "uniqueID": "20375cdb-79b3-42e0-8d82-afcc272d1030",
                             "ioValues": [
                                 {
@@ -7946,8 +7994,8 @@
                         {
                             "atomType": "Rectangle",
                             "name": "Rectangle",
-                            "x": 0.2605820105820106,
-                            "y": 0.766016713091922,
+                            "x": 0.2374338624338624,
+                            "y": 0.37604456824512533,
                             "uniqueID": "49daab48-611a-4352-bfdd-4505ce0a200d",
                             "ioValues": [
                                 {
@@ -7964,8 +8012,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.3988095238095238,
-                            "y": 0.7325905292479109,
+                            "x": 0.36507936507936506,
+                            "y": 0.5487465181058496,
                             "uniqueID": "cb9495e8-af74-41c3-a9ec-cc864013019e",
                             "ioValues": [
                                 {
@@ -7982,8 +8030,8 @@
                         {
                             "atomType": "Intersection",
                             "name": "Intersection",
-                            "x": 0.6785714285714286,
-                            "y": 0.4818941504178273,
+                            "x": 0.3419312169312169,
+                            "y": 0.1392757660167131,
                             "uniqueID": "8f85237b-5633-4dbc-bd4e-2a664aef0ab8",
                             "ioValues": [
                                 {
@@ -8000,8 +8048,8 @@
                         {
                             "atomType": "CutLayout",
                             "name": "Cut Layout",
-                            "x": 0.7850529100529101,
-                            "y": 0.2590529247910863,
+                            "x": 0.47685185185185186,
+                            "y": 0.12256267409470753,
                             "uniqueID": "86aab960-13f0-4b29-b51b-e572ef1d2798",
                             "ioValues": [
                                 {
@@ -8082,8 +8130,8 @@
                         {
                             "atomType": "Gcode",
                             "name": "Gcode",
-                            "x": 0.8637566137566137,
-                            "y": 0.33983286908078,
+                            "x": 0.6216931216931216,
+                            "y": 0.15877437325905294,
                             "uniqueID": "0f8394ea-3959-4bf3-9449-c615340de9df",
                             "ioValues": [
                                 {
@@ -8118,8 +8166,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.6038359788359788,
-                            "y": 0.7075208913649026,
+                            "x": 0.32936507936507936,
+                            "y": 0.35097493036211697,
                             "uniqueID": "169f9d09-27bf-4b2c-9fbd-9d3251677804",
                             "ioValues": [
                                 {
@@ -8140,6 +8188,312 @@
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
+                        },
+                        {
+                            "atomType": "ExtractTag",
+                            "name": "Extract Tag",
+                            "x": 0.1765873015873016,
+                            "y": 0.7242339832869081,
+                            "uniqueID": "2fcf2003-6f33-4823-ba01-f9b5f119fd4d",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "ac65506a-7e6e-47ed-bd32-2b6e0ade12fa"
+                                }
+                            ],
+                            "description": "Extracts geometry containing the specified tag.",
+                            "tag": "Shelves",
+                            "tagIndex": 0
+                        },
+                        {
+                            "atomType": "ExtractTag",
+                            "name": "Extract Tag",
+                            "x": 0.23544973544973544,
+                            "y": 0.8662952646239555,
+                            "uniqueID": "13dfe0aa-9859-4478-8b81-0ba407ee5628",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "ac65506a-7e6e-47ed-bd32-2b6e0ade12fa"
+                                }
+                            ],
+                            "description": "Extracts geometry containing the specified tag.",
+                            "tag": "Light Bar",
+                            "tagIndex": 0
+                        },
+                        {
+                            "atomType": "Assembly",
+                            "name": "Assembly",
+                            "x": 0.36904761904761907,
+                            "y": 0.8050139275766017,
+                            "uniqueID": "f0e8180f-d5ab-42a7-b245-5e78861f5b2a",
+                            "ioValues": [
+                                {
+                                    "name": "Shape 1",
+                                    "ioValue": "13dfe0aa-9859-4478-8b81-0ba407ee5628"
+                                },
+                                {
+                                    "name": "Shape 2",
+                                    "ioValue": "2fcf2003-6f33-4823-ba01-f9b5f119fd4d"
+                                }
+                            ],
+                            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+                        },
+                        {
+                            "atomType": "CutLayout",
+                            "name": "Cut Layout",
+                            "x": 0.498015873015873,
+                            "y": 0.7910863509749304,
+                            "uniqueID": "050bdbf2-0690-4bc7-9d36-a891fad1d782",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "f0e8180f-d5ab-42a7-b245-5e78861f5b2a"
+                                },
+                                {
+                                    "name": "Sheet Width",
+                                    "ioValue": 2438
+                                },
+                                {
+                                    "name": "Sheet Height",
+                                    "ioValue": 1219
+                                },
+                                {
+                                    "name": "Part Padding",
+                                    "ioValue": 10
+                                }
+                            ],
+                            "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
+                            "placements": [
+                                [
+                                    {
+                                        "id": 4,
+                                        "rotate": 0,
+                                        "translate": {
+                                            "x": -900,
+                                            "y": 0
+                                        }
+                                    },
+                                    {
+                                        "id": 6,
+                                        "rotate": 240,
+                                        "translate": {
+                                            "x": 361.5571913990834,
+                                            "y": 269.3294199345949
+                                        }
+                                    },
+                                    {
+                                        "id": 8,
+                                        "rotate": 270,
+                                        "translate": {
+                                            "x": 642.9143827981669,
+                                            "y": 278.45
+                                        }
+                                    },
+                                    {
+                                        "id": 5,
+                                        "rotate": 330,
+                                        "translate": {
+                                            "x": 332.59874716540503,
+                                            "y": 700.1819302161387
+                                        }
+                                    },
+                                    {
+                                        "id": 7,
+                                        "rotate": 60,
+                                        "translate": {
+                                            "x": 635.7850462792965,
+                                            "y": 939.270580065405
+                                        }
+                                    },
+                                    {
+                                        "id": 10,
+                                        "rotate": 90,
+                                        "translate": {
+                                            "x": 803.314382798167,
+                                            "y": 666.7255190000001
+                                        }
+                                    },
+                                    {
+                                        "id": 12,
+                                        "rotate": 30,
+                                        "translate": {
+                                            "x": 992.4438027571018,
+                                            "y": 372.31762831613867
+                                        }
+                                    },
+                                    {
+                                        "id": 11,
+                                        "rotate": 60,
+                                        "translate": {
+                                            "x": 1084.6715741972503,
+                                            "y": 939.270580065405
+                                        }
+                                    },
+                                    {
+                                        "id": 14,
+                                        "rotate": 60,
+                                        "translate": {
+                                            "x": 1198.9679351838613,
+                                            "y": 816.437689365405
+                                        }
+                                    },
+                                    {
+                                        "id": 9,
+                                        "rotate": 300,
+                                        "translate": {
+                                            "x": 1376.3670263161387,
+                                            "y": 424.643091458935
+                                        }
+                                    },
+                                    {
+                                        "id": 15,
+                                        "rotate": 300,
+                                        "translate": {
+                                            "x": 1468.9740086161387,
+                                            "y": 585.0430871589349
+                                        }
+                                    },
+                                    {
+                                        "id": 13,
+                                        "rotate": 240,
+                                        "translate": {
+                                            "x": 1668.0624783070205,
+                                            "y": 939.2705800345949
+                                        }
+                                    },
+                                    {
+                                        "id": 19,
+                                        "rotate": 60,
+                                        "translate": {
+                                            "x": 1690.2984464313608,
+                                            "y": 269.32941996540507
+                                        }
+                                    },
+                                    {
+                                        "id": 16,
+                                        "rotate": 210,
+                                        "translate": {
+                                            "x": 1016.785226458935,
+                                            "y": 201.15719138386132
+                                        }
+                                    },
+                                    {
+                                        "id": 21,
+                                        "rotate": 120,
+                                        "translate": {
+                                            "x": 1889.3869160838615,
+                                            "y": 623.556912941065
+                                        }
+                                    },
+                                    {
+                                        "id": 20,
+                                        "rotate": 270,
+                                        "translate": {
+                                            "x": 2037.2586153061038,
+                                            "y": 930.1500000000001
+                                        }
+                                    },
+                                    {
+                                        "id": 23,
+                                        "rotate": 90,
+                                        "translate": {
+                                            "x": 2170.744107482945,
+                                            "y": 389.42767110000005
+                                        }
+                                    },
+                                    {
+                                        "id": 18,
+                                        "rotate": 0,
+                                        "translate": {
+                                            "x": 278.45,
+                                            "y": 1128.40000002434
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "id": 17,
+                                        "rotate": 240,
+                                        "translate": {
+                                            "x": 201.15719139908336,
+                                            "y": 269.329419958935
+                                        }
+                                    },
+                                    {
+                                        "id": 22,
+                                        "rotate": 150,
+                                        "translate": {
+                                            "x": 269.3294199345949,
+                                            "y": 644.1035090838614
+                                        }
+                                    },
+                                    {
+                                        "id": 24,
+                                        "rotate": 300,
+                                        "translate": {
+                                            "x": 320.7994297333478,
+                                            "y": 939.270580058935
+                                        }
+                                    },
+                                    {
+                                        "id": 26,
+                                        "rotate": 300,
+                                        "translate": {
+                                            "x": 506.01339438283435,
+                                            "y": 939.270580058935
+                                        }
+                                    },
+                                    {
+                                        "id": 25,
+                                        "rotate": 240,
+                                        "translate": {
+                                            "x": 474.304425427163,
+                                            "y": 281.8306458179894
+                                        }
+                                    },
+                                    {
+                                        "id": 27,
+                                        "rotate": 60,
+                                        "translate": {
+                                            "x": 652.3008039253298,
+                                            "y": 269.32941996540507
+                                        }
+                                    },
+                                    {
+                                        "id": 3,
+                                        "rotate": 210,
+                                        "translate": {
+                                            "x": 785.6763614152458,
+                                            "y": 689.1801144634544
+                                        }
+                                    },
+                                    {
+                                        "id": 0,
+                                        "rotate": 30,
+                                        "translate": {
+                                            "x": 871.0087304819017,
+                                            "y": 689.1801144365458
+                                        }
+                                    },
+                                    {
+                                        "id": 2,
+                                        "rotate": 30,
+                                        "translate": {
+                                            "x": 956.3410995485578,
+                                            "y": 689.1801144365458
+                                        }
+                                    },
+                                    {
+                                        "id": 1,
+                                        "rotate": 210,
+                                        "translate": {
+                                            "x": 1041.673468515214,
+                                            "y": 689.1801144634544
+                                        }
+                                    }
+                                ]
+                            ]
                         }
                     ],
                     "allConnectors": [
@@ -8149,6 +8503,20 @@
                             "ap2Primary": true,
                             "ap1ID": "7eeb8c0d-6695-446d-b566-e02a6fb6b980",
                             "ap2ID": "20375cdb-79b3-42e0-8d82-afcc272d1030"
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "7eeb8c0d-6695-446d-b566-e02a6fb6b980",
+                            "ap2ID": "2fcf2003-6f33-4823-ba01-f9b5f119fd4d"
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "7eeb8c0d-6695-446d-b566-e02a6fb6b980",
+                            "ap2ID": "13dfe0aa-9859-4478-8b81-0ba407ee5628"
                         },
                         {
                             "ap1Name": "geometry",
@@ -8198,6 +8566,27 @@
                             "ap2Primary": false,
                             "ap1ID": "169f9d09-27bf-4b2c-9fbd-9d3251677804",
                             "ap2ID": "8f85237b-5633-4dbc-bd4e-2a664aef0ab8"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Shape 2",
+                            "ap2Primary": false,
+                            "ap1ID": "2fcf2003-6f33-4823-ba01-f9b5f119fd4d",
+                            "ap2ID": "f0e8180f-d5ab-42a7-b245-5e78861f5b2a"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Shape 1",
+                            "ap2Primary": false,
+                            "ap1ID": "13dfe0aa-9859-4478-8b81-0ba407ee5628",
+                            "ap2ID": "f0e8180f-d5ab-42a7-b245-5e78861f5b2a"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": false,
+                            "ap1ID": "f0e8180f-d5ab-42a7-b245-5e78861f5b2a",
+                            "ap2ID": "050bdbf2-0690-4bc7-9d36-a891fad1d782"
                         }
                     ],
                     "fileTypeVersion": 1,
@@ -8206,7 +8595,7 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.8313492063492063,
+                    "x": 0.8273809523809523,
                     "y": 0.298050139275766,
                     "uniqueID": "ac65506a-7e6e-47ed-bd32-2b6e0ade12fa",
                     "ioValues": [
