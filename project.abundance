@@ -8242,8 +8242,8 @@
                         {
                             "atomType": "CutLayout",
                             "name": "Cut Layout",
-                            "x": 0.5092592592592593,
-                            "y": 0.7576601671309192,
+                            "x": 0.5052910052910053,
+                            "y": 0.8133704735376045,
                             "uniqueID": "050bdbf2-0690-4bc7-9d36-a891fad1d782",
                             "ioValues": [
                                 {
@@ -8425,7 +8425,7 @@
                                         "rotate": 0,
                                         "translate": {
                                             "x": 850.33,
-                                            "y": -1430
+                                            "y": -1419
                                         }
                                     },
                                     {
@@ -8433,7 +8433,7 @@
                                         "rotate": 0,
                                         "translate": {
                                             "x": -900,
-                                            "y": -1600
+                                            "y": -1583
                                         }
                                     },
                                     {
@@ -8441,7 +8441,7 @@
                                         "rotate": 0,
                                         "translate": {
                                             "x": -300,
-                                            "y": -1600
+                                            "y": -1583
                                         }
                                     },
                                     {
@@ -8449,7 +8449,7 @@
                                         "rotate": 0,
                                         "translate": {
                                             "x": 270,
-                                            "y": -1600
+                                            "y": -1583
                                         }
                                     },
                                     {
@@ -8457,7 +8457,7 @@
                                         "rotate": 0,
                                         "translate": {
                                             "x": 850,
-                                            "y": -1600
+                                            "y": -1583
                                         }
                                     },
                                     {
@@ -8750,6 +8750,42 @@
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "atomType": "Gcode",
+                            "name": "Gcode",
+                            "x": 0.6322751322751322,
+                            "y": 0.5988857938718662,
+                            "uniqueID": "20574a85-955b-4d94-abbe-b3d0970227de",
+                            "ioValues": [
+                                {
+                                    "name": "Geometry",
+                                    "ioValue": "050bdbf2-0690-4bc7-9d36-a891fad1d782"
+                                },
+                                {
+                                    "name": "Tool Size",
+                                    "ioValue": 6.35
+                                },
+                                {
+                                    "name": "Passes",
+                                    "ioValue": 1
+                                },
+                                {
+                                    "name": "Speed",
+                                    "ioValue": 1900
+                                },
+                                {
+                                    "name": "Cut Through",
+                                    "ioValue": 1.5
+                                },
+                                {
+                                    "name": "Part Name",
+                                    "ioValue": "Generate Gcode"
+                                }
+                            ],
+                            "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
+                            "partName": "Generate Gcode",
+                            "sortDirection": "Top"
                         }
                     ],
                     "allConnectors": [
@@ -8850,6 +8886,13 @@
                             "ap2Primary": false,
                             "ap1ID": "f0e8180f-d5ab-42a7-b245-5e78861f5b2a",
                             "ap2ID": "c5eb3c0e-5149-4a67-9407-4b6716ed2d42"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Geometry",
+                            "ap2Primary": false,
+                            "ap1ID": "050bdbf2-0690-4bc7-9d36-a891fad1d782",
+                            "ap2ID": "20574a85-955b-4d94-abbe-b3d0970227de"
                         }
                     ],
                     "fileTypeVersion": 1,
