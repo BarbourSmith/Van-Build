@@ -1261,15 +1261,15 @@
                                 },
                                 {
                                     "name": "Cut Through",
-                                    "ioValue": 1.5
+                                    "ioValue": 2.5
                                 },
                                 {
                                     "name": "Part Name",
-                                    "ioValue": "Shower Panel"
+                                    "ioValue": "Shower Panel 6mm"
                                 }
                             ],
                             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
-                            "partName": "Shower Panel",
+                            "partName": "Shower Panel 6mm",
                             "sortDirection": "Left"
                         },
                         {
