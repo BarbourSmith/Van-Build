@@ -958,7 +958,7 @@
         {
             "atomType": "Molecule",
             "name": "Shower",
-            "x": 0.39285714285714285,
+            "x": 0.3849206349206349,
             "y": 0.9052924791086352,
             "uniqueID": "e9bf4dc9-ad65-4607-a567-569ff24d7fc4",
             "ioValues": [],
@@ -2680,6 +2680,36 @@
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
+                        },
+                        {
+                            "atomType": "Export",
+                            "name": "Export",
+                            "x": 0.8763227513227514,
+                            "y": 0.8105849582172702,
+                            "uniqueID": "b4dfb9e7-17bd-498f-8d8f-01110682f4c0",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "84c8476b-cb1f-4e35-b767-5706404a10eb"
+                                },
+                                {
+                                    "name": "Resolution (dpi)",
+                                    "ioValue": 96
+                                },
+                                {
+                                    "name": "Part Name",
+                                    "ioValue": "Drain connection"
+                                },
+                                {
+                                    "name": "File Type",
+                                    "ioValue": "STL"
+                                }
+                            ],
+                            "description": "Export Atom, let's you choose a type of file to Export.",
+                            "type": "STL",
+                            "resolution": 96,
+                            "importIndex": 0,
+                            "partName": "Drain connection"
                         }
                     ],
                     "allConnectors": [
@@ -2752,6 +2782,13 @@
                             "ap2Primary": false,
                             "ap1ID": "84c8476b-cb1f-4e35-b767-5706404a10eb",
                             "ap2ID": "899e9c07-16c3-4a73-9991-5931c88934e8"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": false,
+                            "ap1ID": "84c8476b-cb1f-4e35-b767-5706404a10eb",
+                            "ap2ID": "b4dfb9e7-17bd-498f-8d8f-01110682f4c0"
                         },
                         {
                             "ap1Name": "geometry",
