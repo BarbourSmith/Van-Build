@@ -10590,8 +10590,8 @@
                 {
                     "atomType": "CutLayout",
                     "name": "Cut Layout",
-                    "x": 0.30158730158730157,
-                    "y": 0.43732590529247906,
+                    "x": 0.30224867724867727,
+                    "y": 0.41782729805013924,
                     "uniqueID": "0cce8e05-7de2-49db-ad7f-d505060766f2",
                     "ioValues": [
                         {
@@ -10626,16 +10626,16 @@
                                 "id": 4,
                                 "rotate": 0,
                                 "translate": {
-                                    "x": 0,
-                                    "y": 990
+                                    "x": 800,
+                                    "y": 70
                                 }
                             },
                             {
                                 "id": 5,
-                                "rotate": 0,
+                                "rotate": 180,
                                 "translate": {
-                                    "x": 516.4289100716403,
-                                    "y": 1749.7032774417185
+                                    "x": 350,
+                                    "y": 70
                                 }
                             },
                             {
@@ -10648,22 +10648,58 @@
                             },
                             {
                                 "id": 1,
-                                "rotate": 0,
+                                "rotate": 180,
                                 "translate": {
-                                    "x": 432.25140019997536,
-                                    "y": 2505.464837923757
+                                    "x": -350,
+                                    "y": 70
                                 }
                             },
                             {
                                 "id": 0,
                                 "rotate": 0,
                                 "translate": {
-                                    "x": 412.5713890237568,
-                                    "y": 3255.5890642000245
+                                    "x": -800,
+                                    "y": 70
                                 }
                             }
                         ]
                     ]
+                },
+                {
+                    "atomType": "Gcode",
+                    "name": "Gcode",
+                    "x": 0.47949735449735453,
+                    "y": 0.37604456824512533,
+                    "uniqueID": "af2b84bf-dcc6-4972-a87b-ee37a4818154",
+                    "ioValues": [
+                        {
+                            "name": "Geometry",
+                            "ioValue": "0cce8e05-7de2-49db-ad7f-d505060766f2"
+                        },
+                        {
+                            "name": "Tool Size",
+                            "ioValue": 6.35
+                        },
+                        {
+                            "name": "Passes",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "Speed",
+                            "ioValue": 2000
+                        },
+                        {
+                            "name": "Cut Through",
+                            "ioValue": 1.5
+                        },
+                        {
+                            "name": "Part Name",
+                            "ioValue": "Chairs and squigggles"
+                        }
+                    ],
+                    "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
+                    "partName": "Chairs and squigggles",
+                    "sortDirection": "Bottom"
                 }
             ],
             "allConnectors": [
@@ -10680,6 +10716,13 @@
                     "ap2Primary": false,
                     "ap1ID": "73d72453-047e-4848-9528-87d71f98e580",
                     "ap2ID": "9e39fc05-4e77-4447-b50b-9fabf50ab2ea"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Geometry",
+                    "ap2Primary": false,
+                    "ap1ID": "0cce8e05-7de2-49db-ad7f-d505060766f2",
+                    "ap2ID": "af2b84bf-dcc6-4972-a87b-ee37a4818154"
                 }
             ],
             "fileTypeVersion": 1,
