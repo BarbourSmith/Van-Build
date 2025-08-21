@@ -2520,8 +2520,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Cut",
-                            "x": 0.6097883597883598,
-                            "y": 0.8356545961002785,
+                            "x": 0.6084656084656085,
+                            "y": 0.8579387186629527,
                             "uniqueID": "88014d98-fe43-429a-b87d-187386db107b",
                             "ioValues": [
                                 {
@@ -2607,7 +2607,7 @@
                                         },
                                         {
                                             "name": "Passes",
-                                            "ioValue": 3,
+                                            "ioValue": 2,
                                             "currentEquation": null
                                         },
                                         {
@@ -10013,8 +10013,8 @@
         {
             "atomType": "Molecule",
             "name": "Chair",
-            "x": 0.3419312169312169,
-            "y": 0.8384401114206128,
+            "x": 0.3425925925925926,
+            "y": 0.8161559888579387,
             "uniqueID": "6d8441ac-564e-404e-ae58-f6d3772c6d52",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
