@@ -11127,7 +11127,13 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "9e39fc05-4e77-4447-b50b-9fabf50ab2ea",
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "73d72453-047e-4848-9528-87d71f98e580",
+                            "currentEquation": null
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -11143,8 +11149,8 @@
                 {
                     "atomType": "CutLayout",
                     "name": "Cut Layout",
-                    "x": 0.3597883597883598,
-                    "y": 0.4596100278551532,
+                    "x": 0.3604497354497354,
+                    "y": 0.4651810584958217,
                     "uniqueID": "440d7c9c-56b9-4d3e-bb0e-e7eab251aeed",
                     "ioValues": [
                         {
@@ -11169,7 +11175,106 @@
                         }
                     ],
                     "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
-                    "placements": []
+                    "placements": [
+                        [
+                            {
+                                "id": 1,
+                                "rotate": 0,
+                                "translate": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "rotate": 210,
+                                "translate": {
+                                    "x": 1327.5551175536373,
+                                    "y": 682.5640397821721
+                                }
+                            },
+                            {
+                                "id": 7,
+                                "rotate": 180,
+                                "translate": {
+                                    "x": 2034.9316352300698,
+                                    "y": 953.39999997566
+                                }
+                            },
+                            {
+                                "id": 8,
+                                "rotate": 120,
+                                "translate": {
+                                    "x": 1927.1301427572203,
+                                    "y": 201.50138994071312
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": 5,
+                                "rotate": 180,
+                                "translate": {
+                                    "x": 1205.2,
+                                    "y": 130.09570260000012
+                                }
+                            },
+                            {
+                                "id": 6,
+                                "rotate": 180,
+                                "translate": {
+                                    "x": 1205.2,
+                                    "y": 406.5298008123531
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "rotate": 300,
+                                "translate": {
+                                    "x": 297.8620051999754,
+                                    "y": 754.369586404873
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": 0,
+                                "rotate": 180,
+                                "translate": {
+                                    "x": 386.20000000000005,
+                                    "y": 386.20000000000005
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "rotate": 210,
+                                "translate": {
+                                    "x": 973.901389980167,
+                                    "y": 385.53799020002464
+                                }
+                            }
+                        ]
+                    ]
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.6144179894179894,
+                    "y": 0.7158774373259054,
+                    "uniqueID": "73d72453-047e-4848-9528-87d71f98e580",
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 2438.3999999999996,
+                            "currentEquation": "25.4*96"
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 1224,
+                            "currentEquation": "25.5*48"
+                        }
+                    ],
+                    "description": "Creates a new rectangle."
                 }
             ],
             "allConnectors": [
@@ -11179,6 +11284,13 @@
                     "ap2Primary": false,
                     "ap1ID": "b5a75a13-9db5-45c6-a34b-ca2d9e3ea4ea",
                     "ap2ID": "440d7c9c-56b9-4d3e-bb0e-e7eab251aeed"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": "73d72453-047e-4848-9528-87d71f98e580",
+                    "ap2ID": "9e39fc05-4e77-4447-b50b-9fabf50ab2ea"
                 }
             ],
             "fileTypeVersion": 1,
