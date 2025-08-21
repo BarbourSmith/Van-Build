@@ -10570,78 +10570,6 @@
                     "type": "geometry"
                 },
                 {
-                    "atomType": "CutLayout",
-                    "name": "Cut Layout",
-                    "x": 0.3604497354497354,
-                    "y": 0.4651810584958217,
-                    "uniqueID": "440d7c9c-56b9-4d3e-bb0e-e7eab251aeed",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "603de730-81f0-4d4b-b0a1-45bd20d18c1c"
-                        },
-                        {
-                            "name": "Sheet Width",
-                            "ioValue": 2438
-                        },
-                        {
-                            "name": "Sheet Height",
-                            "ioValue": 1219
-                        },
-                        {
-                            "name": "Part Padding",
-                            "ioValue": 10
-                        }
-                    ],
-                    "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
-                    "placements": [
-                        [
-                            {
-                                "id": 1,
-                                "rotate": 0,
-                                "translate": {
-                                    "x": 330.2,
-                                    "y": 255.2193057
-                                }
-                            },
-                            {
-                                "id": 0,
-                                "rotate": 0,
-                                "translate": {
-                                    "x": 330.20000000000005,
-                                    "y": 765.6386114
-                                }
-                            },
-                            {
-                                "id": 4,
-                                "rotate": 0,
-                                "translate": {
-                                    "x": 726.7240177149256,
-                                    "y": 765.6193057
-                                }
-                            },
-                            {
-                                "id": 5,
-                                "rotate": 0,
-                                "translate": {
-                                    "x": 1078.9189217392657,
-                                    "y": 255.20000002434008
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": 3,
-                                "rotate": 0,
-                                "translate": {
-                                    "x": 1205.2,
-                                    "y": 146.3383956123532
-                                }
-                            }
-                        ]
-                    ]
-                },
-                {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
                     "x": 0.6144179894179894,
@@ -10658,6 +10586,84 @@
                         }
                     ],
                     "description": "Creates a new rectangle."
+                },
+                {
+                    "atomType": "CutLayout",
+                    "name": "Cut Layout",
+                    "x": 0.30158730158730157,
+                    "y": 0.43732590529247906,
+                    "uniqueID": "0cce8e05-7de2-49db-ad7f-d505060766f2",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "603de730-81f0-4d4b-b0a1-45bd20d18c1c"
+                        },
+                        {
+                            "name": "Sheet Width",
+                            "ioValue": 5000
+                        },
+                        {
+                            "name": "Sheet Height",
+                            "ioValue": 5000
+                        },
+                        {
+                            "name": "Part Padding",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
+                    "placements": [
+                        [
+                            {
+                                "id": 2,
+                                "rotate": 0,
+                                "translate": {
+                                    "x": 0,
+                                    "y": -450
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "rotate": 0,
+                                "translate": {
+                                    "x": 0,
+                                    "y": 990
+                                }
+                            },
+                            {
+                                "id": 5,
+                                "rotate": 0,
+                                "translate": {
+                                    "x": 516.4289100716403,
+                                    "y": 1749.7032774417185
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "rotate": 180,
+                                "translate": {
+                                    "x": 0,
+                                    "y": -350
+                                }
+                            },
+                            {
+                                "id": 1,
+                                "rotate": 0,
+                                "translate": {
+                                    "x": 432.25140019997536,
+                                    "y": 2505.464837923757
+                                }
+                            },
+                            {
+                                "id": 0,
+                                "rotate": 0,
+                                "translate": {
+                                    "x": 412.5713890237568,
+                                    "y": 3255.5890642000245
+                                }
+                            }
+                        ]
+                    ]
                 }
             ],
             "allConnectors": [
@@ -10666,7 +10672,7 @@
                     "ap2Name": "geometry",
                     "ap2Primary": false,
                     "ap1ID": "b5a75a13-9db5-45c6-a34b-ca2d9e3ea4ea",
-                    "ap2ID": "440d7c9c-56b9-4d3e-bb0e-e7eab251aeed"
+                    "ap2ID": "0cce8e05-7de2-49db-ad7f-d505060766f2"
                 },
                 {
                     "ap1Name": "geometry",
