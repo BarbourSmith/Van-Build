@@ -26,8 +26,8 @@
         {
             "atomType": "Molecule",
             "name": "Van",
-            "x": 0.27380952380952384,
-            "y": 0.2562674094707521,
+            "x": 0.07208994708994709,
+            "y": 0.5431754874651811,
             "uniqueID": "dffd5d04-a75f-46a6-b96b-51a90ee6f3dd",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -705,8 +705,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.28240740740740744,
-            "y": 0.5125348189415042,
+            "x": 0.2599206349206349,
+            "y": 0.1949860724233983,
             "uniqueID": "95dbd7be-60ee-4e07-a51a-bd494e290d29",
             "ioValues": [
                 {
@@ -717,17 +717,17 @@
                 {
                     "name": "xDist",
                     "ioValue": -850,
-                    "currentEquation": null
+                    "currentEquation": "-850"
                 },
                 {
                     "name": "yDist",
                     "ioValue": 0,
-                    "currentEquation": null
+                    "currentEquation": "0"
                 },
                 {
                     "name": "zDist",
                     "ioValue": 600,
-                    "currentEquation": null
+                    "currentEquation": "600"
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -735,8 +735,8 @@
         {
             "atomType": "Molecule",
             "name": "Camping mat",
-            "x": 0.1765873015873016,
-            "y": 0.4902506963788301,
+            "x": 0.13690476190476192,
+            "y": 0.3899721448467966,
             "uniqueID": "46e29fa0-88de-4d09-ae8f-4c9649bc7b7e",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1027,8 +1027,8 @@
         {
             "atomType": "Molecule",
             "name": "Shower",
-            "x": 0.3849206349206349,
-            "y": 0.9052924791086352,
+            "x": 0.2361111111111111,
+            "y": 0.5181058495821727,
             "uniqueID": "e9bf4dc9-ad65-4607-a567-569ff24d7fc4",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1588,8 +1588,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Shower Pan",
-                    "x": 0.3406084656084656,
-                    "y": 0.8495821727019498,
+                    "x": 0.34523809523809523,
+                    "y": 0.8245125348189415,
                     "uniqueID": "a1d7cc4e-a97e-41ed-b31f-648e59544d13",
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2322,8 +2322,8 @@
                         {
                             "atomType": "Difference",
                             "name": "Difference",
-                            "x": 0.27711640211640215,
-                            "y": 0.6044568245125348,
+                            "x": 0.22354497354497355,
+                            "y": 0.5626740947075208,
                             "uniqueID": "c7906111-2f5f-4809-a145-85373dd33d57",
                             "ioValues": [
                                 {
@@ -2342,19 +2342,19 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.3313492063492064,
-                            "y": 0.8579387186629527,
+                            "x": 0.42526455026455023,
+                            "y": 0.8440111420612814,
                             "uniqueID": "6cf7a494-461a-446f-94f6-d061efddf3c5",
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "c7906111-2f5f-4809-a145-85373dd33d57",
+                                    "ioValue": "7f2a55a2-38e8-45d2-86a2-4da3f5cafd17",
                                     "currentEquation": null
                                 },
                                 {
                                     "name": "height",
                                     "ioValue": 5,
-                                    "currentEquation": null
+                                    "currentEquation": "5"
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -2362,8 +2362,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.4398148148148148,
-                            "y": 0.7353760445682451,
+                            "x": 0.5072751322751323,
+                            "y": 0.7214484679665739,
                             "uniqueID": "507c1c43-f974-4ef9-a10a-4a27b93c280e",
                             "ioValues": [
                                 {
@@ -2374,17 +2374,17 @@
                                 {
                                     "name": "xDist",
                                     "ioValue": 0,
-                                    "currentEquation": null
+                                    "currentEquation": "0"
                                 },
                                 {
                                     "name": "yDist",
                                     "ioValue": 0,
-                                    "currentEquation": null
+                                    "currentEquation": "0"
                                 },
                                 {
                                     "name": "zDist",
                                     "ioValue": 18,
-                                    "currentEquation": null
+                                    "currentEquation": "18"
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -2418,8 +2418,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5720899470899471,
-                            "y": 0.8105849582172702,
+                            "x": 0.6435185185185185,
+                            "y": 0.8161559888579387,
                             "uniqueID": "23785647-b115-486a-bb5c-51fbedb54df0",
                             "ioValues": [
                                 {
@@ -2430,17 +2430,17 @@
                                 {
                                     "name": "xDist",
                                     "ioValue": 0,
-                                    "currentEquation": null
+                                    "currentEquation": "0"
                                 },
                                 {
                                     "name": "yDist",
                                     "ioValue": 0,
-                                    "currentEquation": null
+                                    "currentEquation": "0"
                                 },
                                 {
                                     "name": "zDist",
                                     "ioValue": 5,
-                                    "currentEquation": null
+                                    "currentEquation": "5"
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -2448,19 +2448,19 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.3558201058201058,
-                            "y": 0.43732590529247906,
+                            "x": 0.4444444444444444,
+                            "y": 0.44568245125348194,
                             "uniqueID": "95d2cc1b-e156-4e23-9708-0afbc0cf3ada",
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "c7906111-2f5f-4809-a145-85373dd33d57",
+                                    "ioValue": "7f2a55a2-38e8-45d2-86a2-4da3f5cafd17",
                                     "currentEquation": null
                                 },
                                 {
                                     "name": "height",
                                     "ioValue": 18,
-                                    "currentEquation": null
+                                    "currentEquation": "18"
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -2468,8 +2468,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.48412698412698413,
-                            "y": 0.5264623955431754,
+                            "x": 0.5224867724867724,
+                            "y": 0.48467966573816157,
                             "uniqueID": "7a3db3f0-7a43-47dc-8ded-365de02bd657",
                             "ioValues": [
                                 {
@@ -2480,20 +2480,38 @@
                                 {
                                     "name": "xDist",
                                     "ioValue": 0,
-                                    "currentEquation": null
+                                    "currentEquation": "0"
                                 },
                                 {
                                     "name": "yDist",
                                     "ioValue": 0,
-                                    "currentEquation": null
+                                    "currentEquation": "0"
                                 },
                                 {
                                     "name": "zDist",
                                     "ioValue": 1550,
-                                    "currentEquation": null
+                                    "currentEquation": "1550"
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
+                        },
+                        {
+                            "atomType": "Tag",
+                            "name": "Bad Wood",
+                            "x": 0.3108465608465608,
+                            "y": 0.8217270194986073,
+                            "uniqueID": "7f2a55a2-38e8-45d2-86a2-4da3f5cafd17",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "c7906111-2f5f-4809-a145-85373dd33d57",
+                                    "currentEquation": null
+                                }
+                            ],
+                            "description": "Tags geometry so that it can be extracted later.",
+                            "tags": [
+                                "Bad Wood"
+                            ]
                         }
                     ],
                     "allConnectors": [
@@ -2558,14 +2576,7 @@
                             "ap2Name": "geometry",
                             "ap2Primary": true,
                             "ap1ID": "c7906111-2f5f-4809-a145-85373dd33d57",
-                            "ap2ID": "6cf7a494-461a-446f-94f6-d061efddf3c5"
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": "c7906111-2f5f-4809-a145-85373dd33d57",
-                            "ap2ID": "95d2cc1b-e156-4e23-9708-0afbc0cf3ada"
+                            "ap2ID": "7f2a55a2-38e8-45d2-86a2-4da3f5cafd17"
                         },
                         {
                             "ap1Name": "geometry",
@@ -2615,6 +2626,20 @@
                             "ap2Primary": false,
                             "ap1ID": "7a3db3f0-7a43-47dc-8ded-365de02bd657",
                             "ap2ID": "17d92b5a-d167-4e03-9968-95f50391b471"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "7f2a55a2-38e8-45d2-86a2-4da3f5cafd17",
+                            "ap2ID": "6cf7a494-461a-446f-94f6-d061efddf3c5"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "7f2a55a2-38e8-45d2-86a2-4da3f5cafd17",
+                            "ap2ID": "95d2cc1b-e156-4e23-9708-0afbc0cf3ada"
                         }
                     ],
                     "fileTypeVersion": 1,
@@ -3081,8 +3106,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.5284391534391535,
-            "y": 0.6518105849582172,
+            "x": 0.35912698412698413,
+            "y": 0.41225626740947074,
             "uniqueID": "84f20ff9-8729-45fa-9a85-060f0dddf229",
             "ioValues": [
                 {
@@ -3093,17 +3118,17 @@
                 {
                     "name": "xDist",
                     "ioValue": 1200,
-                    "currentEquation": null
+                    "currentEquation": "1200"
                 },
                 {
                     "name": "yDist",
                     "ioValue": 525,
-                    "currentEquation": null
+                    "currentEquation": "525"
                 },
                 {
                     "name": "zDist",
                     "ioValue": 0,
-                    "currentEquation": null
+                    "currentEquation": "0"
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -3111,29 +3136,29 @@
         {
             "atomType": "Molecule",
             "name": "Bed Area",
-            "x": 0.20767195767195767,
-            "y": 0.7910863509749304,
+            "x": 0.531084656084656,
+            "y": 0.2618384401114206,
             "uniqueID": "1728f182-4cac-4b0a-a04f-27aecc35aedf",
             "ioValues": [
                 {
                     "name": "Spacing X",
                     "ioValue": 610,
-                    "currentEquation": null
+                    "currentEquation": "610"
                 },
                 {
                     "name": "Wood Thickness",
                     "ioValue": 12,
-                    "currentEquation": null
+                    "currentEquation": "12"
                 },
                 {
                     "name": "Spacing Y",
                     "ioValue": 750,
-                    "currentEquation": null
+                    "currentEquation": "750"
                 },
                 {
                     "name": "Height",
                     "ioValue": 1800,
-                    "currentEquation": null
+                    "currentEquation": "1800"
                 }
             ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -8455,14 +8480,14 @@
         {
             "atomType": "Molecule",
             "name": "Roof Tank",
-            "x": 0.4537037037037038,
-            "y": 0.15598885793871867,
+            "x": 0.49603174603174605,
+            "y": 0.09192200557103064,
             "uniqueID": "5c2d9c3c-9958-440f-a9b3-6b6d8a098a0a",
             "ioValues": [
                 {
                     "name": "Wood Thickness",
                     "ioValue": 10,
-                    "currentEquation": null
+                    "currentEquation": "10"
                 }
             ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -9807,8 +9832,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.6025132275132276,
-            "y": 0.17548746518105848,
+            "x": 0.6329365079365079,
+            "y": 0.16434540389972147,
             "uniqueID": "26071813-8a4a-4c6c-8f8c-97d59ecf749c",
             "ioValues": [
                 {
@@ -9819,17 +9844,17 @@
                 {
                     "name": "xDist",
                     "ioValue": 0,
-                    "currentEquation": null
+                    "currentEquation": "0"
                 },
                 {
                     "name": "yDist",
                     "ioValue": 0,
-                    "currentEquation": null
+                    "currentEquation": "0"
                 },
                 {
                     "name": "zDist",
                     "ioValue": 1900,
-                    "currentEquation": null
+                    "currentEquation": "1900"
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -9837,8 +9862,8 @@
         {
             "atomType": "Molecule",
             "name": "Chair",
-            "x": 0.5542328042328043,
-            "y": 0.8467966573816156,
+            "x": 0.3419312169312169,
+            "y": 0.8384401114206128,
             "uniqueID": "6d8441ac-564e-404e-ae58-f6d3772c6d52",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -9862,8 +9887,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "One Side",
-                    "x": 0.20304232804232802,
-                    "y": 0.5821727019498607,
+                    "x": 0.2043650793650794,
+                    "y": 0.6100278551532033,
                     "uniqueID": "5513ddff-f0a1-4968-a6bf-91dad45e5b5d",
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -9878,7 +9903,7 @@
                             "ioValues": [
                                 {
                                     "name": "number or geometry",
-                                    "ioValue": "90d66d11-b647-4be5-92fa-7feeaf2ffb52",
+                                    "ioValue": "8ef0bf5b-241b-4363-b32c-31b230036153",
                                     "currentEquation": null
                                 }
                             ],
@@ -10239,6 +10264,24 @@
                                 }
                             ],
                             "description": "Subtracts shape two from shape one."
+                        },
+                        {
+                            "atomType": "Tag",
+                            "name": "Bad Wood",
+                            "x": 0.7671957671957672,
+                            "y": 0.6072423398328691,
+                            "uniqueID": "8ef0bf5b-241b-4363-b32c-31b230036153",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "90d66d11-b647-4be5-92fa-7feeaf2ffb52",
+                                    "currentEquation": null
+                                }
+                            ],
+                            "description": "Tags geometry so that it can be extracted later.",
+                            "tags": [
+                                "Bad Wood"
+                            ]
                         }
                     ],
                     "allConnectors": [
@@ -10328,10 +10371,10 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "number or geometry",
-                            "ap2Primary": false,
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
                             "ap1ID": "90d66d11-b647-4be5-92fa-7feeaf2ffb52",
-                            "ap2ID": "db952680-95a7-4373-b080-03dcd2073aec"
+                            "ap2ID": "8ef0bf5b-241b-4363-b32c-31b230036153"
                         },
                         {
                             "ap1Name": "geometry",
@@ -10360,6 +10403,13 @@
                             "ap2Primary": true,
                             "ap1ID": "901e45dc-0501-4174-aa4f-d77a46b6b499",
                             "ap2ID": "90d66d11-b647-4be5-92fa-7feeaf2ffb52"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": "8ef0bf5b-241b-4363-b32c-31b230036153",
+                            "ap2ID": "db952680-95a7-4373-b080-03dcd2073aec"
                         }
                     ],
                     "fileTypeVersion": 1,
@@ -10535,18 +10585,18 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 120,
-                    "currentEquation": null
+                    "ioValue": 140,
+                    "currentEquation": "140"
                 },
                 {
                     "name": "yDist",
                     "ioValue": 850,
-                    "currentEquation": null
+                    "currentEquation": "850"
                 },
                 {
                     "name": "zDist",
                     "ioValue": 0,
-                    "currentEquation": null
+                    "currentEquation": "0"
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -10561,7 +10611,7 @@
                 {
                     "name": "Wood Thickness",
                     "ioValue": 10,
-                    "currentEquation": null
+                    "currentEquation": "10"
                 }
             ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -10585,24 +10635,24 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Sine-Wave-Approximation",
-                    "x": 0.30886243386243384,
-                    "y": 0.403899721448468,
+                    "x": 0.12896825396825398,
+                    "y": 0.18105849582172703,
                     "uniqueID": "8bd6f639-57b3-46c7-aaf3-b3661ee179a7",
                     "ioValues": [
                         {
                             "name": "Thickness",
                             "ioValue": 180,
-                            "currentEquation": null
+                            "currentEquation": "180"
                         },
                         {
                             "name": "Number of Bumps",
                             "ioValue": 4,
-                            "currentEquation": null
+                            "currentEquation": "4"
                         },
                         {
                             "name": "Spacing",
                             "ioValue": 800,
-                            "currentEquation": null
+                            "currentEquation": "800"
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -10749,8 +10799,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.5363756613756614,
-                    "y": 0.520891364902507,
+                    "x": 0.2281746031746032,
+                    "y": 0.49303621169916434,
                     "uniqueID": "800a7dc6-5443-49c9-8d1b-07fb400f97fe",
                     "ioValues": [
                         {
@@ -10761,7 +10811,7 @@
                         {
                             "name": "height",
                             "ioValue": 10,
-                            "currentEquation": null
+                            "currentEquation": "10"
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -10775,7 +10825,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "800a7dc6-5443-49c9-8d1b-07fb400f97fe",
+                            "ioValue": "14d43e00-d374-4c20-a573-a1ff1e7b7b43",
                             "currentEquation": null
                         },
                         {
@@ -10808,11 +10858,29 @@
                             "ioValue": "4f8a63d0-189e-403e-8053-979e3eb0ec20"
                         },
                         {
-                            "name": "Shape 2",
-                            "ioValue": "800a7dc6-5443-49c9-8d1b-07fb400f97fe"
+                            "name": "Shape 3",
+                            "ioValue": "14d43e00-d374-4c20-a573-a1ff1e7b7b43"
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+                },
+                {
+                    "atomType": "Tag",
+                    "name": "Bad Wood",
+                    "x": 0.40145502645502645,
+                    "y": 0.7493036211699164,
+                    "uniqueID": "14d43e00-d374-4c20-a573-a1ff1e7b7b43",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "800a7dc6-5443-49c9-8d1b-07fb400f97fe",
+                            "currentEquation": null
+                        }
+                    ],
+                    "description": "Tags geometry so that it can be extracted later.",
+                    "tags": [
+                        "Bad Wood"
+                    ]
                 }
             ],
             "allConnectors": [
@@ -10835,14 +10903,7 @@
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": "800a7dc6-5443-49c9-8d1b-07fb400f97fe",
-                    "ap2ID": "4f8a63d0-189e-403e-8053-979e3eb0ec20"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape 2",
-                    "ap2Primary": false,
-                    "ap1ID": "800a7dc6-5443-49c9-8d1b-07fb400f97fe",
-                    "ap2ID": "04475b08-a859-4b61-902a-acb1f4dcc79a"
+                    "ap2ID": "14d43e00-d374-4c20-a573-a1ff1e7b7b43"
                 },
                 {
                     "ap1Name": "geometry",
@@ -10857,6 +10918,20 @@
                     "ap2Primary": false,
                     "ap1ID": "04475b08-a859-4b61-902a-acb1f4dcc79a",
                     "ap2ID": "4104f1b9-a6ad-494f-b11f-db4e25ac1ed7"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "14d43e00-d374-4c20-a573-a1ff1e7b7b43",
+                    "ap2ID": "4f8a63d0-189e-403e-8053-979e3eb0ec20"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": "14d43e00-d374-4c20-a573-a1ff1e7b7b43",
+                    "ap2ID": "04475b08-a859-4b61-902a-acb1f4dcc79a"
                 }
             ],
             "fileTypeVersion": 1,
@@ -10891,6 +10966,83 @@
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "ExtractTag",
+            "name": "Extract Tag",
+            "x": 0.835978835978836,
+            "y": 0.5626740947075208,
+            "uniqueID": "603de730-81f0-4d4b-b0a1-45bd20d18c1c",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "3a6ea54a-5bf4-4b19-9007-b4fcc56b209c",
+                    "currentEquation": null
+                }
+            ],
+            "description": "Extracts geometry containing the specified tag.",
+            "tag": "Bad Wood",
+            "tagIndex": 0
+        },
+        {
+            "atomType": "Rotate",
+            "name": "Rotate",
+            "x": 0.42460317460317465,
+            "y": 0.637883008356546,
+            "uniqueID": "7ff448e0-7cdc-48b4-b960-92b72257cad1",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "6d8441ac-564e-404e-ae58-f6d3772c6d52",
+                    "currentEquation": null
+                },
+                {
+                    "name": "x-axis degrees",
+                    "ioValue": 0,
+                    "currentEquation": "0"
+                },
+                {
+                    "name": "y-axis degrees",
+                    "ioValue": 0,
+                    "currentEquation": "0"
+                },
+                {
+                    "name": "z-axis degrees",
+                    "ioValue": 180,
+                    "currentEquation": "180"
+                }
+            ],
+            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.5198412698412698,
+            "y": 0.584958217270195,
+            "uniqueID": "e56cc139-047e-4921-a64e-01899d15ea63",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "7ff448e0-7cdc-48b4-b960-92b72257cad1",
+                    "currentEquation": null
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 720,
+                    "currentEquation": "720"
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 850,
+                    "currentEquation": "850"
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0,
+                    "currentEquation": "0"
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
         }
     ],
     "allConnectors": [
@@ -10907,6 +11059,13 @@
             "ap2Primary": false,
             "ap1ID": "3a6ea54a-5bf4-4b19-9007-b4fcc56b209c",
             "ap2ID": "5b4bc9aa-fc7b-409e-b00d-9445b7e282d3"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "3a6ea54a-5bf4-4b19-9007-b4fcc56b209c",
+            "ap2ID": "603de730-81f0-4d4b-b0a1-45bd20d18c1c"
         },
         {
             "ap1Name": "Geometry",
@@ -10972,6 +11131,13 @@
             "ap2ID": "dc090019-9600-4a0d-a032-5534219049bb"
         },
         {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "6d8441ac-564e-404e-ae58-f6d3772c6d52",
+            "ap2ID": "7ff448e0-7cdc-48b4-b960-92b72257cad1"
+        },
+        {
             "ap1Name": "geometry",
             "ap2Name": "Shape 8",
             "ap2Primary": false,
@@ -10991,6 +11157,13 @@
             "ap2Primary": false,
             "ap1ID": "affbb612-330f-4b24-8b13-91dc38e271f5",
             "ap2ID": "3a6ea54a-5bf4-4b19-9007-b4fcc56b209c"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "7ff448e0-7cdc-48b4-b960-92b72257cad1",
+            "ap2ID": "e56cc139-047e-4921-a64e-01899d15ea63"
         }
     ],
     "unitsKey": "MM",
