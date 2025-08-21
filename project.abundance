@@ -2193,7 +2193,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 12.5
+                                    "ioValue": 21
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -2405,8 +2405,8 @@
                                 {
                                     "atomType": "Gcode",
                                     "name": "Gcode",
-                                    "x": 0.4351851851851851,
-                                    "y": 0.5097493036211699,
+                                    "x": 0.4365079365079365,
+                                    "y": 0.520891364902507,
                                     "uniqueID": "eb98df68-9054-4adb-ba55-a135577dc634",
                                     "ioValues": [
                                         {
@@ -2431,11 +2431,11 @@
                                         },
                                         {
                                             "name": "Part Name",
-                                            "ioValue": "Shower rim"
+                                            "ioValue": "Shower rim Thicker"
                                         }
                                     ],
                                     "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
-                                    "partName": "Shower rim",
+                                    "partName": "Shower rim Thicker",
                                     "sortDirection": "Left"
                                 }
                             ],
