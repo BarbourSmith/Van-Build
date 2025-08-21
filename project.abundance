@@ -1624,12 +1624,12 @@
                                 {
                                     "name": "x length",
                                     "ioValue": 762,
-                                    "currentEquation": null
+                                    "currentEquation": "762"
                                 },
                                 {
                                     "name": "y length",
                                     "ioValue": 762,
-                                    "currentEquation": null
+                                    "currentEquation": "762"
                                 }
                             ],
                             "description": "Creates a new rectangle."
@@ -1664,17 +1664,17 @@
                                 {
                                     "name": "Width",
                                     "ioValue": 650,
-                                    "currentEquation": null
+                                    "currentEquation": "650"
                                 },
                                 {
                                     "name": "Height",
                                     "ioValue": 650,
-                                    "currentEquation": null
+                                    "currentEquation": "650"
                                 },
                                 {
                                     "name": "Radius",
                                     "ioValue": 100,
-                                    "currentEquation": null
+                                    "currentEquation": "100"
                                 }
                             ],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2422,8 +2422,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.6435185185185185,
-                            "y": 0.8161559888579387,
+                            "x": 0.628968253968254,
+                            "y": 0.6601671309192201,
                             "uniqueID": "23785647-b115-486a-bb5c-51fbedb54df0",
                             "ioValues": [
                                 {
@@ -2516,6 +2516,146 @@
                             "tags": [
                                 "Bad Wood"
                             ]
+                        },
+                        {
+                            "atomType": "Molecule",
+                            "name": "Cut",
+                            "x": 0.6097883597883598,
+                            "y": 0.8356545961002785,
+                            "uniqueID": "88014d98-fe43-429a-b87d-187386db107b",
+                            "ioValues": [
+                                {
+                                    "name": "input",
+                                    "ioValue": "6cf7a494-461a-446f-94f6-d061efddf3c5",
+                                    "currentEquation": null
+                                }
+                            ],
+                            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                            "topLevel": false,
+                            "allAtoms": [
+                                {
+                                    "atomType": "Output",
+                                    "name": "Output",
+                                    "x": 0.98,
+                                    "y": 0.5,
+                                    "uniqueID": "345e18ee-f529-412c-b95a-c45d3199e978",
+                                    "ioValues": [
+                                        {
+                                            "name": "number or geometry",
+                                            "ioValue": "eb98df68-9054-4adb-ba55-a135577dc634",
+                                            "currentEquation": null
+                                        }
+                                    ],
+                                    "description": "Connect geometry here to make it available in the next level up. "
+                                },
+                                {
+                                    "atomType": "Input",
+                                    "name": "input",
+                                    "x": 0.029699999999999997,
+                                    "y": 0.8802228412256267,
+                                    "uniqueID": "19b4785e-eac2-43fe-bd0f-223f36a64d42",
+                                    "ioValues": [],
+                                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                                    "type": "geometry"
+                                },
+                                {
+                                    "atomType": "Move",
+                                    "name": "Move",
+                                    "x": 0.2969576719576719,
+                                    "y": 0.5069637883008357,
+                                    "uniqueID": "5a218093-651d-40a6-bf3a-88e5d10db2cc",
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": "6cf7a494-461a-446f-94f6-d061efddf3c5",
+                                            "currentEquation": null
+                                        },
+                                        {
+                                            "name": "xDist",
+                                            "ioValue": 381,
+                                            "currentEquation": "762/2"
+                                        },
+                                        {
+                                            "name": "yDist",
+                                            "ioValue": 381,
+                                            "currentEquation": "762/2"
+                                        },
+                                        {
+                                            "name": "zDist",
+                                            "ioValue": 0,
+                                            "currentEquation": "0"
+                                        }
+                                    ],
+                                    "description": "Moves a shape laterally in X, Y, Z."
+                                },
+                                {
+                                    "atomType": "Gcode",
+                                    "name": "Gcode",
+                                    "x": 0.4351851851851851,
+                                    "y": 0.5097493036211699,
+                                    "uniqueID": "eb98df68-9054-4adb-ba55-a135577dc634",
+                                    "ioValues": [
+                                        {
+                                            "name": "Geometry",
+                                            "ioValue": "5a218093-651d-40a6-bf3a-88e5d10db2cc",
+                                            "currentEquation": null
+                                        },
+                                        {
+                                            "name": "Tool Size",
+                                            "ioValue": 6.35,
+                                            "currentEquation": null
+                                        },
+                                        {
+                                            "name": "Passes",
+                                            "ioValue": 3,
+                                            "currentEquation": null
+                                        },
+                                        {
+                                            "name": "Speed",
+                                            "ioValue": 2000,
+                                            "currentEquation": null
+                                        },
+                                        {
+                                            "name": "Cut Through",
+                                            "ioValue": 1.35,
+                                            "currentEquation": null
+                                        },
+                                        {
+                                            "name": "Part Name",
+                                            "ioValue": "Cut",
+                                            "currentEquation": null
+                                        }
+                                    ],
+                                    "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
+                                    "partName": "Cut",
+                                    "sortDirection": "Left"
+                                }
+                            ],
+                            "allConnectors": [
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": "19b4785e-eac2-43fe-bd0f-223f36a64d42",
+                                    "ap2ID": "5a218093-651d-40a6-bf3a-88e5d10db2cc"
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "Geometry",
+                                    "ap2Primary": false,
+                                    "ap1ID": "5a218093-651d-40a6-bf3a-88e5d10db2cc",
+                                    "ap2ID": "eb98df68-9054-4adb-ba55-a135577dc634"
+                                },
+                                {
+                                    "ap1Name": "Gcode",
+                                    "ap2Name": "number or geometry",
+                                    "ap2Primary": false,
+                                    "ap1ID": "eb98df68-9054-4adb-ba55-a135577dc634",
+                                    "ap2ID": "345e18ee-f529-412c-b95a-c45d3199e978"
+                                }
+                            ],
+                            "fileTypeVersion": 1,
+                            "compiledBom": {}
                         }
                     ],
                     "allConnectors": [
@@ -2588,6 +2728,13 @@
                             "ap2Primary": true,
                             "ap1ID": "6cf7a494-461a-446f-94f6-d061efddf3c5",
                             "ap2ID": "507c1c43-f974-4ef9-a10a-4a27b93c280e"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "input",
+                            "ap2Primary": false,
+                            "ap1ID": "6cf7a494-461a-446f-94f6-d061efddf3c5",
+                            "ap2ID": "88014d98-fe43-429a-b87d-187386db107b"
                         },
                         {
                             "ap1Name": "geometry",
