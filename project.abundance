@@ -7397,34 +7397,34 @@
                                 [
                                     {
                                         "id": 0,
-                                        "rotate": 0,
+                                        "rotate": 90,
                                         "translate": {
-                                            "x": 24.2,
-                                            "y": 580.2
+                                            "x": -580,
+                                            "y": -30
                                         }
                                     },
                                     {
                                         "id": 1,
-                                        "rotate": 0,
+                                        "rotate": 90,
                                         "translate": {
-                                            "x": 72.6,
-                                            "y": 580.20000002434
+                                            "x": 580,
+                                            "y": -30
                                         }
                                     },
                                     {
                                         "id": 2,
-                                        "rotate": 0,
+                                        "rotate": 90,
                                         "translate": {
-                                            "x": 120.99999999999999,
-                                            "y": 580.20000002434
+                                            "x": -580,
+                                            "y": -80
                                         }
                                     },
                                     {
                                         "id": 3,
-                                        "rotate": 0,
+                                        "rotate": 90,
                                         "translate": {
-                                            "x": 169.39999999999998,
-                                            "y": 580.20000002434
+                                            "x": 580,
+                                            "y": -80
                                         }
                                     }
                                 ]
@@ -7455,16 +7455,16 @@
                                 },
                                 {
                                     "name": "Cut Through",
-                                    "ioValue": 1.5
+                                    "ioValue": 2
                                 },
                                 {
                                     "name": "Part Name",
-                                    "ioValue": "Generate Gcode"
+                                    "ioValue": "Light Bars"
                                 }
                             ],
                             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
-                            "partName": "Generate Gcode",
-                            "sortDirection": "Left"
+                            "partName": "Light Bars",
+                            "sortDirection": "Top"
                         }
                     ],
                     "allConnectors": [
