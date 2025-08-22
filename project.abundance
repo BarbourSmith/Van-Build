@@ -7598,12 +7598,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": "1c73d25f-58a8-4b19-9cd9-723b3371526e",
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "19e40c65-bc54-4653-95ac-0ff203f56e82"
-                                }
-                            ],
+                            "ioValues": [],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -7638,8 +7633,8 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.22619047619047616,
-                            "y": 0.5654596100278552,
+                            "x": 0.15476190476190477,
+                            "y": 0.6518105849582172,
                             "uniqueID": "08fd39c8-2fdb-4f0e-968a-bfe71d0f4e21",
                             "ioValues": [
                                 {
@@ -7662,7 +7657,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 0
+                                    "ioValue": 406.4
                                 },
                                 {
                                     "name": "yDist",
@@ -7688,7 +7683,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 0
+                                    "ioValue": 406.4
                                 },
                                 {
                                     "name": "yDist",
@@ -7704,12 +7699,12 @@
                         {
                             "atomType": "Readme",
                             "name": "README",
-                            "x": 0.12169312169312169,
-                            "y": 0.7715877437325905,
+                            "x": 0.13359788359788358,
+                            "y": 0.3816155988857939,
                             "uniqueID": "47199e64-e3d5-4f58-838c-f57c89e4bfe8",
                             "ioValues": [],
                             "description": "A place to put project notes. These will appear in the GitHub readme and in the description of molecules up the chain. Markdown is supported. ",
-                            "readmeText": "Readme text here",
+                            "readmeText": "The bed is 48in by 71 inches\n",
                             "global": true
                         },
                         {
@@ -7733,8 +7728,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.38822751322751325,
-                            "y": 0.1671309192200557,
+                            "x": 0.39021164021164023,
+                            "y": 0.15041782729805014,
                             "uniqueID": "c601c0e0-1171-4cac-9998-e0ade672ab48",
                             "ioValues": [
                                 {
@@ -7759,8 +7754,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.33002645502645506,
-                            "y": 0.5515320334261838,
+                            "x": 0.28968253968253965,
+                            "y": 0.5793871866295265,
                             "uniqueID": "96f624e8-2a8f-4417-a5bd-432e95676da4",
                             "ioValues": [
                                 {
@@ -7769,7 +7764,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 1093.8
+                                    "ioValue": 509.6
                                 },
                                 {
                                     "name": "yDist",
@@ -7785,12 +7780,12 @@
                         {
                             "atomType": "Readme",
                             "name": "README",
-                            "x": 0.6924603174603174,
-                            "y": 0.25069637883008355,
+                            "x": 0.6355820105820106,
+                            "y": 0.08913649025069638,
                             "uniqueID": "5794a47c-6011-4cd9-9eca-19fe8af91cb7",
                             "ioValues": [],
                             "description": "A place to put project notes. These will appear in the GitHub readme and in the description of molecules up the chain. Markdown is supported. ",
-                            "readmeText": "Table is 39in wide",
+                            "readmeText": "Table is 36in wide and extends an extra 16 inches",
                             "global": true
                         },
                         {
@@ -7814,8 +7809,8 @@
                         {
                             "atomType": "ShrinkWrap",
                             "name": "Shrink Wrap",
-                            "x": 0.5337301587301587,
-                            "y": 0.6601671309192201,
+                            "x": 0.5370370370370371,
+                            "y": 0.6239554317548747,
                             "uniqueID": "a8d44263-ae4e-4596-bb02-5b2ae81eee76",
                             "ioValues": [
                                 {
@@ -7856,8 +7851,8 @@
                         {
                             "atomType": "Fusion",
                             "name": "Fusion",
-                            "x": 0.5925925925925926,
-                            "y": 0.3147632311977716,
+                            "x": 0.5952380952380952,
+                            "y": 0.28690807799442897,
                             "uniqueID": "7049a1f8-cf67-4f34-904d-4190fe1daceb",
                             "ioValues": [
                                 {
@@ -7871,16 +7866,45 @@
                             ],
                             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
                             "unionType": "Fusion"
+                        },
+                        {
+                            "atomType": "Readme",
+                            "name": "README",
+                            "x": 0.7354497354497355,
+                            "y": 0.16434540389972147,
+                            "uniqueID": "62ee70e2-47ea-4576-af71-85bca7e84abf",
+                            "ioValues": [],
+                            "description": "A place to put project notes. These will appear in the GitHub readme and in the description of molecules up the chain. Markdown is supported. ",
+                            "readmeText": "Readme text here",
+                            "global": true
+                        },
+                        {
+                            "atomType": "Constant",
+                            "name": "Table Length",
+                            "x": 0.20634920634920637,
+                            "y": 0.8635097493036212,
+                            "uniqueID": "5886caf1-2458-45a3-803a-204c2e296f05",
+                            "ioValues": [],
+                            "description": "Defines a mathematical constant.",
+                            "value": 16
+                        },
+                        {
+                            "atomType": "Equation",
+                            "name": "25.4*X",
+                            "x": 0.3055555555555555,
+                            "y": 0.8774373259052926,
+                            "uniqueID": "77cfdf48-ed5a-4705-9aae-6ef6a7b7ca7a",
+                            "ioValues": [
+                                {
+                                    "name": "X",
+                                    "ioValue": 16
+                                }
+                            ],
+                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                            "currentEquation": "25.4*X"
                         }
                     ],
                     "allConnectors": [
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "number or geometry",
-                            "ap2Primary": false,
-                            "ap1ID": "19e40c65-bc54-4653-95ac-0ff203f56e82",
-                            "ap2ID": "1c73d25f-58a8-4b19-9cd9-723b3371526e"
-                        },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
@@ -7943,6 +7967,28 @@
                             "ap2Primary": false,
                             "ap1ID": "a8d44263-ae4e-4596-bb02-5b2ae81eee76",
                             "ap2ID": "7049a1f8-cf67-4f34-904d-4190fe1daceb"
+                        },
+                        null,
+                        {
+                            "ap1Name": "number",
+                            "ap2Name": "X",
+                            "ap2Primary": false,
+                            "ap1ID": "5886caf1-2458-45a3-803a-204c2e296f05",
+                            "ap2ID": "77cfdf48-ed5a-4705-9aae-6ef6a7b7ca7a"
+                        },
+                        {
+                            "ap1Name": "result",
+                            "ap2Name": "xDist",
+                            "ap2Primary": false,
+                            "ap1ID": "77cfdf48-ed5a-4705-9aae-6ef6a7b7ca7a",
+                            "ap2ID": "babb405d-cc28-45c1-ab8c-821f1a95e5e7"
+                        },
+                        {
+                            "ap1Name": "result",
+                            "ap2Name": "xDist",
+                            "ap2Primary": false,
+                            "ap1ID": "77cfdf48-ed5a-4705-9aae-6ef6a7b7ca7a",
+                            "ap2ID": "c406f5df-c340-4feb-8557-3663e57a5611"
                         }
                     ],
                     "fileTypeVersion": 1,

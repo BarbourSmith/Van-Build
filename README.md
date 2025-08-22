@@ -6,7 +6,10 @@
 
 
 
- Table is 39in wide
+ The bed is 48in by 71 inches
+
+
+Table is 36in wide and extends an extra 16 inches
 
 Readme text here
 
