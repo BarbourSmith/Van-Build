@@ -2358,12 +2358,7 @@
                                     "x": 0.98,
                                     "y": 0.5,
                                     "uniqueID": "345e18ee-f529-412c-b95a-c45d3199e978",
-                                    "ioValues": [
-                                        {
-                                            "name": "number or geometry",
-                                            "ioValue": "eb98df68-9054-4adb-ba55-a135577dc634"
-                                        }
-                                    ],
+                                    "ioValues": [],
                                     "description": "Connect geometry here to make it available in the next level up. "
                                 },
                                 {
@@ -2435,7 +2430,7 @@
                                         }
                                     ],
                                     "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
-                                    "partName": "Shower rim Thin",
+                                    "partName": "Cut",
                                     "sortDirection": "Left"
                                 }
                             ],
@@ -7463,8 +7458,8 @@
                                 }
                             ],
                             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
-                            "partName": "Light Bars",
-                            "sortDirection": "Top"
+                            "partName": "Generate Gcode",
+                            "sortDirection": "Left"
                         }
                     ],
                     "allConnectors": [
@@ -7929,6 +7924,42 @@
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
+                        },
+                        {
+                            "atomType": "Gcode",
+                            "name": "Gcode",
+                            "x": 0.8293650793650793,
+                            "y": 0.7994428969359332,
+                            "uniqueID": "4d319420-8f10-4c36-965f-0c1048f7a243",
+                            "ioValues": [
+                                {
+                                    "name": "Geometry",
+                                    "ioValue": "d30886ff-da49-4e1c-b377-c05089ef3c50"
+                                },
+                                {
+                                    "name": "Tool Size",
+                                    "ioValue": 6.35
+                                },
+                                {
+                                    "name": "Passes",
+                                    "ioValue": 1
+                                },
+                                {
+                                    "name": "Speed",
+                                    "ioValue": 2000
+                                },
+                                {
+                                    "name": "Cut Through",
+                                    "ioValue": 2.5
+                                },
+                                {
+                                    "name": "Part Name",
+                                    "ioValue": "Platform"
+                                }
+                            ],
+                            "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
+                            "partName": "Platform",
+                            "sortDirection": "Left"
                         }
                     ],
                     "allConnectors": [
@@ -8029,6 +8060,13 @@
                             "ap2Primary": false,
                             "ap1ID": "d30886ff-da49-4e1c-b377-c05089ef3c50",
                             "ap2ID": "1c73d25f-58a8-4b19-9cd9-723b3371526e"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Geometry",
+                            "ap2Primary": false,
+                            "ap1ID": "d30886ff-da49-4e1c-b377-c05089ef3c50",
+                            "ap2ID": "4d319420-8f10-4c36-965f-0c1048f7a243"
                         }
                     ],
                     "fileTypeVersion": 1,
@@ -10964,8 +11002,8 @@
                         }
                     ],
                     "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
-                    "partName": "Chairs and squigggles",
-                    "sortDirection": "Bottom"
+                    "partName": "Layout",
+                    "sortDirection": "Left"
                 }
             ],
             "allConnectors": [
