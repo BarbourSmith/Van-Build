@@ -7652,8 +7652,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.4470899470899471,
-                            "y": 0.42061281337047357,
+                            "x": 0.4424603174603175,
+                            "y": 0.479108635097493,
                             "uniqueID": "c406f5df-c340-4feb-8557-3663e57a5611",
                             "ioValues": [
                                 {
@@ -7666,7 +7666,7 @@
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 0
+                                    "ioValue": 395.3
                                 },
                                 {
                                     "name": "zDist",
@@ -7678,8 +7678,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5033068783068783,
-                            "y": 0.7604456824512534,
+                            "x": 0.4021164021164021,
+                            "y": 0.7799442896935932,
                             "uniqueID": "babb405d-cc28-45c1-ab8c-821f1a95e5e7",
                             "ioValues": [
                                 {
@@ -7692,7 +7692,7 @@
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 0
+                                    "ioValue": -395.3
                                 },
                                 {
                                     "name": "zDist",
@@ -7704,8 +7704,8 @@
                         {
                             "atomType": "Readme",
                             "name": "README",
-                            "x": 0.1197089947089947,
-                            "y": 0.7855153203342619,
+                            "x": 0.12169312169312169,
+                            "y": 0.7715877437325905,
                             "uniqueID": "47199e64-e3d5-4f58-838c-f57c89e4bfe8",
                             "ioValues": [],
                             "description": "A place to put project notes. These will appear in the GitHub readme and in the description of molecules up the chain. Markdown is supported. ",
@@ -7781,6 +7781,96 @@
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
+                        },
+                        {
+                            "atomType": "Readme",
+                            "name": "README",
+                            "x": 0.6924603174603174,
+                            "y": 0.25069637883008355,
+                            "uniqueID": "5794a47c-6011-4cd9-9eca-19fe8af91cb7",
+                            "ioValues": [],
+                            "description": "A place to put project notes. These will appear in the GitHub readme and in the description of molecules up the chain. Markdown is supported. ",
+                            "readmeText": "Table is 39in wide",
+                            "global": true
+                        },
+                        {
+                            "atomType": "Rectangle",
+                            "name": "Rectangle",
+                            "x": 0.47288359788359785,
+                            "y": 0.8579387186629527,
+                            "uniqueID": "fa9a0efa-8ee2-46bd-a848-b7520bffbc64",
+                            "ioValues": [
+                                {
+                                    "name": "x length",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "y length",
+                                    "ioValue": 1219.2
+                                }
+                            ],
+                            "description": "Creates a new rectangle."
+                        },
+                        {
+                            "atomType": "ShrinkWrap",
+                            "name": "Shrink Wrap",
+                            "x": 0.5337301587301587,
+                            "y": 0.6601671309192201,
+                            "uniqueID": "a8d44263-ae4e-4596-bb02-5b2ae81eee76",
+                            "ioValues": [
+                                {
+                                    "name": "Shape 1",
+                                    "ioValue": "fa9a0efa-8ee2-46bd-a848-b7520bffbc64"
+                                },
+                                {
+                                    "name": "Shape 2",
+                                    "ioValue": "babb405d-cc28-45c1-ab8c-821f1a95e5e7"
+                                },
+                                {
+                                    "name": "Shape 3",
+                                    "ioValue": "c406f5df-c340-4feb-8557-3663e57a5611"
+                                },
+                                {
+                                    "name": "Shape 4",
+                                    "ioValue": ""
+                                },
+                                {
+                                    "name": "Shape 1",
+                                    "ioValue": "fa9a0efa-8ee2-46bd-a848-b7520bffbc64"
+                                },
+                                {
+                                    "name": "Shape 2",
+                                    "ioValue": "babb405d-cc28-45c1-ab8c-821f1a95e5e7"
+                                },
+                                {
+                                    "name": "Shape 3",
+                                    "ioValue": "c406f5df-c340-4feb-8557-3663e57a5611"
+                                },
+                                {
+                                    "name": "Shape 4",
+                                    "ioValue": ""
+                                }
+                            ],
+                            "description": "Joins two or more drawings into a single sketch by filling in the space between them. Also called 'hull'"
+                        },
+                        {
+                            "atomType": "Fusion",
+                            "name": "Fusion",
+                            "x": 0.5925925925925926,
+                            "y": 0.3147632311977716,
+                            "uniqueID": "7049a1f8-cf67-4f34-904d-4190fe1daceb",
+                            "ioValues": [
+                                {
+                                    "name": "Shape 1",
+                                    "ioValue": "a8d44263-ae4e-4596-bb02-5b2ae81eee76"
+                                },
+                                {
+                                    "name": "Shape 2",
+                                    "ioValue": "c601c0e0-1171-4cac-9998-e0ade672ab48"
+                                }
+                            ],
+                            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
+                            "unionType": "Fusion"
                         }
                     ],
                     "allConnectors": [
@@ -7800,10 +7890,31 @@
                         },
                         {
                             "ap1Name": "geometry",
+                            "ap2Name": "Shape 3",
+                            "ap2Primary": false,
+                            "ap1ID": "c406f5df-c340-4feb-8557-3663e57a5611",
+                            "ap2ID": "a8d44263-ae4e-4596-bb02-5b2ae81eee76"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Shape 2",
+                            "ap2Primary": false,
+                            "ap1ID": "babb405d-cc28-45c1-ab8c-821f1a95e5e7",
+                            "ap2ID": "a8d44263-ae4e-4596-bb02-5b2ae81eee76"
+                        },
+                        {
+                            "ap1Name": "geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
                             "ap1ID": "dbe3aa0d-7ffa-487a-b2f7-93ac047d3090",
                             "ap2ID": "c601c0e0-1171-4cac-9998-e0ade672ab48"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Shape 2",
+                            "ap2Primary": false,
+                            "ap1ID": "c601c0e0-1171-4cac-9998-e0ade672ab48",
+                            "ap2ID": "7049a1f8-cf67-4f34-904d-4190fe1daceb"
                         },
                         {
                             "ap1Name": "geometry",
@@ -7818,6 +7929,20 @@
                             "ap2Primary": true,
                             "ap1ID": "96f624e8-2a8f-4417-a5bd-432e95676da4",
                             "ap2ID": "c406f5df-c340-4feb-8557-3663e57a5611"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Shape 1",
+                            "ap2Primary": false,
+                            "ap1ID": "fa9a0efa-8ee2-46bd-a848-b7520bffbc64",
+                            "ap2ID": "a8d44263-ae4e-4596-bb02-5b2ae81eee76"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Shape 1",
+                            "ap2Primary": false,
+                            "ap1ID": "a8d44263-ae4e-4596-bb02-5b2ae81eee76",
+                            "ap2ID": "7049a1f8-cf67-4f34-904d-4190fe1daceb"
                         }
                     ],
                     "fileTypeVersion": 1,

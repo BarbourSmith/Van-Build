@@ -6,7 +6,9 @@
 
 
 
- Readme text here
+ Table is 39in wide
+
+Readme text here
 
 94 in by 48 in
 
