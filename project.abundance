@@ -7369,24 +7369,6 @@
                             "tagIndex": 0
                         },
                         {
-                            "atomType": "Assembly",
-                            "name": "Assembly",
-                            "x": 0.36904761904761907,
-                            "y": 0.8050139275766017,
-                            "uniqueID": "f0e8180f-d5ab-42a7-b245-5e78861f5b2a",
-                            "ioValues": [
-                                {
-                                    "name": "Shape 1",
-                                    "ioValue": "13dfe0aa-9859-4478-8b81-0ba407ee5628"
-                                },
-                                {
-                                    "name": "Shape 2",
-                                    "ioValue": "2fcf2003-6f33-4823-ba01-f9b5f119fd4d"
-                                }
-                            ],
-                            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
-                        },
-                        {
                             "atomType": "CutLayout",
                             "name": "Cut Layout",
                             "x": 0.48412698412698413,
@@ -7395,7 +7377,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "f0e8180f-d5ab-42a7-b245-5e78861f5b2a"
+                                    "ioValue": "13dfe0aa-9859-4478-8b81-0ba407ee5628"
                                 },
                                 {
                                     "name": "Sheet Width",
@@ -7414,229 +7396,35 @@
                             "placements": [
                                 [
                                     {
-                                        "id": 4,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": -920,
-                                            "y": 500
-                                        }
-                                    },
-                                    {
-                                        "id": 6,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": -360,
-                                            "y": 500
-                                        }
-                                    },
-                                    {
-                                        "id": 8,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": 200,
-                                            "y": 500
-                                        }
-                                    },
-                                    {
-                                        "id": 5,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": 790,
-                                            "y": 500
-                                        }
-                                    },
-                                    {
-                                        "id": 7,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": -900,
-                                            "y": 320
-                                        }
-                                    },
-                                    {
-                                        "id": 10,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": -300,
-                                            "y": 320
-                                        }
-                                    },
-                                    {
-                                        "id": 12,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": 270,
-                                            "y": 320
-                                        }
-                                    },
-                                    {
-                                        "id": 11,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": 850,
-                                            "y": 320
-                                        }
-                                    },
-                                    {
-                                        "id": 14,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": -900,
-                                            "y": 150
-                                        }
-                                    },
-                                    {
-                                        "id": 9,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": -300,
-                                            "y": 150
-                                        }
-                                    },
-                                    {
-                                        "id": 15,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": 270,
-                                            "y": 150
-                                        }
-                                    },
-                                    {
-                                        "id": 13,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": 850,
-                                            "y": 150
-                                        }
-                                    },
-                                    {
-                                        "id": 19,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": -900,
-                                            "y": -24
-                                        }
-                                    },
-                                    {
-                                        "id": 16,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": -300,
-                                            "y": -24
-                                        }
-                                    },
-                                    {
-                                        "id": 21,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": 270,
-                                            "y": -24
-                                        }
-                                    },
-                                    {
-                                        "id": 20,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": 850,
-                                            "y": -24
-                                        }
-                                    },
-                                    {
-                                        "id": 23,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": -900,
-                                            "y": -196
-                                        }
-                                    },
-                                    {
-                                        "id": 18,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": -300,
-                                            "y": -196
-                                        }
-                                    }
-                                ],
-                                [
-                                    {
-                                        "id": 17,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": 270,
-                                            "y": -1412
-                                        }
-                                    },
-                                    {
-                                        "id": 22,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": 850.33,
-                                            "y": -1412
-                                        }
-                                    },
-                                    {
-                                        "id": 24,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": -900,
-                                            "y": -1583
-                                        }
-                                    },
-                                    {
-                                        "id": 26,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": -300,
-                                            "y": -1583
-                                        }
-                                    },
-                                    {
-                                        "id": 25,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": 270,
-                                            "y": -1583
-                                        }
-                                    },
-                                    {
-                                        "id": 27,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": 850,
-                                            "y": -1583
-                                        }
-                                    },
-                                    {
-                                        "id": 3,
-                                        "rotate": 90,
-                                        "translate": {
-                                            "x": -590,
-                                            "y": -1700
-                                        }
-                                    },
-                                    {
                                         "id": 0,
-                                        "rotate": 90,
+                                        "rotate": 0,
                                         "translate": {
-                                            "x": 590,
-                                            "y": -1700
-                                        }
-                                    },
-                                    {
-                                        "id": 2,
-                                        "rotate": 90,
-                                        "translate": {
-                                            "x": -590,
-                                            "y": -1775
+                                            "x": 24.2,
+                                            "y": 580.2
                                         }
                                     },
                                     {
                                         "id": 1,
-                                        "rotate": 90,
+                                        "rotate": 0,
                                         "translate": {
-                                            "x": 590,
-                                            "y": -1775
+                                            "x": 72.6,
+                                            "y": 580.20000002434
+                                        }
+                                    },
+                                    {
+                                        "id": 2,
+                                        "rotate": 0,
+                                        "translate": {
+                                            "x": 120.99999999999999,
+                                            "y": 580.20000002434
+                                        }
+                                    },
+                                    {
+                                        "id": 3,
+                                        "rotate": 0,
+                                        "translate": {
+                                            "x": 169.39999999999998,
+                                            "y": 580.20000002434
                                         }
                                     }
                                 ]
@@ -7752,23 +7540,9 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "Shape 2",
-                            "ap2Primary": false,
-                            "ap1ID": "2fcf2003-6f33-4823-ba01-f9b5f119fd4d",
-                            "ap2ID": "f0e8180f-d5ab-42a7-b245-5e78861f5b2a"
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "Shape 1",
-                            "ap2Primary": false,
-                            "ap1ID": "13dfe0aa-9859-4478-8b81-0ba407ee5628",
-                            "ap2ID": "f0e8180f-d5ab-42a7-b245-5e78861f5b2a"
-                        },
-                        {
-                            "ap1Name": "geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": false,
-                            "ap1ID": "f0e8180f-d5ab-42a7-b245-5e78861f5b2a",
+                            "ap1ID": "13dfe0aa-9859-4478-8b81-0ba407ee5628",
                             "ap2ID": "050bdbf2-0690-4bc7-9d36-a891fad1d782"
                         },
                         {
