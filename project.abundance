@@ -7598,14 +7598,19 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": "1c73d25f-58a8-4b19-9cd9-723b3371526e",
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "19e40c65-bc54-4653-95ac-0ff203f56e82"
+                                }
+                            ],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
                             "atomType": "Rectangle",
                             "name": "Rectangle",
-                            "x": 0.25462962962962965,
-                            "y": 0.2562674094707521,
+                            "x": 0.9067460317460317,
+                            "y": 0.1671309192200557,
                             "uniqueID": "19e40c65-bc54-4653-95ac-0ff203f56e82",
                             "ioValues": [
                                 {
@@ -7622,8 +7627,8 @@
                         {
                             "atomType": "Readme",
                             "name": "README",
-                            "x": 0.17328042328042328,
-                            "y": 0.25348189415041783,
+                            "x": 0.8703703703703702,
+                            "y": 0.10306406685236769,
                             "uniqueID": "0e35450f-b092-4154-829f-7a9c0e7efc0e",
                             "ioValues": [],
                             "description": "A place to put project notes. These will appear in the GitHub readme and in the description of molecules up the chain. Markdown is supported. ",
@@ -7633,8 +7638,8 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.36706349206349204,
-                            "y": 0.584958217270195,
+                            "x": 0.22619047619047616,
+                            "y": 0.5654596100278552,
                             "uniqueID": "08fd39c8-2fdb-4f0e-968a-bfe71d0f4e21",
                             "ioValues": [
                                 {
@@ -7643,9 +7648,178 @@
                                 }
                             ],
                             "description": "Creates a new circle."
+                        },
+                        {
+                            "atomType": "Move",
+                            "name": "Move",
+                            "x": 0.4470899470899471,
+                            "y": 0.42061281337047357,
+                            "uniqueID": "c406f5df-c340-4feb-8557-3663e57a5611",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "96f624e8-2a8f-4417-a5bd-432e95676da4"
+                                },
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 0
+                                }
+                            ],
+                            "description": "Moves a shape laterally in X, Y, Z."
+                        },
+                        {
+                            "atomType": "Move",
+                            "name": "Move",
+                            "x": 0.5033068783068783,
+                            "y": 0.7604456824512534,
+                            "uniqueID": "babb405d-cc28-45c1-ab8c-821f1a95e5e7",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "96f624e8-2a8f-4417-a5bd-432e95676da4"
+                                },
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 0
+                                }
+                            ],
+                            "description": "Moves a shape laterally in X, Y, Z."
+                        },
+                        {
+                            "atomType": "Readme",
+                            "name": "README",
+                            "x": 0.1197089947089947,
+                            "y": 0.7855153203342619,
+                            "uniqueID": "47199e64-e3d5-4f58-838c-f57c89e4bfe8",
+                            "ioValues": [],
+                            "description": "A place to put project notes. These will appear in the GitHub readme and in the description of molecules up the chain. Markdown is supported. ",
+                            "readmeText": "Readme text here",
+                            "global": true
+                        },
+                        {
+                            "atomType": "Rectangle",
+                            "name": "Rectangle",
+                            "x": 0.20238095238095238,
+                            "y": 0.33147632311977715,
+                            "uniqueID": "dbe3aa0d-7ffa-487a-b2f7-93ac047d3090",
+                            "ioValues": [
+                                {
+                                    "name": "x length",
+                                    "ioValue": 1803.3999999999999
+                                },
+                                {
+                                    "name": "y length",
+                                    "ioValue": 1219.2
+                                }
+                            ],
+                            "description": "Creates a new rectangle."
+                        },
+                        {
+                            "atomType": "Move",
+                            "name": "Move",
+                            "x": 0.38822751322751325,
+                            "y": 0.1671309192200557,
+                            "uniqueID": "c601c0e0-1171-4cac-9998-e0ade672ab48",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "dbe3aa0d-7ffa-487a-b2f7-93ac047d3090"
+                                },
+                                {
+                                    "name": "xDist",
+                                    "ioValue": -292.1
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 0
+                                }
+                            ],
+                            "description": "Moves a shape laterally in X, Y, Z."
+                        },
+                        {
+                            "atomType": "Move",
+                            "name": "Move",
+                            "x": 0.33002645502645506,
+                            "y": 0.5515320334261838,
+                            "uniqueID": "96f624e8-2a8f-4417-a5bd-432e95676da4",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "08fd39c8-2fdb-4f0e-968a-bfe71d0f4e21"
+                                },
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 1093.8
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 0
+                                }
+                            ],
+                            "description": "Moves a shape laterally in X, Y, Z."
                         }
                     ],
-                    "allConnectors": [],
+                    "allConnectors": [
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": "19e40c65-bc54-4653-95ac-0ff203f56e82",
+                            "ap2ID": "1c73d25f-58a8-4b19-9cd9-723b3371526e"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "08fd39c8-2fdb-4f0e-968a-bfe71d0f4e21",
+                            "ap2ID": "96f624e8-2a8f-4417-a5bd-432e95676da4"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "dbe3aa0d-7ffa-487a-b2f7-93ac047d3090",
+                            "ap2ID": "c601c0e0-1171-4cac-9998-e0ade672ab48"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "96f624e8-2a8f-4417-a5bd-432e95676da4",
+                            "ap2ID": "babb405d-cc28-45c1-ab8c-821f1a95e5e7"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "96f624e8-2a8f-4417-a5bd-432e95676da4",
+                            "ap2ID": "c406f5df-c340-4feb-8557-3663e57a5611"
+                        }
+                    ],
                     "fileTypeVersion": 1,
                     "compiledBom": {}
                 }
