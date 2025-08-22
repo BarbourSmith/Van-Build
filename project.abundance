@@ -7604,20 +7604,45 @@
                         {
                             "atomType": "Rectangle",
                             "name": "Rectangle",
-                            "x": 0.40608465608465605,
-                            "y": 0.5738161559888579,
+                            "x": 0.25462962962962965,
+                            "y": 0.2562674094707521,
                             "uniqueID": "19e40c65-bc54-4653-95ac-0ff203f56e82",
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 2438.4
+                                    "ioValue": 2387.6
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 1219.2
+                                    "ioValue": 1219.1999999999998
                                 }
                             ],
                             "description": "Creates a new rectangle."
+                        },
+                        {
+                            "atomType": "Readme",
+                            "name": "README",
+                            "x": 0.17328042328042328,
+                            "y": 0.25348189415041783,
+                            "uniqueID": "0e35450f-b092-4154-829f-7a9c0e7efc0e",
+                            "ioValues": [],
+                            "description": "A place to put project notes. These will appear in the GitHub readme and in the description of molecules up the chain. Markdown is supported. ",
+                            "readmeText": "94 in by 48 in",
+                            "global": true
+                        },
+                        {
+                            "atomType": "Circle",
+                            "name": "Circle",
+                            "x": 0.36706349206349204,
+                            "y": 0.584958217270195,
+                            "uniqueID": "08fd39c8-2fdb-4f0e-968a-bfe71d0f4e21",
+                            "ioValues": [
+                                {
+                                    "name": "diameter",
+                                    "ioValue": 200
+                                }
+                            ],
+                            "description": "Creates a new circle."
                         }
                     ],
                     "allConnectors": [],
