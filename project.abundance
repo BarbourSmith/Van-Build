@@ -3062,8 +3062,8 @@
         {
             "atomType": "Molecule",
             "name": "Bed Area",
-            "x": 0.531084656084656,
-            "y": 0.2618384401114206,
+            "x": 0.5291005291005292,
+            "y": 0.3008356545961003,
             "uniqueID": "1728f182-4cac-4b0a-a04f-27aecc35aedf",
             "ioValues": [
                 {
@@ -5567,7 +5567,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 75.5
+                                    "ioValue": 50
                                 },
                                 {
                                     "name": "yDist",
@@ -5610,7 +5610,7 @@
                             "uniqueID": "8f8e5dfe-9491-4888-9fbb-77f5f38fab0b",
                             "ioValues": [],
                             "description": "Defines a mathematical constant.",
-                            "value": 63.5
+                            "value": 38
                         },
                         {
                             "atomType": "Molecule",
@@ -5621,7 +5621,7 @@
                             "ioValues": [
                                 {
                                     "name": "Width",
-                                    "ioValue": 63.5
+                                    "ioValue": 38
                                 },
                                 {
                                     "name": "Wood Thickness",
@@ -5678,7 +5678,7 @@
                                     "ioValues": [
                                         {
                                             "name": "x length",
-                                            "ioValue": 63.5
+                                            "ioValue": 38
                                         },
                                         {
                                             "name": "y length",
@@ -5758,7 +5758,7 @@
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": 43.75
+                                            "ioValue": 31
                                         },
                                         {
                                             "name": "yDist",
@@ -5784,7 +5784,7 @@
                                         },
                                         {
                                             "name": "S",
-                                            "ioValue": 63.5
+                                            "ioValue": 38
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -5951,7 +5951,7 @@
                             "ioValues": [
                                 {
                                     "name": "W",
-                                    "ioValue": 63.5
+                                    "ioValue": 38
                                 },
                                 {
                                     "name": "T",
