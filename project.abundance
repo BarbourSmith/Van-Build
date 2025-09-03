@@ -7388,8 +7388,8 @@
                         {
                             "atomType": "CutLayout",
                             "name": "Cut Layout",
-                            "x": 0.4788359788359788,
-                            "y": 0.17548746518105848,
+                            "x": 0.48148148148148145,
+                            "y": 0.2116991643454039,
                             "uniqueID": "86aab960-13f0-4b29-b51b-e572ef1d2798",
                             "ioValues": [
                                 {
@@ -7480,6 +7480,11 @@
                             "y": 0.15877437325905294,
                             "uniqueID": "0f8394ea-3959-4bf3-9449-c615340de9df",
                             "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "86aab960-13f0-4b29-b51b-e572ef1d2798",
+                                    "currentEquation": null
+                                },
                                 {
                                     "name": "Tool Size",
                                     "ioValue": 6.35,
@@ -7720,6 +7725,12 @@
                             "ap2Name": "geometry",
                             "ap1ID": "8f85237b-5633-4dbc-bd4e-2a664aef0ab8",
                             "ap2ID": "86aab960-13f0-4b29-b51b-e572ef1d2798"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap1ID": "86aab960-13f0-4b29-b51b-e572ef1d2798",
+                            "ap2ID": "0f8394ea-3959-4bf3-9449-c615340de9df"
                         },
                         {
                             "ap1Name": "geometry",
